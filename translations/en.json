@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "tours": "Tours & Visits",
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "bookTour": "Book Tour",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Ibiza's First Alpaca Farm & Weaving Studio",
+    "subtitle": "Experience artisanal weaving, meet our alpacas, shop handcrafted wool products, and discover sustainable farming. Welcome to a place where tradition meets Mediterranean calm.",
+    "ctaPrimary": "Book a Tour",
+    "ctaSecondary": "Shop Now"
+  },
+  "paths": {
+    "bookNow": "Book Now",
+    "browseCollection": "Browse Collection",
+    "startProject": "Start Project",
+    "learnMore": "Learn More",
+    "tour": {
+      "title": "Book a Tour",
+      "description": "Experience our farm, meet the alpacas, learn the weaving craft, and enjoy the Ibiza landscape."
+    },
+    "shop": {
+      "title": "Shop Woven",
+      "description": "Handcrafted scarves, blankets, and artisanal pieces made from natural alpaca wool using traditional techniques."
+    },
+    "commission": {
+      "title": "Commission",
+      "description": "Create something unique. Commission a custom piece with your own colors, patterns, and dimensions."
+    },
+    "alcaca": {
+      "title": "Buy Alcaca",
+      "description": "Premium alpaca manure for organic gardening and sustainable farming. Order in bulk or sample packs."
+    }
+  },
+  "features": {
+    "sectionTitle": "Why Choose Alpacas Ibiza",
+    "sectionSubtitle": "We blend hospitality, craftsmanship, and animal welfare into every experience",
+    "farm": { "title": "Working Farm", "description": "A genuine, active alpaca farm and weaving studio in the heart of Ibiza. Every piece tells a story of our animals and land." },
+    "artisan": { "title": "Artisanal Process", "description": "Hand-processed fibers, natural dyes, traditional patterns. Every step honors the craft and the alpacas." },
+    "sustainable": { "title": "Sustainable & Natural", "description": "Organic practices, eco-friendly products, biodegradable packaging. Care for animals and planet." },
+    "appointment": { "title": "By Appointment", "description": "Intimate visits only. We keep our farm calm and peaceful for the alpacas — and for you." },
+    "quality": { "title": "Premium Quality", "description": "Every product is hand-checked. We stand behind the quality and longevity of our work." },
+    "welfare": { "title": "Animal Welfare First", "description": "Our alpacas are cherished members of our family. Their comfort and happiness drive everything we do." }
+  },
+  "experiences": {
+    "sectionTitle": "Special Experiences",
+    "sectionSubtitle": "Beyond tours — create custom memories at our farm",
+    "privateFarm": { "title": "Private Farm", "description": "Visits by appointment only. Intimate, peaceful experiences in a real working farm." },
+    "workshops": { "title": "Workshops", "description": "Learn weaving, natural dyeing, and fiber arts directly from our artisan team." },
+    "events": { "title": "Events", "description": "Weddings, photoshoots, corporate retreats, alpaca yoga — customized experiences." }
+  },
+  "cta": {
+    "title": "Ready to Experience Alpacas Ibiza?",
+    "subtitle": "Whether you want to meet the herd, shop our collection, or commission something special — we're here to create an unforgettable experience.",
+    "bookTour": "Book Your Tour",
+    "exploreShop": "Explore Shop"
+  },
+  "newsletter": {
+    "title": "Stay Connected",
+    "subtitle": "Get updates on new products, workshops, and farm stories",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe"
+  },
+  "tours": {
+    "title": "Book Your Alpaca Experience",
+    "subtitle": "Limited spots available by appointment. Each visit is intimate and personalized.",
+    "reserveTitle": "Reserve Your Visit",
+    "reserveText": "Our booking system is powered by FareHarbor. Click the button below to select your preferred date and time.",
+    "integrationTitle": "FareHarbor Integration",
+    "integrationText": "To activate the FareHarbor booking widget, add your company ID in the environment variables. The booking form will appear here.",
+    "backHome": "Back to Home"
+  },
+  "shop": {
+    "title": "Our Shop",
+    "subtitle": "Discover handcrafted alpaca products, custom pieces, and premium manure",
+    "explore": "Explore",
+    "woven": { "title": "Woven Collection", "description": "Handcrafted scarves, blankets, and textiles" },
+    "commission": { "title": "Custom Commission", "description": "Create your own unique piece" },
+    "manure": { "title": "Alpaca Manure", "description": "Premium organic fertilizer" }
+  },
+  "wovenPage": {
+    "title": "Woven Collection",
+    "subtitle": "Handcrafted with love using traditional weaving techniques and natural alpaca wool",
+    "addToCart": "Add to Cart",
+    "scarf": "Alpaca Wool Scarf",
+    "blanket": "Woven Blanket",
+    "throw": "Natural Dye Throw",
+    "cushion": "Artisan Cushion Cover",
+    "wallHanging": "Premium Wall Hanging",
+    "poncho": "Eco-Friendly Poncho"
+  },
+  "commissionPage": {
+    "title": "Custom Commission",
+    "subtitle": "Create your dream piece with custom colors, patterns, and dimensions",
+    "formTitle": "Tell Us About Your Vision",
+    "name": "Your Name",
+    "email": "Email",
+    "description": "Project Description",
+    "submit": "Submit Commission Request"
+  },
+  "alcacaPage": {
+    "title": "Premium Alpaca Manure",
+    "subtitle": "Rich in nutrients. Certified organic. Sustainably sourced from our farm.",
+    "orderNow": "Order Now",
+    "sample": "Sample Pack (5L)",
+    "bulk": "Bulk (25L)",
+    "wholesale": "Wholesale (100L)",
+    "whyTitle": "Why Choose Alcaca?",
+    "benefit1": "Nutrient-rich organic fertilizer perfect for vegetables, flowers, and herbs",
+    "benefit2": "No harsh chemicals or artificial additives",
+    "benefit3": "Sustainable farming practices support our animal welfare mission"
+  },
+  "about": {
+    "title": "About Alpacas Ibiza",
+    "storyTitle": "Our Story",
+    "storyText": "Alpacas Ibiza was founded on the belief that tourism can be meaningful, artisanal, and deeply connected to animal welfare. We created the first alpaca farm on the island to share our passion for these gentle creatures and their incredible fiber.",
+    "valuesTitle": "Our Values",
+    "welfare": { "title": "Animal Welfare", "description": "Our alpacas come first in every decision" },
+    "sustainability": { "title": "Sustainability", "description": "Organic practices and environmental responsibility" },
+    "quality": { "title": "Artisanal Quality", "description": "Hand-processed, hand-checked, hand-cared for" },
+    "community": { "title": "Community", "description": "Sharing knowledge and creating connections" }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions? We'd love to hear from you!",
+    "formTitle": "Send us a Message",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "infoTitle": "Contact Information",
+    "location": "Location",
+    "phone": "Phone",
+    "emailLabel": "Email",
+    "hours": "Hours",
+    "byAppointment": "By appointment only"
+  },
+  "footer": {
+    "tagline": "Ibiza's first alpaca farm and artisanal weaving studio",
+    "explore": "Explore",
+    "shopTitle": "Shop",
+    "wovenCollection": "Woven Collection",
+    "customCommission": "Custom Commission",
+    "alpacaManure": "Alpaca Manure (Alcaca)",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "copyright": "All rights reserved."
+  }
+}

@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    /* Light mode - warm, natural palette inspired by Mediterranean landscape & alpaca fibers */
+    --background: 45 25% 97%;
+    --foreground: 20 20% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 20% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 20% 15%;
+    /* Primary: warm sage green (earthy, natural) */
+    --primary: 110 35% 45%;
+    --primary-foreground: 0 0% 100%;
+    /* Secondary: soft cream/natural fiber tone */
+    --secondary: 45 35% 88%;
+    --secondary-foreground: 20 20% 15%;
+    /* Muted: neutral warm tones */
+    --muted: 45 20% 85%;
+    --muted-foreground: 20 15% 45%;
+    /* Accent: warm terra/rust for CTAs */
+    --accent: 25 70% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 45 15% 92%;
+    --input: 45 15% 94%;
+    --ring: 110 35% 45%;
+    --chart-1: 110 35% 45%;
+    --chart-2: 25 70% 55%;
+    --chart-3: 45 35% 70%;
+    --chart-4: 200 40% 55%;
+    --chart-5: 30 50% 60%;
+    --radius: 0.5rem;
+    --sidebar-background: 45 25% 97%;
+    --sidebar-foreground: 20 20% 15%;
+    --sidebar-primary: 110 35% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 25 70% 55%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 45 15% 92%;
+    --sidebar-ring: 110 35% 45%;
+  }
+  .dark {
+    --background: 20 15% 12%;
+    --foreground: 45 25% 90%;
+    --card: 20 15% 18%;
+    --card-foreground: 45 25% 90%;
+    --popover: 20 15% 18%;
+    --popover-foreground: 45 25% 90%;
+    --primary: 110 40% 55%;
+    --primary-foreground: 20 15% 12%;
+    --secondary: 45 30% 30%;
+    --secondary-foreground: 45 25% 90%;
+    --muted: 20 10% 35%;
+    --muted-foreground: 45 15% 65%;
+    --accent: 25 75% 60%;
+    --accent-foreground: 20 15% 12%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 20 10% 28%;
+    --input: 20 10% 28%;
+    --ring: 110 40% 55%;
+    --chart-1: 110 40% 55%;
+    --chart-2: 25 75% 60%;
+    --chart-3: 45 30% 50%;
+    --chart-4: 200 45% 60%;
+    --chart-5: 30 60% 65%;
+    --sidebar-background: 20 15% 12%;
+    --sidebar-foreground: 45 25% 90%;
+    --sidebar-primary: 110 40% 55%;
+    --sidebar-primary-foreground: 20 15% 12%;
+    --sidebar-accent: 25 75% 60%;
+    --sidebar-accent-foreground: 20 15% 12%;
+    --sidebar-border: 20 10% 28%;
+    --sidebar-ring: 110 40% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

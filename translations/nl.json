@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "tours": "Tours en Bezoeken",
+    "shop": "Winkel",
+    "about": "Over Ons",
+    "contact": "Contact",
+    "bookTour": "Tour Boeken",
+    "language": "Taal"
+  },
+  "hero": {
+    "title": "Ibiza's eerste alpacaboerderij en weefstudio",
+    "subtitle": "Beleef ambachtelijk weven, ontmoet onze alpaca's, koop handgemaakte wolproducten en ontdek duurzame landbouw. Welkom op een plek waar traditie mediterrane rust ontmoet.",
+    "ctaPrimary": "Boek een Tour",
+    "ctaSecondary": "Nu Winkelen"
+  },
+  "paths": {
+    "bookNow": "Nu Boeken",
+    "browseCollection": "Collectie Bekijken",
+    "startProject": "Project Starten",
+    "learnMore": "Meer Weten",
+    "tour": {
+      "title": "Boek een Tour",
+      "description": "Bezoek onze boerderij, ontmoet de alpaca's, leer de kunst van het weven en geniet van het landschap van Ibiza."
+    },
+    "shop": {
+      "title": "Geweven Kopen",
+      "description": "Handgeweven sjaals, dekens en ambachtelijke stukken van natuurlijke alpacawol met traditionele technieken."
+    },
+    "commission": {
+      "title": "Op Maat",
+      "description": "Maak iets unieks. Bestel een stuk op maat met je eigen kleuren, patronen en afmetingen."
+    },
+    "alcaca": {
+      "title": "Koop Alcaca",
+      "description": "Premium alpacamest voor biologisch tuinieren en duurzame landbouw. Bestel bulk of proefpakketten."
+    }
+  },
+  "features": {
+    "sectionTitle": "Waarom Kiezen voor Alpacas Ibiza",
+    "sectionSubtitle": "We combineren gastvrijheid, vakmanschap en dierenwelzijn in elke ervaring",
+    "farm": { "title": "Werkende Boerderij", "description": "Een echte, actieve alpacaboerderij en weefstudio in het hart van Ibiza. Elk stuk vertelt een verhaal van onze dieren en ons land." },
+    "artisan": { "title": "Ambachtelijk Proces", "description": "Met de hand verwerkte vezels, natuurlijke kleurstoffen, traditionele patronen. Elke stap eert het ambacht en de alpaca's." },
+    "sustainable": { "title": "Duurzaam en Natuurlijk", "description": "Biologische praktijken, milieuvriendelijke producten, biologisch afbreekbare verpakkingen. Zorg voor dieren en planeet." },
+    "appointment": { "title": "Alleen op Afspraak", "description": "Alleen intieme bezoeken. We houden onze boerderij rustig en vredig voor de alpaca's — en voor jou." },
+    "quality": { "title": "Premium Kwaliteit", "description": "Elk product wordt met de hand gecontroleerd. We staan achter de kwaliteit en duurzaamheid van ons werk." },
+    "welfare": { "title": "Dierenwelzijn Voorop", "description": "Onze alpaca's zijn gekoesterde leden van onze familie. Hun comfort en geluk sturen alles wat we doen." }
+  },
+  "experiences": {
+    "sectionTitle": "Bijzondere Ervaringen",
+    "sectionSubtitle": "Meer dan tours — maak persoonlijke herinneringen op onze boerderij",
+    "privateFarm": { "title": "Privéboerderij", "description": "Bezoeken alleen op afspraak. Intieme, rustige ervaringen op een echte werkende boerderij." },
+    "workshops": { "title": "Workshops", "description": "Leer weven, natuurlijk verven en vezelkunst rechtstreeks van ons ambachtsteam." },
+    "events": { "title": "Evenementen", "description": "Bruiloften, fotoshoots, bedrijfsretreats, alpaca yoga — op maat gemaakte ervaringen." }
+  },
+  "cta": {
+    "title": "Klaar om Alpacas Ibiza te Beleven?",
+    "subtitle": "Of je nu de kudde wilt ontmoeten, onze collectie wilt bekijken of iets speciaals wilt bestellen — we zijn er om een onvergetelijke ervaring te creëren.",
+    "bookTour": "Boek Je Tour",
+    "exploreShop": "Bekijk de Winkel"
+  },
+  "newsletter": {
+    "title": "Blijf Verbonden",
+    "subtitle": "Ontvang updates over nieuwe producten, workshops en boerderijverhalen",
+    "placeholder": "Vul je e-mailadres in",
+    "subscribe": "Abonneren"
+  },
+  "tours": {
+    "title": "Boek Je Alpaca-Ervaring",
+    "subtitle": "Beperkte plekken beschikbaar op afspraak. Elk bezoek is intiem en persoonlijk.",
+    "reserveTitle": "Reserveer Je Bezoek",
+    "reserveText": "Ons boekingssysteem wordt mogelijk gemaakt door FareHarbor. Klik op de knop hieronder om je voorkeursdatum en -tijd te selecteren.",
+    "integrationTitle": "FareHarbor-integratie",
+    "integrationText": "Om de FareHarbor-boekingswidget te activeren, voeg je bedrijfs-ID toe in de omgevingsvariabelen.",
+    "backHome": "Terug naar Home"
+  },
+  "shop": {
+    "title": "Onze Winkel",
+    "subtitle": "Ontdek handgemaakte alpacaproducten, op maat gemaakte stukken en premium mest",
+    "explore": "Ontdekken",
+    "woven": { "title": "Geweven Collectie", "description": "Handgemaakte sjaals, dekens en textiel" },
+    "commission": { "title": "Op Maat Bestelling", "description": "Maak je eigen unieke stuk" },
+    "manure": { "title": "Alpacamest", "description": "Premium biologische meststof" }
+  },
+  "wovenPage": {
+    "title": "Geweven Collectie",
+    "subtitle": "Met liefde met de hand gemaakt met traditionele weeftechnieken en natuurlijke alpacawol",
+    "addToCart": "In Winkelwagen",
+    "scarf": "Alpacawol Sjaal",
+    "blanket": "Geweven Deken",
+    "throw": "Natuurlijk Geverfd Plaid",
+    "cushion": "Handgemaakte Kussenhoestje",
+    "wallHanging": "Premium Wandtapijt",
+    "poncho": "Ecologische Poncho"
+  },
+  "commissionPage": {
+    "title": "Op Maat Bestelling",
+    "subtitle": "Maak je droomstuk met aangepaste kleuren, patronen en afmetingen",
+    "formTitle": "Vertel Ons Over Je Visie",
+    "name": "Je Naam",
+    "email": "E-mailadres",
+    "description": "Projectbeschrijving",
+    "submit": "Aanvraag Indienen"
+  },
+  "alcacaPage": {
+    "title": "Premium Alpacamest",
+    "subtitle": "Rijk aan voedingsstoffen. Biologisch gecertificeerd. Duurzaam afkomstig van onze boerderij.",
+    "orderNow": "Nu Bestellen",
+    "sample": "Proefpakket (5L)",
+    "bulk": "Bulk (25L)",
+    "wholesale": "Groothandel (100L)",
+    "whyTitle": "Waarom Alcaca Kiezen?",
+    "benefit1": "Voedselrijke biologische meststof, perfect voor groenten, bloemen en kruiden",
+    "benefit2": "Geen harde chemicaliën of kunstmatige toevoegingen",
+    "benefit3": "Duurzame landbouwpraktijken ondersteunen onze dierenwelzijnsmissie"
+  },
+  "about": {
+    "title": "Over Alpacas Ibiza",
+    "storyTitle": "Ons Verhaal",
+    "storyText": "Alpacas Ibiza werd opgericht in het geloof dat toerisme betekenisvol, ambachtelijk en diep verbonden met dierenwelzijn kan zijn. We creëerden de eerste alpacaboerderij op het eiland om onze passie voor deze zachte wezens en hun ongelooflijke vezels te delen.",
+    "valuesTitle": "Onze Waarden",
+    "welfare": { "title": "Dierenwelzijn", "description": "Onze alpaca's gaan in elke beslissing voor" },
+    "sustainability": { "title": "Duurzaamheid", "description": "Biologische praktijken en milieuverantwoordelijkheid" },
+    "quality": { "title": "Ambachtelijke Kwaliteit", "description": "Met de hand verwerkt, gecontroleerd en verzorgd" },
+    "community": { "title": "Gemeenschap", "description": "Kennis delen en verbindingen creëren" }
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "subtitle": "Vragen? We horen graag van je!",
+    "formTitle": "Stuur Ons een Bericht",
+    "name": "Naam",
+    "email": "E-mailadres",
+    "subject": "Onderwerp",
+    "message": "Bericht",
+    "send": "Bericht Verzenden",
+    "infoTitle": "Contactinformatie",
+    "location": "Locatie",
+    "phone": "Telefoon",
+    "emailLabel": "E-mail",
+    "hours": "Openingstijden",
+    "byAppointment": "Alleen op afspraak"
+  },
+  "footer": {
+    "tagline": "Ibiza's eerste alpacaboerderij en ambachtelijk weefstudio",
+    "explore": "Ontdekken",
+    "shopTitle": "Winkel",
+    "wovenCollection": "Geweven Collectie",
+    "customCommission": "Op Maat Bestelling",
+    "alpacaManure": "Alpacamest (Alcaca)",
+    "aboutUs": "Over Ons",
+    "contact": "Contact",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "cookies": "Cookiebeleid",
+    "copyright": "Alle rechten voorbehouden."
+  }
+}

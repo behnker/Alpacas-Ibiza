@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "tours": "Tours y Visitas",
+    "shop": "Tienda",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "bookTour": "Reservar Tour",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "La primera granja de alpacas y estudio de tejido de Ibiza",
+    "subtitle": "Experimenta el tejido artesanal, conoce nuestras alpacas, compra productos de lana hechos a mano y descubre la agricultura sostenible. Bienvenido a un lugar donde la tradición se encuentra con la calma mediterránea.",
+    "ctaPrimary": "Reservar un Tour",
+    "ctaSecondary": "Comprar Ahora"
+  },
+  "paths": {
+    "bookNow": "Reservar Ahora",
+    "browseCollection": "Ver Colección",
+    "startProject": "Iniciar Proyecto",
+    "learnMore": "Saber Más",
+    "tour": {
+      "title": "Reservar un Tour",
+      "description": "Visita nuestra granja, conoce las alpacas, aprende el arte del tejido y disfruta del paisaje de Ibiza."
+    },
+    "shop": {
+      "title": "Comprar Tejidos",
+      "description": "Bufandas, mantas y piezas artesanales hechas a mano con lana de alpaca natural y técnicas tradicionales."
+    },
+    "commission": {
+      "title": "Encargo",
+      "description": "Crea algo único. Encarga una pieza personalizada con tus propios colores, patrones y dimensiones."
+    },
+    "alcaca": {
+      "title": "Comprar Alcaca",
+      "description": "Estiércol de alpaca premium para jardinería ecológica y agricultura sostenible. Pedidos a granel o muestras."
+    }
+  },
+  "features": {
+    "sectionTitle": "Por Qué Elegir Alpacas Ibiza",
+    "sectionSubtitle": "Combinamos hospitalidad, artesanía y bienestar animal en cada experiencia",
+    "farm": { "title": "Granja Activa", "description": "Una granja de alpacas real y activa con estudio de tejido en el corazón de Ibiza. Cada pieza cuenta una historia de nuestros animales y nuestra tierra." },
+    "artisan": { "title": "Proceso Artesanal", "description": "Fibras procesadas a mano, tintes naturales, patrones tradicionales. Cada paso honra la artesanía y las alpacas." },
+    "sustainable": { "title": "Sostenible y Natural", "description": "Prácticas ecológicas, productos respetuosos con el medio ambiente, embalajes biodegradables. Cuidado de los animales y el planeta." },
+    "appointment": { "title": "Solo con Cita", "description": "Solo visitas íntimas. Mantenemos nuestra granja tranquila y pacífica para las alpacas — y para ti." },
+    "quality": { "title": "Calidad Premium", "description": "Cada producto se revisa a mano. Respaldamos la calidad y durabilidad de nuestro trabajo." },
+    "welfare": { "title": "Bienestar Animal Primero", "description": "Nuestras alpacas son miembros queridos de nuestra familia. Su comodidad y felicidad impulsan todo lo que hacemos." }
+  },
+  "experiences": {
+    "sectionTitle": "Experiencias Especiales",
+    "sectionSubtitle": "Más allá de los tours — crea recuerdos personalizados en nuestra granja",
+    "privateFarm": { "title": "Granja Privada", "description": "Visitas solo con cita previa. Experiencias íntimas y tranquilas en una granja real." },
+    "workshops": { "title": "Talleres", "description": "Aprende tejido, tintado natural y artes de fibra directamente de nuestro equipo artesanal." },
+    "events": { "title": "Eventos", "description": "Bodas, sesiones de fotos, retiros corporativos, yoga con alpacas — experiencias personalizadas." }
+  },
+  "cta": {
+    "title": "¿Listo para Vivir Alpacas Ibiza?",
+    "subtitle": "Ya sea que quieras conocer el rebaño, explorar nuestra colección o encargar algo especial — estamos aquí para crear una experiencia inolvidable.",
+    "bookTour": "Reserva Tu Tour",
+    "exploreShop": "Explorar Tienda"
+  },
+  "newsletter": {
+    "title": "Mantente Conectado",
+    "subtitle": "Recibe actualizaciones sobre nuevos productos, talleres e historias de la granja",
+    "placeholder": "Introduce tu email",
+    "subscribe": "Suscribirse"
+  },
+  "tours": {
+    "title": "Reserva Tu Experiencia con Alpacas",
+    "subtitle": "Plazas limitadas disponibles con cita previa. Cada visita es íntima y personalizada.",
+    "reserveTitle": "Reserva Tu Visita",
+    "reserveText": "Nuestro sistema de reservas funciona con FareHarbor. Haz clic en el botón de abajo para seleccionar tu fecha y hora preferidas.",
+    "integrationTitle": "Integración FareHarbor",
+    "integrationText": "Para activar el widget de reserva FareHarbor, añade tu ID de empresa en las variables de entorno.",
+    "backHome": "Volver a Inicio"
+  },
+  "shop": {
+    "title": "Nuestra Tienda",
+    "subtitle": "Descubre productos de alpaca hechos a mano, piezas personalizadas y abono premium",
+    "explore": "Explorar",
+    "woven": { "title": "Colección Tejida", "description": "Bufandas, mantas y textiles hechos a mano" },
+    "commission": { "title": "Encargo Personalizado", "description": "Crea tu propia pieza única" },
+    "manure": { "title": "Estiércol de Alpaca", "description": "Fertilizante orgánico premium" }
+  },
+  "wovenPage": {
+    "title": "Colección Tejida",
+    "subtitle": "Hecho a mano con amor usando técnicas de tejido tradicionales y lana de alpaca natural",
+    "addToCart": "Añadir al Carrito",
+    "scarf": "Bufanda de Lana de Alpaca",
+    "blanket": "Manta Tejida",
+    "throw": "Manta de Tinte Natural",
+    "cushion": "Funda de Cojín Artesanal",
+    "wallHanging": "Tapiz Mural Premium",
+    "poncho": "Poncho Ecológico"
+  },
+  "commissionPage": {
+    "title": "Encargo Personalizado",
+    "subtitle": "Crea tu pieza soñada con colores, patrones y dimensiones personalizadas",
+    "formTitle": "Cuéntanos Tu Visión",
+    "name": "Tu Nombre",
+    "email": "Correo Electrónico",
+    "description": "Descripción del Proyecto",
+    "submit": "Enviar Solicitud"
+  },
+  "alcacaPage": {
+    "title": "Estiércol de Alpaca Premium",
+    "subtitle": "Rico en nutrientes. Certificado ecológico. De origen sostenible de nuestra granja.",
+    "orderNow": "Pedir Ahora",
+    "sample": "Paquete Muestra (5L)",
+    "bulk": "Granel (25L)",
+    "wholesale": "Mayorista (100L)",
+    "whyTitle": "¿Por Qué Elegir Alcaca?",
+    "benefit1": "Fertilizante orgánico rico en nutrientes, perfecto para verduras, flores y hierbas",
+    "benefit2": "Sin productos químicos agresivos ni aditivos artificiales",
+    "benefit3": "Prácticas agrícolas sostenibles que apoyan nuestra misión de bienestar animal"
+  },
+  "about": {
+    "title": "Sobre Alpacas Ibiza",
+    "storyTitle": "Nuestra Historia",
+    "storyText": "Alpacas Ibiza se fundó con la creencia de que el turismo puede ser significativo, artesanal y profundamente conectado con el bienestar animal. Creamos la primera granja de alpacas de la isla para compartir nuestra pasión por estas criaturas gentiles y su increíble fibra.",
+    "valuesTitle": "Nuestros Valores",
+    "welfare": { "title": "Bienestar Animal", "description": "Nuestras alpacas son lo primero en cada decisión" },
+    "sustainability": { "title": "Sostenibilidad", "description": "Prácticas ecológicas y responsabilidad ambiental" },
+    "quality": { "title": "Calidad Artesanal", "description": "Procesado a mano, verificado a mano, cuidado a mano" },
+    "community": { "title": "Comunidad", "description": "Compartir conocimientos y crear conexiones" }
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "¿Tienes preguntas? ¡Nos encantaría escucharte!",
+    "formTitle": "Envíanos un Mensaje",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "infoTitle": "Información de Contacto",
+    "location": "Ubicación",
+    "phone": "Teléfono",
+    "emailLabel": "Correo",
+    "hours": "Horario",
+    "byAppointment": "Solo con cita previa"
+  },
+  "footer": {
+    "tagline": "La primera granja de alpacas y estudio de tejido artesanal de Ibiza",
+    "explore": "Explorar",
+    "shopTitle": "Tienda",
+    "wovenCollection": "Colección Tejida",
+    "customCommission": "Encargo Personalizado",
+    "alpacaManure": "Estiércol de Alpaca (Alcaca)",
+    "aboutUs": "Nosotros",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Política de Cookies",
+    "copyright": "Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "tours": "Touren & Besuche",
+    "shop": "Shop",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "bookTour": "Tour buchen",
+    "language": "Sprache"
+  },
+  "hero": {
+    "title": "Ibizas erste Alpaka-Farm & Webstudio",
+    "subtitle": "Erleben Sie handwerkliche Webkunst, treffen Sie unsere Alpakas, kaufen Sie handgefertigte Wollprodukte und entdecken Sie nachhaltige Landwirtschaft. Willkommen an einem Ort, wo Tradition auf mediterrane Ruhe trifft.",
+    "ctaPrimary": "Tour buchen",
+    "ctaSecondary": "Jetzt einkaufen"
+  },
+  "paths": {
+    "bookNow": "Jetzt buchen",
+    "browseCollection": "Kollektion ansehen",
+    "startProject": "Projekt starten",
+    "learnMore": "Mehr erfahren",
+    "tour": {
+      "title": "Tour buchen",
+      "description": "Besuchen Sie unsere Farm, treffen Sie die Alpakas, lernen Sie das Handwerk der Weberei und genießen Sie die Landschaft Ibizas."
+    },
+    "shop": {
+      "title": "Gewebtes kaufen",
+      "description": "Handgefertigte Schals, Decken und Kunsthandwerk aus natürlicher Alpakawolle mit traditionellen Techniken."
+    },
+    "commission": {
+      "title": "Sonderanfertigung",
+      "description": "Schaffen Sie etwas Einzigartiges. Bestellen Sie ein maßgefertigtes Stück mit Ihren eigenen Farben, Mustern und Maßen."
+    },
+    "alcaca": {
+      "title": "Alcaca kaufen",
+      "description": "Premium-Alpaka-Dünger für Bio-Gartenbau und nachhaltige Landwirtschaft. Bestellen Sie Groß- oder Probepakete."
+    }
+  },
+  "features": {
+    "sectionTitle": "Warum Alpacas Ibiza wählen",
+    "sectionSubtitle": "Wir verbinden Gastfreundschaft, Handwerkskunst und Tierwohl in jedem Erlebnis",
+    "farm": { "title": "Arbeitende Farm", "description": "Eine echte, aktive Alpakafarm und Webstudio im Herzen Ibizas. Jedes Stück erzählt eine Geschichte unserer Tiere und unseres Landes." },
+    "artisan": { "title": "Handwerklicher Prozess", "description": "Handverarbeitete Fasern, natürliche Farbstoffe, traditionelle Muster. Jeder Schritt ehrt das Handwerk und die Alpakas." },
+    "sustainable": { "title": "Nachhaltig & Natürlich", "description": "Bio-Praktiken, umweltfreundliche Produkte, biologisch abbaubare Verpackungen. Fürsorge für Tiere und Planeten." },
+    "appointment": { "title": "Nur nach Vereinbarung", "description": "Nur intime Besuche. Wir halten unsere Farm ruhig und friedlich für die Alpakas — und für Sie." },
+    "quality": { "title": "Premium Qualität", "description": "Jedes Produkt wird von Hand geprüft. Wir stehen hinter der Qualität und Langlebigkeit unserer Arbeit." },
+    "welfare": { "title": "Tierwohl zuerst", "description": "Unsere Alpakas sind geschätzte Mitglieder unserer Familie. Ihr Wohlbefinden und Glück treiben alles an, was wir tun." }
+  },
+  "experiences": {
+    "sectionTitle": "Besondere Erlebnisse",
+    "sectionSubtitle": "Über Touren hinaus — schaffen Sie individuelle Erinnerungen auf unserer Farm",
+    "privateFarm": { "title": "Private Farm", "description": "Besuche nur nach Vereinbarung. Intime, friedliche Erlebnisse auf einer echten Farm." },
+    "workshops": { "title": "Workshops", "description": "Lernen Sie Weberei, natürliches Färben und Faserkunst direkt von unserem Handwerkerteam." },
+    "events": { "title": "Events", "description": "Hochzeiten, Fotoshootings, Firmenretreats, Alpaka-Yoga — maßgeschneiderte Erlebnisse." }
+  },
+  "cta": {
+    "title": "Bereit, Alpacas Ibiza zu erleben?",
+    "subtitle": "Ob Sie die Herde treffen, unsere Kollektion einkaufen oder etwas Besonderes bestellen möchten — wir sind hier, um ein unvergessliches Erlebnis zu schaffen.",
+    "bookTour": "Tour buchen",
+    "exploreShop": "Shop erkunden"
+  },
+  "newsletter": {
+    "title": "Bleiben Sie verbunden",
+    "subtitle": "Erhalten Sie Updates zu neuen Produkten, Workshops und Farmgeschichten",
+    "placeholder": "E-Mail-Adresse eingeben",
+    "subscribe": "Abonnieren"
+  },
+  "tours": {
+    "title": "Buchen Sie Ihr Alpaka-Erlebnis",
+    "subtitle": "Begrenzte Plätze auf Anfrage. Jeder Besuch ist intim und persönlich.",
+    "reserveTitle": "Reservieren Sie Ihren Besuch",
+    "reserveText": "Unser Buchungssystem wird von FareHarbor betrieben. Klicken Sie auf die Schaltfläche unten, um Datum und Uhrzeit auszuwählen.",
+    "integrationTitle": "FareHarbor-Integration",
+    "integrationText": "Um das FareHarbor-Buchungs-Widget zu aktivieren, fügen Sie Ihre Unternehmens-ID in den Umgebungsvariablen hinzu.",
+    "backHome": "Zurück zur Startseite"
+  },
+  "shop": {
+    "title": "Unser Shop",
+    "subtitle": "Entdecken Sie handgefertigte Alpakaprodukte, Sonderanfertigungen und Premium-Dünger",
+    "explore": "Erkunden",
+    "woven": { "title": "Gewobene Kollektion", "description": "Handgefertigte Schals, Decken und Textilien" },
+    "commission": { "title": "Sonderanfertigung", "description": "Erstellen Sie Ihr eigenes Unikat" },
+    "manure": { "title": "Alpaka-Dünger", "description": "Premium-Biodünger" }
+  },
+  "wovenPage": {
+    "title": "Gewobene Kollektion",
+    "subtitle": "Mit Liebe handgefertigt mit traditionellen Webtechniken und natürlicher Alpakawolle",
+    "addToCart": "In den Warenkorb",
+    "scarf": "Alpakawolle-Schal",
+    "blanket": "Gewebte Decke",
+    "throw": "Naturfarbener Überwurf",
+    "cushion": "Handwerklicher Kissenbezug",
+    "wallHanging": "Premium Wandbehang",
+    "poncho": "Umweltfreundlicher Poncho"
+  },
+  "commissionPage": {
+    "title": "Sonderanfertigung",
+    "subtitle": "Erstellen Sie Ihr Traumstück mit individuellen Farben, Mustern und Maßen",
+    "formTitle": "Erzählen Sie uns von Ihrer Vision",
+    "name": "Ihr Name",
+    "email": "E-Mail",
+    "description": "Projektbeschreibung",
+    "submit": "Anfrage einreichen"
+  },
+  "alcacaPage": {
+    "title": "Premium Alpaka-Dünger",
+    "subtitle": "Reich an Nährstoffen. Bio-zertifiziert. Nachhaltig von unserem Hof bezogen.",
+    "orderNow": "Jetzt bestellen",
+    "sample": "Probepaket (5L)",
+    "bulk": "Großmenge (25L)",
+    "wholesale": "Großhandel (100L)",
+    "whyTitle": "Warum Alcaca wählen?",
+    "benefit1": "Nährstoffreicher Biodünger, perfekt für Gemüse, Blumen und Kräuter",
+    "benefit2": "Keine harten Chemikalien oder künstlichen Zusätze",
+    "benefit3": "Nachhaltige Anbaumethoden unterstützen unsere Tierwohlmission"
+  },
+  "about": {
+    "title": "Über Alpacas Ibiza",
+    "storyTitle": "Unsere Geschichte",
+    "storyText": "Alpacas Ibiza wurde gegründet in dem Glauben, dass Tourismus bedeutungsvoll, handwerklich und tief mit Tierwohl verbunden sein kann. Wir haben die erste Alpakafarm der Insel gegründet, um unsere Leidenschaft für diese sanften Geschöpfe und ihre erstaunliche Faser zu teilen.",
+    "valuesTitle": "Unsere Werte",
+    "welfare": { "title": "Tierwohl", "description": "Unsere Alpakas stehen in jeder Entscheidung an erster Stelle" },
+    "sustainability": { "title": "Nachhaltigkeit", "description": "Bio-Praktiken und Umweltverantwortung" },
+    "quality": { "title": "Handwerksqualität", "description": "Handverarbeitet, handgeprüft, handgepflegt" },
+    "community": { "title": "Gemeinschaft", "description": "Wissen teilen und Verbindungen schaffen" }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Haben Sie Fragen? Wir freuen uns, von Ihnen zu hören!",
+    "formTitle": "Senden Sie uns eine Nachricht",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "infoTitle": "Kontaktinformationen",
+    "location": "Standort",
+    "phone": "Telefon",
+    "emailLabel": "E-Mail",
+    "hours": "Öffnungszeiten",
+    "byAppointment": "Nur nach Vereinbarung"
+  },
+  "footer": {
+    "tagline": "Ibizas erste Alpakafarm und handwerkliches Webstudio",
+    "explore": "Entdecken",
+    "shopTitle": "Shop",
+    "wovenCollection": "Gewobene Kollektion",
+    "customCommission": "Sonderanfertigung",
+    "alpacaManure": "Alpaka-Dünger (Alcaca)",
+    "aboutUs": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "copyright": "Alle Rechte vorbehalten."
+  }
+}

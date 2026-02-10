@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "tours": "Visites et Tours",
+    "shop": "Boutique",
+    "about": "À Propos",
+    "contact": "Contact",
+    "bookTour": "Réserver",
+    "language": "Langue"
+  },
+  "hero": {
+    "title": "La première ferme d'alpagas et atelier de tissage d'Ibiza",
+    "subtitle": "Découvrez le tissage artisanal, rencontrez nos alpagas, achetez des produits en laine faits main et explorez l'agriculture durable. Bienvenue dans un lieu où tradition et sérénité méditerranéenne se rencontrent.",
+    "ctaPrimary": "Réserver un Tour",
+    "ctaSecondary": "Acheter Maintenant"
+  },
+  "paths": {
+    "bookNow": "Réserver",
+    "browseCollection": "Voir la Collection",
+    "startProject": "Commencer un Projet",
+    "learnMore": "En Savoir Plus",
+    "tour": {
+      "title": "Réserver un Tour",
+      "description": "Visitez notre ferme, rencontrez les alpagas, apprenez l'art du tissage et profitez du paysage d'Ibiza."
+    },
+    "shop": {
+      "title": "Acheter des Tissages",
+      "description": "Écharpes, couvertures et pièces artisanales faites main en laine d'alpaga naturelle avec des techniques traditionnelles."
+    },
+    "commission": {
+      "title": "Sur Commande",
+      "description": "Créez quelque chose d'unique. Commandez une pièce personnalisée avec vos propres couleurs, motifs et dimensions."
+    },
+    "alcaca": {
+      "title": "Acheter Alcaca",
+      "description": "Fumier d'alpaga premium pour jardinage bio et agriculture durable. Commandes en gros ou packs d'échantillons."
+    }
+  },
+  "features": {
+    "sectionTitle": "Pourquoi Choisir Alpacas Ibiza",
+    "sectionSubtitle": "Nous allions hospitalité, artisanat et bien-être animal dans chaque expérience",
+    "farm": { "title": "Ferme Active", "description": "Une véritable ferme d'alpagas et atelier de tissage au coeur d'Ibiza. Chaque pièce raconte l'histoire de nos animaux et de notre terre." },
+    "artisan": { "title": "Processus Artisanal", "description": "Fibres travaillées à la main, teintures naturelles, motifs traditionnels. Chaque étape honore l'artisanat et les alpagas." },
+    "sustainable": { "title": "Durable et Naturel", "description": "Pratiques biologiques, produits écologiques, emballages biodégradables. Soin des animaux et de la planète." },
+    "appointment": { "title": "Sur Rendez-vous", "description": "Visites intimes uniquement. Nous gardons notre ferme calme et paisible pour les alpagas — et pour vous." },
+    "quality": { "title": "Qualité Premium", "description": "Chaque produit est vérifié à la main. Nous garantissons la qualité et la durabilité de notre travail." },
+    "welfare": { "title": "Bien-être Animal d'Abord", "description": "Nos alpagas sont des membres précieux de notre famille. Leur confort et leur bonheur guident tout ce que nous faisons." }
+  },
+  "experiences": {
+    "sectionTitle": "Expériences Spéciales",
+    "sectionSubtitle": "Au-delà des tours — créez des souvenirs personnalisés dans notre ferme",
+    "privateFarm": { "title": "Ferme Privée", "description": "Visites sur rendez-vous uniquement. Expériences intimes et paisibles dans une vraie ferme." },
+    "workshops": { "title": "Ateliers", "description": "Apprenez le tissage, la teinture naturelle et les arts de la fibre directement avec notre équipe artisanale." },
+    "events": { "title": "Événements", "description": "Mariages, séances photo, retraites d'entreprise, yoga avec alpagas — expériences sur mesure." }
+  },
+  "cta": {
+    "title": "Prêt à Découvrir Alpacas Ibiza?",
+    "subtitle": "Que vous souhaitiez rencontrer le troupeau, explorer notre collection ou commander quelque chose de spécial — nous sommes là pour créer une expérience inoubliable.",
+    "bookTour": "Réservez Votre Tour",
+    "exploreShop": "Explorer la Boutique"
+  },
+  "newsletter": {
+    "title": "Restez Connecté",
+    "subtitle": "Recevez des nouvelles sur les nouveaux produits, ateliers et histoires de la ferme",
+    "placeholder": "Entrez votre email",
+    "subscribe": "S'abonner"
+  },
+  "tours": {
+    "title": "Réservez Votre Expérience Alpaga",
+    "subtitle": "Places limitées disponibles sur rendez-vous. Chaque visite est intime et personnalisée.",
+    "reserveTitle": "Réservez Votre Visite",
+    "reserveText": "Notre système de réservation fonctionne avec FareHarbor. Cliquez sur le bouton ci-dessous pour sélectionner votre date et heure préférées.",
+    "integrationTitle": "Intégration FareHarbor",
+    "integrationText": "Pour activer le widget de réservation FareHarbor, ajoutez votre identifiant d'entreprise dans les variables d'environnement.",
+    "backHome": "Retour à l'Accueil"
+  },
+  "shop": {
+    "title": "Notre Boutique",
+    "subtitle": "Découvrez les produits d'alpaga faits main, les pièces personnalisées et le fumier premium",
+    "explore": "Explorer",
+    "woven": { "title": "Collection Tissée", "description": "Écharpes, couvertures et textiles faits main" },
+    "commission": { "title": "Commande Personnalisée", "description": "Créez votre propre pièce unique" },
+    "manure": { "title": "Fumier d'Alpaga", "description": "Engrais biologique premium" }
+  },
+  "wovenPage": {
+    "title": "Collection Tissée",
+    "subtitle": "Faite main avec amour en utilisant des techniques de tissage traditionnelles et de la laine d'alpaga naturelle",
+    "addToCart": "Ajouter au Panier",
+    "scarf": "Écharpe en Laine d'Alpaga",
+    "blanket": "Couverture Tissée",
+    "throw": "Plaid Teinture Naturelle",
+    "cushion": "Housse de Coussin Artisanale",
+    "wallHanging": "Tapisserie Murale Premium",
+    "poncho": "Poncho Écologique"
+  },
+  "commissionPage": {
+    "title": "Commande Personnalisée",
+    "subtitle": "Créez votre pièce de rêve avec des couleurs, motifs et dimensions personnalisés",
+    "formTitle": "Parlez-nous de Votre Vision",
+    "name": "Votre Nom",
+    "email": "Email",
+    "description": "Description du Projet",
+    "submit": "Envoyer la Demande"
+  },
+  "alcacaPage": {
+    "title": "Fumier d'Alpaga Premium",
+    "subtitle": "Riche en nutriments. Certifié biologique. Provenance durable de notre ferme.",
+    "orderNow": "Commander",
+    "sample": "Pack Échantillon (5L)",
+    "bulk": "Vrac (25L)",
+    "wholesale": "Gros (100L)",
+    "whyTitle": "Pourquoi Choisir Alcaca?",
+    "benefit1": "Engrais biologique riche en nutriments, parfait pour les légumes, fleurs et herbes aromatiques",
+    "benefit2": "Pas de produits chimiques agressifs ni d'additifs artificiels",
+    "benefit3": "Des pratiques agricoles durables qui soutiennent notre mission de bien-être animal"
+  },
+  "about": {
+    "title": "À Propos d'Alpacas Ibiza",
+    "storyTitle": "Notre Histoire",
+    "storyText": "Alpacas Ibiza a été fondée sur la conviction que le tourisme peut être significatif, artisanal et profondément lié au bien-être animal. Nous avons créé la première ferme d'alpagas de l'île pour partager notre passion pour ces créatures douces et leurs fibres incroyables.",
+    "valuesTitle": "Nos Valeurs",
+    "welfare": { "title": "Bien-être Animal", "description": "Nos alpagas passent en premier dans chaque décision" },
+    "sustainability": { "title": "Durabilité", "description": "Pratiques biologiques et responsabilité environnementale" },
+    "quality": { "title": "Qualité Artisanale", "description": "Transformé, vérifié et soigné à la main" },
+    "community": { "title": "Communauté", "description": "Partager les connaissances et créer des connexions" }
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "subtitle": "Vous avez des questions? Nous aimerions vous entendre!",
+    "formTitle": "Envoyez-nous un Message",
+    "name": "Nom",
+    "email": "Email",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer le Message",
+    "infoTitle": "Informations de Contact",
+    "location": "Localisation",
+    "phone": "Téléphone",
+    "emailLabel": "Email",
+    "hours": "Horaires",
+    "byAppointment": "Sur rendez-vous uniquement"
+  },
+  "footer": {
+    "tagline": "La première ferme d'alpagas et atelier de tissage artisanal d'Ibiza",
+    "explore": "Explorer",
+    "shopTitle": "Boutique",
+    "wovenCollection": "Collection Tissée",
+    "customCommission": "Commande Personnalisée",
+    "alpacaManure": "Fumier d'Alpaga (Alcaca)",
+    "aboutUs": "À Propos",
+    "contact": "Contact",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service",
+    "cookies": "Politique de Cookies",
+    "copyright": "Tous droits réservés."
+  }
+}

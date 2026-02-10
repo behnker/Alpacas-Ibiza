@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "tours": "Tour e Visite",
+    "shop": "Negozio",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "bookTour": "Prenota Tour",
+    "language": "Lingua"
+  },
+  "hero": {
+    "title": "La prima fattoria di alpaca e studio tessile di Ibiza",
+    "subtitle": "Scopri la tessitura artigianale, incontra i nostri alpaca, acquista prodotti di lana fatti a mano e scopri l'agricoltura sostenibile. Benvenuti in un luogo dove la tradizione incontra la calma mediterranea.",
+    "ctaPrimary": "Prenota un Tour",
+    "ctaSecondary": "Acquista Ora"
+  },
+  "paths": {
+    "bookNow": "Prenota Ora",
+    "browseCollection": "Sfoglia la Collezione",
+    "startProject": "Inizia Progetto",
+    "learnMore": "Scopri di Più",
+    "tour": {
+      "title": "Prenota un Tour",
+      "description": "Visita la nostra fattoria, incontra gli alpaca, impara l'arte della tessitura e goditi il paesaggio di Ibiza."
+    },
+    "shop": {
+      "title": "Acquista Tessuti",
+      "description": "Sciarpe, coperte e pezzi artigianali fatti a mano con lana di alpaca naturale e tecniche tradizionali."
+    },
+    "commission": {
+      "title": "Commissione",
+      "description": "Crea qualcosa di unico. Commissiona un pezzo personalizzato con i tuoi colori, motivi e dimensioni."
+    },
+    "alcaca": {
+      "title": "Compra Alcaca",
+      "description": "Letame di alpaca premium per giardinaggio biologico e agricoltura sostenibile. Ordina sfuso o campioni."
+    }
+  },
+  "features": {
+    "sectionTitle": "Perché Scegliere Alpacas Ibiza",
+    "sectionSubtitle": "Uniamo ospitalità, artigianalità e benessere animale in ogni esperienza",
+    "farm": { "title": "Fattoria Attiva", "description": "Una vera fattoria di alpaca e studio tessile nel cuore di Ibiza. Ogni pezzo racconta una storia dei nostri animali e della nostra terra." },
+    "artisan": { "title": "Processo Artigianale", "description": "Fibre lavorate a mano, tinture naturali, motivi tradizionali. Ogni passaggio onora l'artigianato e gli alpaca." },
+    "sustainable": { "title": "Sostenibile e Naturale", "description": "Pratiche biologiche, prodotti ecologici, imballaggi biodegradabili. Cura per gli animali e il pianeta." },
+    "appointment": { "title": "Solo su Appuntamento", "description": "Solo visite intime. Manteniamo la nostra fattoria calma e tranquilla per gli alpaca — e per voi." },
+    "quality": { "title": "Qualità Premium", "description": "Ogni prodotto è controllato a mano. Garantiamo la qualità e la longevità del nostro lavoro." },
+    "welfare": { "title": "Benessere Animale Prima di Tutto", "description": "I nostri alpaca sono membri preziosi della nostra famiglia. Il loro comfort e felicità guidano tutto ciò che facciamo." }
+  },
+  "experiences": {
+    "sectionTitle": "Esperienze Speciali",
+    "sectionSubtitle": "Oltre i tour — crea ricordi personalizzati nella nostra fattoria",
+    "privateFarm": { "title": "Fattoria Privata", "description": "Visite solo su appuntamento. Esperienze intime e tranquille in una vera fattoria." },
+    "workshops": { "title": "Workshop", "description": "Impara la tessitura, la tintura naturale e le arti delle fibre direttamente dal nostro team artigianale." },
+    "events": { "title": "Eventi", "description": "Matrimoni, servizi fotografici, ritiri aziendali, yoga con alpaca — esperienze personalizzate." }
+  },
+  "cta": {
+    "title": "Pronti a Vivere Alpacas Ibiza?",
+    "subtitle": "Che vogliate incontrare il gregge, esplorare la nostra collezione o commissionare qualcosa di speciale — siamo qui per creare un'esperienza indimenticabile.",
+    "bookTour": "Prenota il Tuo Tour",
+    "exploreShop": "Esplora il Negozio"
+  },
+  "newsletter": {
+    "title": "Resta Connesso",
+    "subtitle": "Ricevi aggiornamenti su nuovi prodotti, workshop e storie dalla fattoria",
+    "placeholder": "Inserisci la tua email",
+    "subscribe": "Iscriviti"
+  },
+  "tours": {
+    "title": "Prenota la Tua Esperienza con gli Alpaca",
+    "subtitle": "Posti limitati disponibili su prenotazione. Ogni visita è intima e personalizzata.",
+    "reserveTitle": "Prenota la Tua Visita",
+    "reserveText": "Il nostro sistema di prenotazione è gestito da FareHarbor. Clicca il pulsante qui sotto per selezionare data e ora preferite.",
+    "integrationTitle": "Integrazione FareHarbor",
+    "integrationText": "Per attivare il widget di prenotazione FareHarbor, aggiungi il tuo ID azienda nelle variabili di ambiente.",
+    "backHome": "Torna alla Home"
+  },
+  "shop": {
+    "title": "Il Nostro Negozio",
+    "subtitle": "Scopri prodotti di alpaca fatti a mano, pezzi personalizzati e letame premium",
+    "explore": "Esplora",
+    "woven": { "title": "Collezione Tessuta", "description": "Sciarpe, coperte e tessuti fatti a mano" },
+    "commission": { "title": "Commissione Personalizzata", "description": "Crea il tuo pezzo unico" },
+    "manure": { "title": "Letame di Alpaca", "description": "Fertilizzante biologico premium" }
+  },
+  "wovenPage": {
+    "title": "Collezione Tessuta",
+    "subtitle": "Realizzata a mano con amore usando tecniche di tessitura tradizionali e lana di alpaca naturale",
+    "addToCart": "Aggiungi al Carrello",
+    "scarf": "Sciarpa in Lana di Alpaca",
+    "blanket": "Coperta Tessuta",
+    "throw": "Plaid con Tintura Naturale",
+    "cushion": "Copricuscino Artigianale",
+    "wallHanging": "Arazzo Murale Premium",
+    "poncho": "Poncho Ecologico"
+  },
+  "commissionPage": {
+    "title": "Commissione Personalizzata",
+    "subtitle": "Crea il tuo pezzo da sogno con colori, motivi e dimensioni personalizzate",
+    "formTitle": "Raccontaci della Tua Visione",
+    "name": "Il Tuo Nome",
+    "email": "Email",
+    "description": "Descrizione del Progetto",
+    "submit": "Invia Richiesta"
+  },
+  "alcacaPage": {
+    "title": "Letame di Alpaca Premium",
+    "subtitle": "Ricco di nutrienti. Certificato biologico. Proveniente in modo sostenibile dalla nostra fattoria.",
+    "orderNow": "Ordina Ora",
+    "sample": "Pacco Campione (5L)",
+    "bulk": "Sfuso (25L)",
+    "wholesale": "All'ingrosso (100L)",
+    "whyTitle": "Perché Scegliere Alcaca?",
+    "benefit1": "Fertilizzante biologico ricco di nutrienti, perfetto per verdure, fiori e erbe aromatiche",
+    "benefit2": "Nessun prodotto chimico aggressivo o additivo artificiale",
+    "benefit3": "Pratiche agricole sostenibili a supporto della nostra missione di benessere animale"
+  },
+  "about": {
+    "title": "Chi Siamo — Alpacas Ibiza",
+    "storyTitle": "La Nostra Storia",
+    "storyText": "Alpacas Ibiza è stata fondata sulla convinzione che il turismo possa essere significativo, artigianale e profondamente connesso al benessere degli animali. Abbiamo creato la prima fattoria di alpaca sull'isola per condividere la nostra passione per queste creature gentili e la loro fibra incredibile.",
+    "valuesTitle": "I Nostri Valori",
+    "welfare": { "title": "Benessere Animale", "description": "I nostri alpaca vengono prima in ogni decisione" },
+    "sustainability": { "title": "Sostenibilità", "description": "Pratiche biologiche e responsabilità ambientale" },
+    "quality": { "title": "Qualità Artigianale", "description": "Lavorato a mano, controllato a mano, curato a mano" },
+    "community": { "title": "Comunità", "description": "Condividere conoscenze e creare connessioni" }
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Hai domande? Ci piacerebbe sentirti!",
+    "formTitle": "Inviaci un Messaggio",
+    "name": "Nome",
+    "email": "Email",
+    "subject": "Oggetto",
+    "message": "Messaggio",
+    "send": "Invia Messaggio",
+    "infoTitle": "Informazioni di Contatto",
+    "location": "Posizione",
+    "phone": "Telefono",
+    "emailLabel": "Email",
+    "hours": "Orari",
+    "byAppointment": "Solo su appuntamento"
+  },
+  "footer": {
+    "tagline": "La prima fattoria di alpaca e studio tessile artigianale di Ibiza",
+    "explore": "Esplora",
+    "shopTitle": "Negozio",
+    "wovenCollection": "Collezione Tessuta",
+    "customCommission": "Commissione Personalizzata",
+    "alpacaManure": "Letame di Alpaca (Alcaca)",
+    "aboutUs": "Chi Siamo",
+    "contact": "Contatti",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio",
+    "cookies": "Informativa sui Cookie",
+    "copyright": "Tutti i diritti riservati."
+  }
+}
