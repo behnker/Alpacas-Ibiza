@@ -228,20 +228,22 @@
 "backHome": "Back to Home"
 },
 "shop": {
-"title": "Our Shop",
-"subtitle": "Discover handcrafted alpaca products, custom pieces, and premium manure",
-"explore": "Explore",
-"woven": {
-  "title": "Woven Collection",
-  "description": "Handcrafted scarves, blankets, and textiles"
-},
-"commission": {
-  "title": "Custom Commission",
-  "description": "Create your own unique piece"
-},
-"manure": {
-  "title": "Alpaca Manure",
-  "description": "Premium organic fertilizer"
+"title": "Wishfulfilling Weaving Collection",
+"subtitle": "Made in Ibiza, embracing the world",
+"description": "Hand-woven exclusive scarves on a traditional wooden loom using high-quality alpaca wool, linen, mohair and silk wool.",
+"categories": {
+  "woven": {
+    "title": "Woven Collection",
+    "description": "Exclusive hand-woven scarves and textiles"
+  },
+  "commission": {
+    "title": "Custom Commission",
+    "description": "Create your own unique piece with custom colors and patterns"
+  },
+  "alcaca": {
+    "title": "Alcaca - Alpaca Manure",
+    "description": "Premium organic fertilizer from our alpacas"
+  }
 }
 },
 "wovenPage": {
