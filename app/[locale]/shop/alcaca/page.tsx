@@ -1,5 +1,3 @@
-import { Header } from '@/components/header'
-import { Footer } from '@/components/footer'
 import type { Locale } from '@/i18n.config'
 
 export default function AlcacaPage({ params }: { params: { locale: Locale } }) {
@@ -24,9 +22,7 @@ export default function AlcacaPage({ params }: { params: { locale: Locale } }) {
   ]
 
   return (
-    <main>
-      <Header />
-
+    <>
       <section className="w-full py-20 px-4 bg-gradient-to-br from-primary/10 to-accent/10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -115,8 +111,6 @@ export default function AlcacaPage({ params }: { params: { locale: Locale } }) {
           </div>
         </div>
       </section>
-
-      <Footer />
-    </main>
+    </>
   )
 }
