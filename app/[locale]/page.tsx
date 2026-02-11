@@ -45,39 +45,33 @@ export default function Home({ params }: { params: { locale: Locale } }) {
   const features = [
     {
       icon: '🏡',
-      title: 'Working Farm',
-      description:
-        'A genuine, active alpaca farm and weaving studio in the heart of Ibiza. Every piece tells a story of our animals and land.',
+      title: translate('features.farm.title'),
+      description: translate('features.farm.description'),
     },
     {
       icon: '🧵',
-      title: 'Artisanal Process',
-      description:
-        'Hand-processed fibers, natural dyes, traditional patterns. Every step honors the craft and the alpacas.',
+      title: translate('features.artisan.title'),
+      description: translate('features.artisan.description'),
     },
     {
       icon: '🌍',
-      title: 'Sustainable & Natural',
-      description:
-        'Organic practices, eco-friendly products, biodegradable packaging. Care for animals and planet.',
+      title: translate('features.sustainable.title'),
+      description: translate('features.sustainable.description'),
     },
     {
       icon: '👥',
-      title: 'By Appointment',
-      description:
-        'Intimate visits only. We keep our farm calm and peaceful for the alpacas—and for you.',
+      title: translate('features.appointment.title'),
+      description: translate('features.appointment.description'),
     },
     {
       icon: '🎯',
-      title: 'Premium Quality',
-      description:
-        'Every product is hand-checked. We stand behind the quality and longevity of our work.',
+      title: translate('features.quality.title'),
+      description: translate('features.quality.description'),
     },
     {
       icon: '💚',
-      title: 'Animal Welfare First',
-      description:
-        'Our alpacas are cherished members of our family. Their comfort and happiness drive everything we do.',
+      title: translate('features.welfare.title'),
+      description: translate('features.welfare.description'),
     },
   ]
 
@@ -123,10 +117,10 @@ export default function Home({ params }: { params: { locale: Locale } }) {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose Alpacas Ibiza
+              {translate('features.sectionTitle')}
             </h2>
             <p className="text-foreground/70 max-w-2xl mx-auto">
-              We blend hospitality, craftsmanship, and animal welfare into every experience
+              {translate('features.sectionSubtitle')}
             </p>
           </div>
           <Features items={features} />
@@ -138,17 +132,17 @@ export default function Home({ params }: { params: { locale: Locale } }) {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Book Your Visit
+              {translate('tours.title')}
             </h2>
             <p className="text-foreground/70 max-w-2xl mx-auto">
-              Limited spots available. Reserve your alpaca experience today.
+              {translate('tours.subtitle')}
             </p>
           </div>
 
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <div className="text-center mb-8">
               <p className="text-lg text-foreground/80">
-                Select your preferred date and time to book your visit with our alpacas.
+                {translate('tours.reserveText')}
               </p>
             </div>
 
@@ -162,23 +156,23 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       <section className="w-full py-16 md:py-24 px-4 bg-gradient-to-br from-primary/10 to-accent/10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Ready to Experience Alpacas Ibiza?
+            {translate('cta.title')}
           </h2>
           <p className="text-lg text-foreground/70 mb-8 max-w-2xl mx-auto">
-            Whether you want to meet the herd, shop our collection, or commission something special—we're here to create an unforgettable experience.
+            {translate('cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes"
               className="inline-flex items-center justify-center px-6 py-3 bg-accent hover:bg-accent/90 text-accent-foreground rounded-lg font-medium transition-colors"
             >
-              Book Your Tour
+              {translate('cta.bookTour')}
             </a>
             <a
               href={`/${locale}/shop`}
               className="inline-flex items-center justify-center px-6 py-3 border border-primary text-primary hover:bg-primary/5 rounded-lg font-medium transition-colors"
             >
-              Explore Shop
+              {translate('cta.exploreShop')}
             </a>
           </div>
         </div>
@@ -189,23 +183,23 @@ export default function Home({ params }: { params: { locale: Locale } }) {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-6">
             <h3 className="text-xl font-semibold text-foreground mb-2">
-              Stay Connected
+              {translate('newsletter.title')}
             </h3>
             <p className="text-sm text-foreground/70">
-              Get updates on new products, workshops, and farm stories
+              {translate('newsletter.subtitle')}
             </p>
           </div>
           <form className="flex gap-2">
             <input
               type="email"
-              placeholder="Enter your email"
+              placeholder={translate('newsletter.placeholder')}
               className="flex-1 px-4 py-2 rounded-lg border border-input bg-background text-foreground placeholder:text-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary"
             />
             <button
               type="submit"
               className="px-6 py-2 bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg font-medium transition-colors"
             >
-              Subscribe
+              {translate('newsletter.subscribe')}
             </button>
           </form>
         </div>
