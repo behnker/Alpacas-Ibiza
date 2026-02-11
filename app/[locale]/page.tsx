@@ -159,20 +159,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
             </div>
 
             {/* FareHarbor Booking Integration */}
-            <div className="min-h-[500px] flex items-center justify-center">
-              <div className="text-center">
-                <a
-                  href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
-                >
-                  View Available Dates & Book Now
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </a>
-                <p className="mt-4 text-sm text-foreground/60">
-                  Powered by FareHarbor - Secure booking system
-                </p>
-              </div>
-            </div>
+            <FareHarborCalendar />
           </div>
         </div>
       </section>
