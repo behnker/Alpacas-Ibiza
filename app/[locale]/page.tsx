@@ -1,7 +1,7 @@
 import { Hero } from '@/components/hero'
 import { ChoicePaths } from '@/components/choice-paths'
 import { Features } from '@/components/features'
-import { FareHarborCalendar } from '@/components/fareharbor-calendar'
+import { BookingSection } from '@/components/booking-section'
 import { t } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
 import Link from 'next/link'
@@ -159,7 +159,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
             </div>
 
             {/* FareHarbor Booking Integration */}
-            <FareHarborCalendar />
+            <BookingSection />
           </div>
         </div>
       </section>
