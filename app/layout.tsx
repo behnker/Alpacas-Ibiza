@@ -9,12 +9,12 @@ const _geistSans = Geist({ subsets: ['latin'] })
 const _playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-display' })
 
 export const metadata: Metadata = {
-  title: 'Alpacas Ibiza | Farm Tours, Weaving Studio & Alpaca Products',
-  description: 'Experience Ibiza\'s first alpaca farm. Book tours, buy artisanal woven products, commission custom pieces, and shop pure alpaca wool.',
+  title: 'Es Currals Alpacas Ibiza | First Alpaca Farm & Wishfulfilling Weaving Studio',
+  description: 'Es Currals Alpacas Ibiza is the very first alpaca farm in Ibiza and is located in the rural north of the island, on an authentic finca in a beautiful natural setting. Here is also the beating heart of Wishfulfilling Weaving, the artisanal weaving studio where, using mainly alpaca wool exclusive scarves are woven by hand on a traditional wooden loom.',
   generator: 'v0.app',
   openGraph: {
-    title: 'Alpacas Ibiza | Farm Tours & Artisanal Weaving',
-    description: 'Discover our alpaca farm and weaving studio in Ibiza. Tour bookings, alpaca products, and custom commissions.',
+    title: 'Es Currals Alpacas Ibiza | First Alpaca Farm & Weaving Studio',
+    description: 'The very first alpaca farm in Ibiza. Home to Wishfulfilling Weaving - hand-woven scarves on traditional wooden looms using alpaca wool.',
     type: 'website',
   },
   alternates: {
