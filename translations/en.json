@@ -339,5 +339,43 @@
         "a": "Family visits are typically 1.5 to 2 hours, which is perfect for shorter attention spans."
       }
     }
+  },
+  "about": {
+    "title": "About Alpacas Ibiza",
+    "storyTitle": "Our Story",
+    "storyText": "Alpacas Ibiza was founded on the belief that tourism can be meaningful, artisanal, and deeply connected to animal welfare. We created the first alpaca farm on the island to share our passion for these gentle creatures and their incredible fiber.",
+    "valuesTitle": "Our Values",
+    "welfare": {
+      "title": "Animal Welfare",
+      "description": "Our alpacas come first in every decision"
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "description": "Organic practices and environmental responsibility"
+    },
+    "quality": {
+      "title": "Artisanal Quality",
+      "description": "Hand-processed, hand-checked, hand-cared for"
+    },
+    "community": {
+      "title": "Community",
+      "description": "Sharing knowledge and creating connections"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions? We'd love to hear from you!",
+    "formTitle": "Send us a Message",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "infoTitle": "Contact Information",
+    "location": "Location",
+    "phone": "Phone",
+    "emailLabel": "Email",
+    "hours": "Hours",
+    "byAppointment": "By appointment only"
   }
 }
