@@ -147,15 +147,9 @@ export default function Home({ params }: { params: { locale: Locale } }) {
 
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <div className="text-center mb-8">
-              <p className="text-lg text-foreground/80 mb-6">
-                Select your preferred date and time below to book your visit with our alpacas.
+              <p className="text-lg text-foreground/80">
+                Select your preferred date and time to book your visit with our alpacas.
               </p>
-              <div className="flex items-center justify-center gap-2 text-sm text-foreground/60 mb-8">
-                <span className="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
-                <span>Available</span>
-                <span className="inline-block w-3 h-3 bg-gray-300 rounded-full ml-4"></span>
-                <span>Fully Booked</span>
-              </div>
             </div>
 
             {/* FareHarbor Booking Integration */}
