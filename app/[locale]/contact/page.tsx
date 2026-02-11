@@ -1,31 +1,19 @@
-import { Header } from '@/components/header'
-import { Footer } from '@/components/footer'
+import { t } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
 
 export default function ContactPage({ params }: { params: { locale: Locale } }) {
   const locale = params.locale
+  const translate = t(locale)
 
   return (
     <main>
-      <Header />
-
       <section className="w-full py-20 px-4 bg-gradient-to-br from-primary/10 to-accent/10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            {locale === 'en' && 'Get in Touch'}
-            {locale === 'de' && 'Kontaktieren Sie uns'}
-            {locale === 'it' && 'Contattaci'}
-            {locale === 'es' && 'Ponte en Contacto'}
-            {locale === 'nl' && 'Neem Contact op'}
-            {locale === 'fr' && 'Nous Contacter'}
+            {translate('contact.title')}
           </h1>
           <p className="text-lg text-foreground/70">
-            {locale === 'en' && 'Have questions? We\'d love to hear from you!'}
-            {locale === 'de' && 'Haben Sie Fragen? Wir würden uns freuen, von Ihnen zu hören!'}
-            {locale === 'it' && 'Hai domande? Ci piacerebbe sentire da te!'}
-            {locale === 'es' && '¿Tienes preguntas? ¡Nos encantaría escucharte!'}
-            {locale === 'nl' && 'Vragen? We horen graag van je!'}
-            {locale === 'fr' && 'Vous avez des questions? Nous aimerions vous entendre!'}
+            {translate('contact.subtitle')}
           </p>
         </div>
       </section>
@@ -35,23 +23,13 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
           {/* Contact Form */}
           <div>
             <h2 className="text-2xl font-bold text-foreground mb-6">
-              {locale === 'en' && 'Send us a Message'}
-              {locale === 'de' && 'Senden Sie uns eine Nachricht'}
-              {locale === 'it' && 'Inviaci un Messaggio'}
-              {locale === 'es' && 'Envíanos un Mensaje'}
-              {locale === 'nl' && 'Stuur ons een Bericht'}
-              {locale === 'fr' && 'Envoyez-nous un Message'}
+              {translate('contact.formTitle')}
             </h2>
 
             <form className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-foreground mb-2">
-                  {locale === 'en' && 'Name'}
-                  {locale === 'de' && 'Name'}
-                  {locale === 'it' && 'Nome'}
-                  {locale === 'es' && 'Nombre'}
-                  {locale === 'nl' && 'Naam'}
-                  {locale === 'fr' && 'Nom'}
+                  {translate('contact.name')}
                 </label>
                 <input
                   type="text"
@@ -61,12 +39,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
 
               <div>
                 <label className="block text-sm font-medium text-foreground mb-2">
-                  {locale === 'en' && 'Email'}
-                  {locale === 'de' && 'E-Mail'}
-                  {locale === 'it' && 'Email'}
-                  {locale === 'es' && 'Correo'}
-                  {locale === 'nl' && 'E-mailadres'}
-                  {locale === 'fr' && 'Email'}
+                  {translate('contact.email')}
                 </label>
                 <input
                   type="email"
@@ -76,12 +49,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
 
               <div>
                 <label className="block text-sm font-medium text-foreground mb-2">
-                  {locale === 'en' && 'Subject'}
-                  {locale === 'de' && 'Betreff'}
-                  {locale === 'it' && 'Oggetto'}
-                  {locale === 'es' && 'Asunto'}
-                  {locale === 'nl' && 'Onderwerp'}
-                  {locale === 'fr' && 'Sujet'}
+                  {translate('contact.subject')}
                 </label>
                 <input
                   type="text"
@@ -91,12 +59,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
 
               <div>
                 <label className="block text-sm font-medium text-foreground mb-2">
-                  {locale === 'en' && 'Message'}
-                  {locale === 'de' && 'Nachricht'}
-                  {locale === 'it' && 'Messaggio'}
-                  {locale === 'es' && 'Mensaje'}
-                  {locale === 'nl' && 'Bericht'}
-                  {locale === 'fr' && 'Message'}
+                  {translate('contact.message')}
                 </label>
                 <textarea
                   rows={5}
@@ -108,12 +71,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
                 type="submit"
                 className="w-full px-6 py-3 bg-accent hover:bg-accent/90 text-accent-foreground rounded-lg font-medium transition-colors"
               >
-                {locale === 'en' && 'Send Message'}
-                {locale === 'de' && 'Nachricht Senden'}
-                {locale === 'it' && 'Invia Messaggio'}
-                {locale === 'es' && 'Enviar Mensaje'}
-                {locale === 'nl' && 'Bericht Verzenden'}
-                {locale === 'fr' && 'Envoyer un Message'}
+                {translate('contact.send')}
               </button>
             </form>
           </div>
@@ -122,12 +80,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
           <div className="space-y-8">
             <div>
               <h2 className="text-2xl font-bold text-foreground mb-6">
-                {locale === 'en' && 'Contact Information'}
-                {locale === 'de' && 'Kontaktinformationen'}
-                {locale === 'it' && 'Informazioni di Contatto'}
-                {locale === 'es' && 'Información de Contacto'}
-                {locale === 'nl' && 'Contactinformatie'}
-                {locale === 'fr' && 'Informations de Contact'}
+                {translate('contact.infoTitle')}
               </h2>
 
               <div className="space-y-6">
@@ -135,12 +88,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
                   <div className="text-2xl">📍</div>
                   <div>
                     <h3 className="font-semibold text-foreground">
-                      {locale === 'en' && 'Location'}
-                      {locale === 'de' && 'Standort'}
-                      {locale === 'it' && 'Posizione'}
-                      {locale === 'es' && 'Ubicación'}
-                      {locale === 'nl' && 'Locatie'}
-                      {locale === 'fr' && 'Localisation'}
+                      {translate('contact.location')}
                     </h3>
                     <p className="text-foreground/70">Ibiza, Spain</p>
                   </div>
@@ -150,12 +98,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
                   <div className="text-2xl">📞</div>
                   <div>
                     <h3 className="font-semibold text-foreground">
-                      {locale === 'en' && 'Phone'}
-                      {locale === 'de' && 'Telefon'}
-                      {locale === 'it' && 'Telefono'}
-                      {locale === 'es' && 'Teléfono'}
-                      {locale === 'nl' && 'Telefoon'}
-                      {locale === 'fr' && 'Téléphone'}
+                      {translate('contact.phone')}
                     </h3>
                     <p className="text-foreground/70">+34 971 XXX XXX</p>
                   </div>
@@ -165,12 +108,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
                   <div className="text-2xl">✉️</div>
                   <div>
                     <h3 className="font-semibold text-foreground">
-                      {locale === 'en' && 'Email'}
-                      {locale === 'de' && 'E-Mail'}
-                      {locale === 'it' && 'Email'}
-                      {locale === 'es' && 'Correo'}
-                      {locale === 'nl' && 'E-mail'}
-                      {locale === 'fr' && 'Email'}
+                      {translate('contact.emailLabel')}
                     </h3>
                     <p className="text-foreground/70">hello@alpacasibiza.com</p>
                   </div>
@@ -180,20 +118,10 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
                   <div className="text-2xl">🕐</div>
                   <div>
                     <h3 className="font-semibold text-foreground">
-                      {locale === 'en' && 'Hours'}
-                      {locale === 'de' && 'Öffnungszeiten'}
-                      {locale === 'it' && 'Orari'}
-                      {locale === 'es' && 'Horario'}
-                      {locale === 'nl' && 'Openingstijden'}
-                      {locale === 'fr' && 'Heures'}
+                      {translate('contact.hours')}
                     </h3>
                     <p className="text-foreground/70">
-                      {locale === 'en' && 'By appointment only'}
-                      {locale === 'de' && 'Nur nach Vereinbarung'}
-                      {locale === 'it' && 'Solo su appuntamento'}
-                      {locale === 'es' && 'Solo previa cita'}
-                      {locale === 'nl' && 'Alleen op afspraak'}
-                      {locale === 'fr' && 'Sur rendez-vous uniquement'}
+                      {translate('contact.byAppointment')}
                     </p>
                   </div>
                 </div>
@@ -202,8 +130,6 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
 }
