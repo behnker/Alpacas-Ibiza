@@ -1,20 +1,113 @@
 'use client'
 
-import { ArrowRight } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { ArrowRight, Calendar } from 'lucide-react'
+
+interface AvailableDate {
+    date: string
+    capacity: number
+    startTime: string
+}
 
 export function BookingSection() {
+    const [availableDates, setAvailableDates] = useState<AvailableDate[]>([])
+    const [loading, setLoading] = useState(true)
+    const [error, setError] = useState<string | null>(null)
+
+    useEffect(() => {
+        fetch('/api/availability')
+            .then(res => res.json())
+            .then(data => {
+                if (data.error) {
+                    setError(data.message)
+                } else {
+                    setAvailableDates(data.dates || [])
+                }
+                setLoading(false)
+            })
+            .catch(err => {
+                console.error('Failed to fetch availability:', err)
+                setError('Unable to load availability')
+                setLoading(false)
+            })
+    }, [])
+
+    const formatDate = (dateStr: string) => {
+        const date = new Date(dateStr)
+        return {
+            day: date.getDate(),
+            month: date.toLocaleDateString('en-US', { month: 'short' }).toUpperCase(),
+            weekday: date.toLocaleDateString('en-US', { weekday: 'short' })
+        }
+    }
+
     return (
-        <div className="w-full text-center py-8">
-            <a
-                href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes"
-                className="inline-flex items-center justify-center px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
-            >
-                View Available Dates & Book Now
-                <ArrowRight className="ml-2 h-5 w-5" />
-            </a>
-            <p className="mt-4 text-sm text-foreground/60">
-                Secure booking powered by FareHarbor
-            </p>
+        <div className="w-full">
+            {/* Show available dates if API is working */}
+            {!loading && !error && availableDates.length > 0 && (
+                <div className="mb-8">
+                    <div className="flex items-center justify-center gap-2 mb-6">
+                        <Calendar className="h-5 w-5 text-primary" />
+                        <h3 className="text-xl font-semibold text-foreground">
+                            Next Available Dates
+                        </h3>
+                    </div>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto mb-8">
+                        {availableDates.slice(0, 8).map((slot, idx) => {
+                            const formatted = formatDate(slot.date)
+                            return (
+                                <div
+                                    key={idx}
+                                    className="bg-background border-2 border-primary/20 rounded-xl p-4 text-center hover:border-primary/40 transition-colors cursor-pointer"
+                                >
+                                    <div className="text-xs text-foreground/50 uppercase tracking-wide mb-1">
+                                        {formatted.weekday}
+                                    </div>
+                                    <div className="text-3xl font-bold text-primary">{formatted.day}</div>
+                                    <div className="text-sm text-foreground/60 uppercase tracking-wide">
+                                        {formatted.month}
+                                    </div>
+                                    {slot.capacity <= 5 && (
+                                        <div className="mt-2 text-xs text-orange-600 font-medium">
+                                            {slot.capacity} spots left
+                                        </div>
+                                    )}
+                                </div>
+                            )
+                        })}
+                    </div>
+                    <p className="text-xs text-center text-foreground/50 mb-6">
+                        Updated every 2 hours • Click "Book Now" to see all times
+                    </p>
+                </div>
+            )}
+
+            {/* Loading state */}
+            {loading && (
+                <div className="text-center py-8 text-foreground/60">
+                    <div className="animate-pulse">Loading availability...</div>
+                </div>
+            )}
+
+            {/* Main Booking CTA */}
+            <div className="text-center">
+                <a
+                    href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
+                >
+                    {availableDates.length > 0 ? 'Book Now' : 'View Available Dates & Book Now'}
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
+                <p className="mt-4 text-sm text-foreground/60">
+                    Secure booking powered by FareHarbor
+                </p>
+
+                {error && (
+                    <p className="mt-2 text-xs text-foreground/40">
+                        Real-time availability requires API setup
+                    </p>
+                )}
+            </div>
         </div>
     )
 }
