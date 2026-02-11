@@ -54,9 +54,9 @@
   - [ ] Contact information
 
 ### Phase 2: FareHarbor Booking (Priority 1)
-- [ ] Get FareHarbor account & API credentials
-- [ ] Generate embed iframe code from FareHarbor dashboard
-- [ ] Replace iframe placeholder in `/app/tours/page.tsx` (search "FareHarbor booking system integration")
+- [x] Get FareHarbor account & API credentials
+- [x] Generate embed iframe code from FareHarbor dashboard
+- [x] Replace iframe placeholder in `/app/tours/page.tsx` (search "FareHarbor booking system integration")
 - [ ] Test booking flow end-to-end
 - [ ] Verify booking confirmation emails
 - [ ] Add `tracking_id` to FareHarbor for order tracking

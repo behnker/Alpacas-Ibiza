@@ -1,8 +1,6 @@
-import { Header } from '@/components/header'
 import { Hero } from '@/components/hero'
 import { ChoicePaths } from '@/components/choice-paths'
 import { Features } from '@/components/features'
-import { Footer } from '@/components/footer'
 import { t } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
 
@@ -100,15 +98,13 @@ export default function Home({ params }: { params: { locale: Locale } }) {
 
   return (
     <main>
-      <Header />
-
       {/* Hero Section */}
       <Hero
         title={translate('hero.title')}
         subtitle={translate('hero.subtitle')}
         cta={{
           label: translate('hero.ctaPrimary'),
-          href: `/${locale}/tours`,
+          href: 'https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes',
         }}
         secondary={{
           label: translate('hero.ctaSecondary'),
@@ -160,7 +156,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={`/${locale}/tours`}
+              href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes"
               className="inline-flex items-center justify-center px-6 py-3 bg-accent hover:bg-accent/90 text-accent-foreground rounded-lg font-medium transition-colors"
             >
               Book Your Tour
@@ -202,7 +198,6 @@ export default function Home({ params }: { params: { locale: Locale } }) {
         </div>
       </section>
 
-      <Footer />
     </main>
   )
 }

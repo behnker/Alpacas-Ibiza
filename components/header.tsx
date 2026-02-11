@@ -49,7 +49,7 @@ export function Header() {
             asChild
             className="bg-accent hover:bg-accent/90 text-accent-foreground"
           >
-            <Link href={`/${locale}/tours`}>{tr('nav.bookTour')}</Link>
+            <a href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes">{tr('nav.bookTour')}</a>
           </Button>
         </div>
 
@@ -79,9 +79,9 @@ export function Header() {
                 asChild
                 className="w-full bg-accent hover:bg-accent/90 text-accent-foreground mt-4"
               >
-                <Link href={`/${locale}/tours`} onClick={() => setIsOpen(false)}>
+                <a href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes" onClick={() => setIsOpen(false)}>
                   {tr('nav.bookTour')}
-                </Link>
+                </a>
               </Button>
             </div>
           </SheetContent>
