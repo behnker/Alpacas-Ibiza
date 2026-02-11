@@ -1,16 +1,18 @@
 import { Hero } from '@/components/hero'
 import { FAQ } from '@/components/faq'
+import { t } from '@/lib/translations'
 
 export default function FamilyPage({ params }: { params: { locale: string } }) {
-    // const locale = params.locale
+    const locale = params.locale
+    const translate = t(locale as any)
 
     return (
         <main>
             <Hero
-                title="Family Farm Days"
-                subtitle="Introduce your children to the joy of animals. Safe, educational, and fun for all ages."
+                title={translate('family.title')}
+                subtitle={translate('family.subtitle')}
                 cta={{
-                    label: 'Book Family Visit',
+                    label: translate('family.cta'),
                     href: 'https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes',
                 }}
                 backgroundImage="/images/family-bg.jpg" // Placeholder
@@ -20,22 +22,22 @@ export default function FamilyPage({ params }: { params: { locale: string } }) {
                 <div className="max-w-5xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                         <div>
-                            <h2 className="text-3xl font-bold text-foreground mb-6">Education meets Adorable</h2>
+                            <h2 className="text-3xl font-bold text-foreground mb-6">{translate('family.educationTitle')}</h2>
                             <p className="text-lg text-foreground/70 mb-6">
-                                Our farm isn't just a petting zoo—it's an educational experience. Kids learn:
+                                {translate('family.educationText')}
                             </p>
                             <ul className="space-y-3">
                                 <li className="flex items-center gap-3">
                                     <span className="text-green-600">✓</span>
-                                    <span><strong>Respect:</strong> How to approach animals gently.</span>
+                                    <span><strong>{translate('family.points.respect')}</strong></span>
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <span className="text-green-600">✓</span>
-                                    <span><strong>Biology:</strong> Why alpacas have soft fleece and pads instead of hooves.</span>
+                                    <span><strong>{translate('family.points.biology')}</strong></span>
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <span className="text-green-600">✓</span>
-                                    <span><strong>Sustainability:</strong> How we use alpaca manure ("Oro Negro") for farming.</span>
+                                    <span><strong>{translate('family.points.sustainability')}</strong></span>
                                 </li>
                             </ul>
                         </div>
@@ -49,27 +51,27 @@ export default function FamilyPage({ params }: { params: { locale: string } }) {
 
             <section className="w-full py-16 px-4 bg-secondary/30">
                 <div className="max-w-4xl mx-auto">
-                    <h2 className="text-2xl font-bold mb-8 text-center">Safety First</h2>
+                    <h2 className="text-2xl font-bold mb-8 text-center">{translate('family.safetyTitle')}</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
                         <div className="bg-background p-4 rounded text-center border border-border">
                             <div className="text-3xl mb-2">🛡️</div>
-                            <h3 className="font-semibold">Gentle Animals</h3>
-                            <p className="text-xs text-foreground/60">Our herd is socialized and used to children.</p>
+                            <h3 className="font-semibold">{translate('family.safety.gentle.title')}</h3>
+                            <p className="text-xs text-foreground/60">{translate('family.safety.gentle.desc')}</p>
                         </div>
                         <div className="bg-background p-4 rounded text-center border border-border">
                             <div className="text-3xl mb-2">👶</div>
-                            <h3 className="font-semibold">Stroller Friendly</h3>
-                            <p className="text-xs text-foreground/60">Paths are accessible for sturdy strollers.</p>
+                            <h3 className="font-semibold">{translate('family.safety.stroller.title')}</h3>
+                            <p className="text-xs text-foreground/60">{translate('family.safety.stroller.desc')}</p>
                         </div>
                         <div className="bg-background p-4 rounded text-center border border-border">
                             <div className="text-3xl mb-2">🧼</div>
-                            <h3 className="font-semibold">Hygiene</h3>
-                            <p className="text-xs text-foreground/60">Hand washing stations available.</p>
+                            <h3 className="font-semibold">{translate('family.safety.hygiene.title')}</h3>
+                            <p className="text-xs text-foreground/60">{translate('family.safety.hygiene.desc')}</p>
                         </div>
                         <div className="bg-background p-4 rounded text-center border border-border">
                             <div className="text-3xl mb-2">🥤</div>
-                            <h3 className="font-semibold">Refreshments</h3>
-                            <p className="text-xs text-foreground/60">Kid-friendly drinks and snacks.</p>
+                            <h3 className="font-semibold">{translate('family.safety.refreshments.title')}</h3>
+                            <p className="text-xs text-foreground/60">{translate('family.safety.refreshments.desc')}</p>
                         </div>
                     </div>
                 </div>
@@ -78,16 +80,16 @@ export default function FamilyPage({ params }: { params: { locale: string } }) {
             <FAQ
                 items={[
                     {
-                        question: 'What is the minimum age?',
-                        answer: 'We welcome all ages! Children under 3 are free. We recommend ages 4+ for the full walking experience.',
+                        question: translate('family.faq.age.q'),
+                        answer: translate('family.faq.age.a'),
                     },
                     {
-                        question: 'Are the alpacas safe?',
-                        answer: 'Yes, alpacas do not bite (they only have bottom teeth!) and are generally very calm. We teach your children exactly how to interact safely.',
+                        question: translate('family.faq.safe.q'),
+                        answer: translate('family.faq.safe.a'),
                     },
                     {
-                        question: 'How long is the visit?',
-                        answer: 'Family visits are typically 1.5 to 2 hours, which is perfect for shorter attention spans.',
+                        question: translate('family.faq.duration.q'),
+                        answer: translate('family.faq.duration.a'),
                     },
                 ]}
             />

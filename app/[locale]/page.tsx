@@ -132,87 +132,46 @@ export default function Home({ params }: { params: { locale: Locale } }) {
         </div>
       </section>
 
-      {/* Choose Your Experience (GEO Strategy) */}
+      {/* Next Available Dates */}
       <section className="w-full py-16 md:py-24 px-4 bg-secondary/20">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Choose Your Experience
+              Book Your Visit
             </h2>
             <p className="text-foreground/70 max-w-2xl mx-auto">
-              Curated experiences for every occasion
+              Limited spots available. Reserve your alpaca experience today.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Corporate */}
-            <Link href={`/${locale}/experiences/corporate-team-building`} className="group">
-              <div className="bg-card rounded-2xl overflow-hidden shadow-sm border border-border transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-1">
-                <div className="h-48 bg-muted relative">
-                  {/* Placeholder for Corporate Image */}
-                  <div className="absolute inset-0 flex items-center justify-center text-4xl bg-primary/10">
-                    🤝
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
-                    Corporate & Team Building
-                  </h3>
-                  <p className="text-foreground/70 text-sm mb-4">
-                    Disconnect to reconnect. Leadership retreats and team bonding with our gentle herd.
-                  </p>
-                  <span className="text-primary font-medium text-sm flex items-center">
-                    Plan Event <ArrowRight className="ml-2 h-4 w-4" />
-                  </span>
-                </div>
+          <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
+            <div className="text-center mb-8">
+              <p className="text-lg text-foreground/80 mb-6">
+                Select your preferred date and time below to book your visit with our alpacas.
+              </p>
+              <div className="flex items-center justify-center gap-2 text-sm text-foreground/60 mb-8">
+                <span className="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
+                <span>Available</span>
+                <span className="inline-block w-3 h-3 bg-gray-300 rounded-full ml-4"></span>
+                <span>Fully Booked</span>
               </div>
-            </Link>
+            </div>
 
-            {/* Romantic */}
-            <Link href={`/${locale}/experiences/romantic-sunset`} className="group">
-              <div className="bg-card rounded-2xl overflow-hidden shadow-sm border border-border transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-1">
-                <div className="h-48 bg-muted relative">
-                  {/* Placeholder for Romantic Image */}
-                  <div className="absolute inset-0 flex items-center justify-center text-4xl bg-accent/10">
-                    🌅
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-accent transition-colors">
-                    Romantic Sunset Walks
-                  </h3>
-                  <p className="text-foreground/70 text-sm mb-4">
-                    Golden hour magic. Private, intimate walks for couples (and proposal planning!).
-                  </p>
-                  <span className="text-accent font-medium text-sm flex items-center">
-                    Book Private Tour <ArrowRight className="ml-2 h-4 w-4" />
-                  </span>
-                </div>
+            {/* FareHarbor Booking Integration */}
+            <div className="min-h-[500px] flex items-center justify-center">
+              <div className="text-center">
+                <a
+                  href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
+                >
+                  View Available Dates & Book Now
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
+                <p className="mt-4 text-sm text-foreground/60">
+                  Powered by FareHarbor - Secure booking system
+                </p>
               </div>
-            </Link>
-
-            {/* Family */}
-            <Link href={`/${locale}/experiences/family-farm-days`} className="group">
-              <div className="bg-card rounded-2xl overflow-hidden shadow-sm border border-border transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-1">
-                <div className="h-48 bg-muted relative">
-                  {/* Placeholder for Family Image */}
-                  <div className="absolute inset-0 flex items-center justify-center text-4xl bg-secondary">
-                    👨‍👩‍👧‍👦
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
-                    Family Farm Days
-                  </h3>
-                  <p className="text-foreground/70 text-sm mb-4">
-                    Safe, educational fun for all ages. Introduce your little ones to nature.
-                  </p>
-                  <span className="text-primary font-medium text-sm flex items-center">
-                    Family Visit <ArrowRight className="ml-2 h-4 w-4" />
-                  </span>
-                </div>
-              </div>
-            </Link>
+            </div>
           </div>
         </div>
       </section>
