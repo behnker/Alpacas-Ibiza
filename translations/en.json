@@ -95,287 +95,422 @@
     "title": "Book Your Alpaca Experience",
     "subtitle": "Limited spots available by appointment. Each visit is intimate and personalized.",
     "reserveTitle": "Reserve Your Visit",
-    "reserveText": "Our booking system is powered by FareHarbor. Click the button below to select your preferred date and time.",
+    "reserveText": "Select your preferred date and time to book your visit with our alpacas.",
     "integrationTitle": "FareHarbor Integration",
     "integrationText": "To activate the FareHarbor booking widget, add your company ID in the environment variables. The booking form will appear here.",
-    "backHome": "Back to Home"
-  },
-  "shop": {
-    "title": "Our Shop",
-    "subtitle": "Discover handcrafted alpaca products, custom pieces, and premium manure",
-    "explore": "Explore",
-    "woven": {
-      "title": "Woven Collection",
-      "description": "Handcrafted scarves, blankets, and textiles"
-    },
-    "commission": {
-      "title": "Custom Commission",
-      "description": "Create your own unique piece"
-    },
-    "manure": {
-      "title": "Alpaca Manure",
-      "description": "Premium organic fertilizer"
-    }
-  },
-  "wovenPage": {
-    "title": "Woven Collection",
-    "subtitle": "Handcrafted with love using traditional weaving techniques and natural alpaca wool",
-    "addToCart": "Add to Cart",
-    "scarf": "Alpaca Wool Scarf",
-    "blanket": "Woven Blanket",
-    "throw": "Natural Dye Throw",
-    "cushion": "Artisan Cushion Cover",
-    "wallHanging": "Premium Wall Hanging",
-    "poncho": "Eco-Friendly Poncho"
-  },
-  "commissionPage": {
-    "title": "Custom Commission",
-    "subtitle": "Create your dream piece with custom colors, patterns, and dimensions",
-    "formTitle": "Tell Us About Your Vision",
-    "name": "Your Name",
-    "email": "Email",
-    "description": "Project Description",
-    "submit": "Submit Commission Request"
-  },
-  "alcacaPage": {
-    "title": "Premium Alpaca Manure",
-    "subtitle": "Rich in nutrients. Certified organic. Sustainably sourced from our farm.",
-    "orderNow": "Order Now",
-    "sample": "Sample Pack (5L)",
-    "bulk": "Bulk (25L)",
-    "wholesale": "Wholesale (100L)",
-    "whyTitle": "Why Choose Alcaca?",
-    "benefit1": "Nutrient-rich organic fertilizer perfect for vegetables, flowers, and herbs",
-    "benefit2": "No harsh chemicals or artificial additives",
-    "benefit3": "Sustainable farming practices support our animal welfare mission"
-  },
-  "about": {
-    "title": "About Alpacas Ibiza",
-    "storyTitle": "Our Story",
-    "storyText": "Alpacas Ibiza was founded on the belief that tourism can be meaningful, artisanal, and deeply connected to animal welfare. We created the first alpaca farm on the island to share our passion for these gentle creatures and their incredible fiber.",
-    "valuesTitle": "Our Values",
-    "welfare": {
-      "title": "Animal Welfare",
-      "description": "Our alpacas come first in every decision"
-    },
-    "sustainability": {
-      "title": "Sustainability",
-      "description": "Organic practices and environmental responsibility"
-    },
-    "quality": {
-      "title": "Artisanal Quality",
-      "description": "Hand-processed, hand-checked, hand-cared for"
-    },
-    "community": {
-      "title": "Community",
-      "description": "Sharing knowledge and creating connections"
-    }
-  },
-  "contact": {
-    "title": "Get in Touch",
-    "subtitle": "Have questions? We'd love to hear from you!",
-    "formTitle": "Send us a Message",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject",
-    "message": "Message",
-    "send": "Send Message",
-    "infoTitle": "Contact Information",
-    "location": "Location",
-    "phone": "Phone",
-    "emailLabel": "Email",
-    "hours": "Hours",
-    "byAppointment": "By appointment only"
-  },
-  "footer": {
-    "tagline": "Ibiza's first alpaca farm and artisanal weaving studio",
-    "explore": "Explore",
-    "shopTitle": "Shop",
-    "wovenCollection": "Woven Collection",
-    "customCommission": "Custom Commission",
-    "alpacaManure": "Alpaca Manure (Alcaca)",
-    "aboutUs": "About Us",
-    "contact": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Policy",
-    "copyright": "All rights reserved."
-  },
-  "homepage": {
-    "experiences": {
-      "title": "Choose Your Experience",
-      "subtitle": "Curated experiences for every occasion",
-      "corporate": {
-        "title": "Corporate & Team Building",
-        "description": "Disconnect to reconnect. Leadership retreats and team bonding with our gentle herd.",
-        "cta": "Plan Event"
-      },
-      "romantic": {
-        "title": "Romantic Sunset Walks",
-        "description": "Golden hour magic. Private, intimate walks for couples (and proposal planning!).",
-        "cta": "Book Private Tour"
-      },
-      "family": {
-        "title": "Family Farm Days",
-        "description": "Safe, educational fun for all ages. Introduce your little ones to nature.",
-        "cta": "Family Visit"
-      }
-    }
-  },
-  "corporate": {
-    "title": "Corporate Retreats & Team Building",
-    "subtitle": "Disconnect to reconnect. Bring your team to the peaceful Ibiza countryside for a unique bonding experience with our alpaca herd.",
-    "cta": "Inquire for Teams",
-    "whyTitle": "Why Alpacas for Team Building?",
-    "whyText": "Alpacas are sensitive, calming animals that mirror human energy. interacting with them requires patience, observation, and non-verbal communication—perfect skills for effective teamwork.",
-    "features": {
-      "stress": {
-        "title": "Stress Reduction",
-        "description": "The calming presence of alpacas lowers cortisol and encourages mindfulness."
-      },
-      "communication": {
-        "title": "Communication",
-        "description": "Learn to lead without force. Alpacas respond to calm assertiveness."
-      },
-      "creativity": {
-        "title": "Creativity",
-        "description": "Weaving workshops stimulate creative problem-solving and focus."
-      },
-      "nature": {
-        "title": "Nature Connection",
-        "description": "Get your team out of the office and into the fresh Mediterranean air."
-      }
-    },
-    "itinerary": {
-      "title": "Sample Itinerary",
-      "item1": {
-        "time": "10:00 AM",
-        "title": "Welcome & Refreshments",
-        "desc": "Coffee, tea, and local pastries on the terrace."
-      },
-      "item2": {
-        "time": "10:30 AM",
+    "heroTitle": "Visit Alpacas Ibiza",
+    "heroSubtitle": "Join us for an unforgettable farm experience. Meet our alpacas, learn artisanal weaving, and immerse yourself in Ibiza's peaceful countryside.",
+    "heroCta": "Book Your Visit",
+    "tourOptionsTitle": "Tour Options",
+    "tourOptionsSubtitle": "Choose the experience that speaks to you",
+    "tourTypes": {
+      "meetHerd": {
         "title": "Meet the Herd",
-        "desc": "Guided introduction to the alpacas. Learn their names and personalities."
+        "description": "Connect with our alpacas, learn their personalities, and understand their care and welfare."
       },
-      "item3": {
-        "time": "11:30 AM",
-        "title": "Team Challenge",
-        "desc": "Interactive activity: Leading an alpaca through a simple agility course requiring teamwork."
+      "weaving": {
+        "title": "Weaving Workshop",
+        "description": "Hands-on introduction to fiber arts. Try hand-processing, natural dyeing, or basic weaving."
       },
-      "item4": {
-        "time": "1:00 PM",
-        "title": "Farm Lunch",
-        "desc": "Organic, locally sourced picnic lunch under the carob trees."
+      "farm": {
+        "title": "Farm Experience",
+        "description": "Explore the land, see our sustainable practices, and enjoy the Mediterranean landscape."
+      },
+      "photo": {
+        "title": "Photo Session",
+        "description": "Professional or personal photography with alpacas and scenic backdrops. Perfect for memories."
       }
     },
-    "planTitle": "Ready to Plan Your Event?",
-    "planText": "We customize every corporate package to your team's size and goals. Contact us for a quote.",
-    "planCta": "Request Proposal"
-  },
-  "romantic": {
-    "title": "Sunset Romantic Walks",
-    "subtitle": "Golden hour with the alpacas. A private, intimate experience for couples in the heart of Ibiza.",
-    "cta": "Book Private Sunset Tour",
-    "quote": "\"The most magical date we've ever had.\"",
-    "description": "Escape the crowds. Just you, your partner, and our gentle alpacas wandering through the orange groves as the sun dips below the hills.",
-    "champagne": {
-      "title": "Champagne",
-      "desc": "Optional Cava add-on to toast the sunset."
-    },
-    "photos": {
-      "title": "Photos",
-      "desc": "Your guide captures candid moments so you can stay present."
-    },
-    "privacy": {
-      "title": "Privacy",
-      "desc": "Strictly private tours available upon request."
-    },
-    "proposalTitle": "Perfect for Proposals",
-    "proposalText": "Thinking of popping the question? We can help orchestrate the perfect moment with the alpacas as your witnesses.",
-    "proposalCta": "Contact to Arrange"
-  },
-  "family": {
-    "title": "Family Farm Days",
-    "subtitle": "Introduce your children to the joy of animals. Safe, educational, and fun for all ages.",
-    "cta": "Book Family Visit",
-    "educationTitle": "Education meets Adorable",
-    "educationText": "Our farm isn't just a petting zoo—it's an educational experience. Kids learn:",
-    "points": {
-      "respect": "Respect: How to approach animals gently.",
-      "biology": "Biology: Why alpacas have soft fleece and pads instead of hooves.",
-      "sustainability": "Sustainability: How we use alpaca manure (\"Oro Negro\") for farming."
-    },
-    "safetyTitle": "Safety First",
-    "safety": {
-      "gentle": {
-        "title": "Gentle Animals",
-        "desc": "Our herd is socialized and used to children."
+    "timelineTitle": "What to Expect on a Tour",
+    "timeline": {
+      "arrival": {
+        "time": "Arrival",
+        "title": "Welcome & Orientation",
+        "description": "Meet your guide, receive an overview of the day, and learn farm guidelines. Settle in and let the calm take over."
       },
-      "stroller": {
-        "title": "Stroller Friendly",
-        "desc": "Paths are accessible for sturdy strollers."
+      "morning": {
+        "time": "Morning",
+        "title": "Meet the Alpacas",
+        "description": "Spend time with our herd. Feed, pet, and learn the stories of our animals. Guides share insights on alpaca behavior and care."
       },
-      "hygiene": {
-        "title": "Hygiene",
-        "desc": "Hand washing stations available."
+      "midday": {
+        "time": "Mid-day",
+        "title": "Weaving Studio Tour",
+        "description": "Explore our studio. See the full process: fiber preparation, natural dyeing, traditional patterns, and final finishing."
       },
-      "refreshments": {
-        "title": "Refreshments",
-        "desc": "Kid-friendly drinks and snacks."
+      "afternoon": {
+        "time": "Afternoon",
+        "title": "Hands-On Activity",
+        "description": "Participate in a workshop or activity based on your interests: try hand-carding, dyeing, or simple weaving techniques."
+      },
+      "closing": {
+        "time": "Closing",
+        "title": "Relax & Reflect",
+        "description": "Wind down with refreshments. Browse our shop. Ask final questions. Leave with a heart full of memories."
       }
     },
-    "faq": {
-      "age": {
-        "q": "What is the minimum age?",
-        "a": "We welcome all ages! Children under 3 are free. We recommend ages 4+ for the full walking experience."
+    "planVisit": {
+      "hours": {
+        "title": "Operating Hours",
+        "description": "Tours by appointment only. Availability varies by season.",
+        "summer": "Summer: Extended hours",
+        "winter": "Winter: Limited availability",
+        "contact": "Contact for exact times"
       },
-      "safe": {
-        "q": "Are the alpacas safe?",
-        "a": "Yes, alpacas do not bite (they only have bottom teeth!) and are generally very calm. We teach your children exactly how to interact safely."
+      "location": {
+        "title": "Location",
+        "description": "Ibiza, Spain",
+        "details": "Private farm. Directions and parking info provided upon booking."
       },
-      "duration": {
-        "q": "How long is the visit?",
-        "a": "Family visits are typically 1.5 to 2 hours, which is perfect for shorter attention spans."
+      "pricing": {
+        "title": "Pricing",
+        "starting": "Starting at €30 per person",
+        "custom": "Custom experiences and group rates available"
+      },
+      "specialEvents": {
+        "title": "Special Events & Private Bookings",
+        "description": "Weddings, photoshoots, alpaca yoga, workshops, corporate retreats—we create custom experiences tailored to your vision.",
+        "cta": "Request Custom Experience"
       }
+    },
+    "bookingSection": {
+      "title": "Ready to Book?",
+      "subtitle": "Check availability and secure your spot. Tours are limited to preserve the peaceful farm environment.",
+      "cardTitle": "Book Your Adventure",
+      "cardSubtitle": "Secure your spot instantly. No payment required until confirmation.",
+      "bookNow": "Book Now",
+      "poweredBy": "Powered by FareHarbor",
+      "questions": "Questions?",
+      "questionsText": "Contact us at hello@alpacasibiza.com or message via WhatsApp for personalized assistance."
+    },
+    "guestStories": {
+      "title": "Guest Stories",
+      "subtitle": "See what visitors say about their experience",
+      "testimonial": "An unforgettable experience. The alpacas were wonderful, the guides were knowledgeable and warm, and the whole farm exuded peace and authenticity.",
+      "guest": "Guest",
+      "visited": "Visited recently"
     }
   },
-  "about": {
-    "title": "About Alpacas Ibiza",
-    "storyTitle": "Our Story",
-    "storyText": "Alpacas Ibiza was founded on the belief that tourism can be meaningful, artisanal, and deeply connected to animal welfare. We created the first alpaca farm on the island to share our passion for these gentle creatures and their incredible fiber.",
-    "valuesTitle": "Our Values",
-    "welfare": {
-      "title": "Animal Welfare",
-      "description": "Our alpacas come first in every decision"
+  "faq": {
+    "duration": {
+      "q": "How long is a typical tour?",
+      "a": "Standard tours are 2–3 hours. Workshops and extended experiences can be customized. We recommend checking available time slots when booking."
     },
-    "sustainability": {
-      "title": "Sustainability",
-      "description": "Organic practices and environmental responsibility"
+    "languages": {
+      "q": "What languages do you offer?",
+      "a": "We offer tours in English, Spanish, and Dutch. If you need another language, please contact us."
     },
-    "quality": {
-      "title": "Artisanal Quality",
-      "description": "Hand-processed, hand-checked, hand-cared for"
+    "children": {
+      "q": "Are visits suitable for children?",
+      "a": "Yes! Tours are family-friendly. Children should be supervised, especially around the animals. We recommend ages 4+, but younger children can come with parental guidance."
     },
-    "community": {
-      "title": "Community",
-      "description": "Sharing knowledge and creating connections"
+    "wear": {
+      "q": "What should I wear?",
+      "a": "Wear comfortable, closed-toe shoes suitable for farm terrain. Bring sun protection in summer. Light layers are ideal, as the farm is outside. Avoid loud colors or strong perfumes to keep alpacas calm."
+    },
+    "accessibility": {
+      "q": "Is the farm accessible for people with disabilities?",
+      "a": "Our farm is on natural terrain. Please contact us ahead to discuss accessibility and how we can accommodate your needs."
+    },
+    "food": {
+      "q": "Can we bring food or drinks?",
+      "a": "Outside food is not permitted, but we offer organic refreshments. We accommodate dietary restrictions—mention this when booking."
+    },
+    "booking": {
+      "q": "How do I book a tour?",
+      "a": "Use our online booking system below to check availability and reserve your spot. Group bookings and custom experiences: contact us for options."
+    },
+    "cancellation": {
+      "q": "What if I need to cancel or reschedule?",
+      "a": "Cancellations up to 48 hours before your tour receive a full refund or rebooking. Less notice incurs a 50% fee."
+    },
+    "private": {
+      "q": "Do you offer private tours or group events?",
+      "a": "Yes! We offer private farm experiences, weddings, corporate retreats, and alpaca yoga sessions. Contact us for custom packages."
+    },
+    "parking": {
+      "q": "Is there parking available?",
+      "a": "Yes, free parking is available on-site. Spots are limited—arrive 15 minutes early to allow parking time."
     }
   },
-  "contact": {
-    "title": "Get in Touch",
-    "subtitle": "Have questions? We'd love to hear from you!",
-    "formTitle": "Send us a Message",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject",
-    "message": "Message",
-    "send": "Send Message",
-    "infoTitle": "Contact Information",
-    "location": "Location",
-    "phone": "Phone",
-    "emailLabel": "Email",
-    "hours": "Hours",
-    "byAppointment": "By appointment only"
+  "backHome": "Back to Home"
+},
+"shop": {
+  "title": "Our Shop",
+  "subtitle": "Discover handcrafted alpaca products, custom pieces, and premium manure",
+  "explore": "Explore",
+  "woven": {
+    "title": "Woven Collection",
+    "description": "Handcrafted scarves, blankets, and textiles"
+  },
+  "commission": {
+    "title": "Custom Commission",
+    "description": "Create your own unique piece"
+  },
+  "manure": {
+    "title": "Alpaca Manure",
+    "description": "Premium organic fertilizer"
   }
+},
+"wovenPage": {
+  "title": "Woven Collection",
+  "subtitle": "Handcrafted with love using traditional weaving techniques and natural alpaca wool",
+  "addToCart": "Add to Cart",
+  "scarf": "Alpaca Wool Scarf",
+  "blanket": "Woven Blanket",
+  "throw": "Natural Dye Throw",
+  "cushion": "Artisan Cushion Cover",
+  "wallHanging": "Premium Wall Hanging",
+  "poncho": "Eco-Friendly Poncho"
+},
+"commissionPage": {
+  "title": "Custom Commission",
+  "subtitle": "Create your dream piece with custom colors, patterns, and dimensions",
+  "formTitle": "Tell Us About Your Vision",
+  "name": "Your Name",
+  "email": "Email",
+  "description": "Project Description",
+  "submit": "Submit Commission Request"
+},
+"alcacaPage": {
+  "title": "Premium Alpaca Manure",
+  "subtitle": "Rich in nutrients. Certified organic. Sustainably sourced from our farm.",
+  "orderNow": "Order Now",
+  "sample": "Sample Pack (5L)",
+  "bulk": "Bulk (25L)",
+  "wholesale": "Wholesale (100L)",
+  "whyTitle": "Why Choose Alcaca?",
+  "benefit1": "Nutrient-rich organic fertilizer perfect for vegetables, flowers, and herbs",
+  "benefit2": "No harsh chemicals or artificial additives",
+  "benefit3": "Sustainable farming practices support our animal welfare mission"
+},
+"about": {
+  "title": "About Alpacas Ibiza",
+  "storyTitle": "Our Story",
+  "storyText": "Alpacas Ibiza was founded on the belief that tourism can be meaningful, artisanal, and deeply connected to animal welfare. We created the first alpaca farm on the island to share our passion for these gentle creatures and their incredible fiber.",
+  "valuesTitle": "Our Values",
+  "welfare": {
+    "title": "Animal Welfare",
+    "description": "Our alpacas come first in every decision"
+  },
+  "sustainability": {
+    "title": "Sustainability",
+    "description": "Organic practices and environmental responsibility"
+  },
+  "quality": {
+    "title": "Artisanal Quality",
+    "description": "Hand-processed, hand-checked, hand-cared for"
+  },
+  "community": {
+    "title": "Community",
+    "description": "Sharing knowledge and creating connections"
+  }
+},
+"contact": {
+  "title": "Get in Touch",
+  "subtitle": "Have questions? We'd love to hear from you!",
+  "formTitle": "Send us a Message",
+  "name": "Name",
+  "email": "Email",
+  "subject": "Subject",
+  "message": "Message",
+  "send": "Send Message",
+  "infoTitle": "Contact Information",
+  "location": "Location",
+  "phone": "Phone",
+  "emailLabel": "Email",
+  "hours": "Hours",
+  "byAppointment": "By appointment only"
+},
+"footer": {
+  "tagline": "Ibiza's first alpaca farm and artisanal weaving studio",
+  "explore": "Explore",
+  "shopTitle": "Shop",
+  "wovenCollection": "Woven Collection",
+  "customCommission": "Custom Commission",
+  "alpacaManure": "Alpaca Manure (Alcaca)",
+  "aboutUs": "About Us",
+  "contact": "Contact",
+  "privacy": "Privacy Policy",
+  "terms": "Terms of Service",
+  "cookies": "Cookie Policy",
+  "copyright": "All rights reserved."
+},
+"homepage": {
+  "experiences": {
+    "title": "Choose Your Experience",
+    "subtitle": "Curated experiences for every occasion",
+    "corporate": {
+      "title": "Corporate & Team Building",
+      "description": "Disconnect to reconnect. Leadership retreats and team bonding with our gentle herd.",
+      "cta": "Plan Event"
+    },
+    "romantic": {
+      "title": "Romantic Sunset Walks",
+      "description": "Golden hour magic. Private, intimate walks for couples (and proposal planning!).",
+      "cta": "Book Private Tour"
+    },
+    "family": {
+      "title": "Family Farm Days",
+      "description": "Safe, educational fun for all ages. Introduce your little ones to nature.",
+      "cta": "Family Visit"
+    }
+  }
+},
+"corporate": {
+  "title": "Corporate Retreats & Team Building",
+  "subtitle": "Disconnect to reconnect. Bring your team to the peaceful Ibiza countryside for a unique bonding experience with our alpaca herd.",
+  "cta": "Inquire for Teams",
+  "whyTitle": "Why Alpacas for Team Building?",
+  "whyText": "Alpacas are sensitive, calming animals that mirror human energy. interacting with them requires patience, observation, and non-verbal communication—perfect skills for effective teamwork.",
+  "features": {
+    "stress": {
+      "title": "Stress Reduction",
+      "description": "The calming presence of alpacas lowers cortisol and encourages mindfulness."
+    },
+    "communication": {
+      "title": "Communication",
+      "description": "Learn to lead without force. Alpacas respond to calm assertiveness."
+    },
+    "creativity": {
+      "title": "Creativity",
+      "description": "Weaving workshops stimulate creative problem-solving and focus."
+    },
+    "nature": {
+      "title": "Nature Connection",
+      "description": "Get your team out of the office and into the fresh Mediterranean air."
+    }
+  },
+  "itinerary": {
+    "title": "Sample Itinerary",
+    "item1": {
+      "time": "10:00 AM",
+      "title": "Welcome & Refreshments",
+      "desc": "Coffee, tea, and local pastries on the terrace."
+    },
+    "item2": {
+      "time": "10:30 AM",
+      "title": "Meet the Herd",
+      "desc": "Guided introduction to the alpacas. Learn their names and personalities."
+    },
+    "item3": {
+      "time": "11:30 AM",
+      "title": "Team Challenge",
+      "desc": "Interactive activity: Leading an alpaca through a simple agility course requiring teamwork."
+    },
+    "item4": {
+      "time": "1:00 PM",
+      "title": "Farm Lunch",
+      "desc": "Organic, locally sourced picnic lunch under the carob trees."
+    }
+  },
+  "planTitle": "Ready to Plan Your Event?",
+  "planText": "We customize every corporate package to your team's size and goals. Contact us for a quote.",
+  "planCta": "Request Proposal"
+},
+"romantic": {
+  "title": "Sunset Romantic Walks",
+  "subtitle": "Golden hour with the alpacas. A private, intimate experience for couples in the heart of Ibiza.",
+  "cta": "Book Private Sunset Tour",
+  "quote": "\"The most magical date we've ever had.\"",
+  "description": "Escape the crowds. Just you, your partner, and our gentle alpacas wandering through the orange groves as the sun dips below the hills.",
+  "champagne": {
+    "title": "Champagne",
+    "desc": "Optional Cava add-on to toast the sunset."
+  },
+  "photos": {
+    "title": "Photos",
+    "desc": "Your guide captures candid moments so you can stay present."
+  },
+  "privacy": {
+    "title": "Privacy",
+    "desc": "Strictly private tours available upon request."
+  },
+  "proposalTitle": "Perfect for Proposals",
+  "proposalText": "Thinking of popping the question? We can help orchestrate the perfect moment with the alpacas as your witnesses.",
+  "proposalCta": "Contact to Arrange"
+},
+"family": {
+  "title": "Family Farm Days",
+  "subtitle": "Introduce your children to the joy of animals. Safe, educational, and fun for all ages.",
+  "cta": "Book Family Visit",
+  "educationTitle": "Education meets Adorable",
+  "educationText": "Our farm isn't just a petting zoo—it's an educational experience. Kids learn:",
+  "points": {
+    "respect": "Respect: How to approach animals gently.",
+    "biology": "Biology: Why alpacas have soft fleece and pads instead of hooves.",
+    "sustainability": "Sustainability: How we use alpaca manure (\"Oro Negro\") for farming."
+  },
+  "safetyTitle": "Safety First",
+  "safety": {
+    "gentle": {
+      "title": "Gentle Animals",
+      "desc": "Our herd is socialized and used to children."
+    },
+    "stroller": {
+      "title": "Stroller Friendly",
+      "desc": "Paths are accessible for sturdy strollers."
+    },
+    "hygiene": {
+      "title": "Hygiene",
+      "desc": "Hand washing stations available."
+    },
+    "refreshments": {
+      "title": "Refreshments",
+      "desc": "Kid-friendly drinks and snacks."
+    }
+  },
+  "faq": {
+    "age": {
+      "q": "What is the minimum age?",
+      "a": "We welcome all ages! Children under 3 are free. We recommend ages 4+ for the full walking experience."
+    },
+    "safe": {
+      "q": "Are the alpacas safe?",
+      "a": "Yes, alpacas do not bite (they only have bottom teeth!) and are generally very calm. We teach your children exactly how to interact safely."
+    },
+    "duration": {
+      "q": "How long is the visit?",
+      "a": "Family visits are typically 1.5 to 2 hours, which is perfect for shorter attention spans."
+    }
+  }
+},
+"about": {
+  "title": "About Alpacas Ibiza",
+  "storyTitle": "Our Story",
+  "storyText": "Alpacas Ibiza was founded on the belief that tourism can be meaningful, artisanal, and deeply connected to animal welfare. We created the first alpaca farm on the island to share our passion for these gentle creatures and their incredible fiber.",
+  "valuesTitle": "Our Values",
+  "welfare": {
+    "title": "Animal Welfare",
+    "description": "Our alpacas come first in every decision"
+  },
+  "sustainability": {
+    "title": "Sustainability",
+    "description": "Organic practices and environmental responsibility"
+  },
+  "quality": {
+    "title": "Artisanal Quality",
+    "description": "Hand-processed, hand-checked, hand-cared for"
+  },
+  "community": {
+    "title": "Community",
+    "description": "Sharing knowledge and creating connections"
+  }
+},
+"contact": {
+  "title": "Get in Touch",
+  "subtitle": "Have questions? We'd love to hear from you!",
+  "formTitle": "Send us a Message",
+  "name": "Name",
+  "email": "Email",
+  "subject": "Subject",
+  "message": "Message",
+  "send": "Send Message",
+  "infoTitle": "Contact Information",
+  "location": "Location",
+  "phone": "Phone",
+  "emailLabel": "Email",
+  "hours": "Hours",
+  "byAppointment": "By appointment only"
+}
 }
