@@ -44,6 +44,18 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
               ))}
             </div>
           </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">
+              {translate('about.weavingTitle')}
+            </h2>
+            <p className="text-lg text-primary/80 mb-4 italic">
+              {translate('about.weavingSubtitle')}
+            </p>
+            <p className="text-foreground/70 mb-4">
+              {translate('about.weavingDescription')}
+            </p>
+          </div>
         </div>
       </section>
     </main>
