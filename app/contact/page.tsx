@@ -28,10 +28,10 @@ export default function ContactPage() {
                 For general inquiries and orders
               </p>
               <a
-                href="mailto:hello@alpacasibiza.com"
+                href="mailto:info@alpacasibiza.com"
                 className="text-accent hover:text-accent/80 font-medium text-sm"
               >
-                hello@alpacasibiza.com
+                info@alpacasibiza.com
               </a>
             </Card>
 
@@ -44,12 +44,12 @@ export default function ContactPage() {
                 Quick messages and support
               </p>
               <a
-                href="https://wa.me/34600000000"
+                href="https://wa.me/32475586544"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent hover:text-accent/80 font-medium text-sm"
               >
-                +34 600 000 000
+                +32 475 58 65 44
               </a>
             </Card>
 
@@ -84,12 +84,12 @@ export default function ContactPage() {
             <p className="text-foreground/70">
               <strong className="text-foreground">Prefer social media?</strong> Follow us on{' '}
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/wishfulfillingweaving/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent hover:underline"
               >
-                Instagram @alpacasibiza
+                Instagram @wishfulfillingweaving
               </a>{' '}
               and DM us anytime.
             </p>
@@ -237,7 +237,7 @@ export default function ContactPage() {
               Didn't find an answer? Send us a message or reach out directly.
             </p>
             <a
-              href="mailto:hello@alpacasibiza.com"
+              href="mailto:info@alpacasibiza.com"
               className="inline-flex items-center justify-center px-6 py-3 bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg font-medium transition-colors"
             >
               Email Us

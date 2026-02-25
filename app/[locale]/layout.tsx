@@ -25,7 +25,7 @@ export default function LocaleLayout({
         image: 'https://alpacasibiza.com/images/hero.jpg', // Placeholder
         '@id': 'https://alpacasibiza.com',
         url: 'https://alpacasibiza.com',
-        telephone: '+34123456789', // Placeholder
+        telephone: '+32475586544',
         address: {
             '@type': 'PostalAddress',
             streetAddress: 'Polígono 13, Parcela 42', // Placeholder

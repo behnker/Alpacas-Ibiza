@@ -2,6 +2,7 @@ import React from 'react'
 import Script from 'next/script'
 import type { Metadata, Viewport } from 'next'
 import { Geist, Playfair_Display } from 'next/font/google'
+import { GoogleAnalytics } from '@/components/google-analytics'
 
 import './globals.css'
 
@@ -45,6 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans antialiased">
+        <GoogleAnalytics />
         {children}
         <Script
           src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes&shortname=alpacasibiza"

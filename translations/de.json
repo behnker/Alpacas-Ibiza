@@ -8,9 +8,9 @@
     "language": "Sprache"
   },
   "hero": {
-    "title": "Ibizas erste Alpaka-Farm & Webstudio",
-    "subtitle": "Erleben Sie handwerkliche Webkunst, treffen Sie unsere Alpakas, kaufen Sie handgefertigte Wollprodukte und entdecken Sie nachhaltige Landwirtschaft. Willkommen an einem Ort, wo Tradition auf mediterrane Ruhe trifft.",
-    "ctaPrimary": "Tour buchen",
+    "title": "Es Currals Alpacas Ibiza",
+    "subtitle": "Die allererste Alpakafarm auf Ibiza, gelegen im ländlichen Norden auf einer authentischen Finca. Heimat von Wishfulfilling Weaving, wo exklusive Schals auf einem traditionellen Holzwebstuhl aus Alpakawolle handgewebt werden.",
+    "ctaPrimary": "Besuch planen",
     "ctaSecondary": "Jetzt einkaufen"
   },
   "paths": {
@@ -36,19 +36,19 @@
     }
   },
   "features": {
-    "sectionTitle": "Warum Alpacas Ibiza wählen",
-    "sectionSubtitle": "Wir verbinden Gastfreundschaft, Handwerkskunst und Tierwohl in jedem Erlebnis",
+    "sectionTitle": "Warum Es Currals Alpacas Ibiza wählen",
+    "sectionSubtitle": "Ibizas erste Alpakafarm auf einer authentischen Finca im ländlichen Norden",
     "farm": {
-      "title": "Arbeitende Farm",
-      "description": "Eine echte, aktive Alpakafarm und Webstudio im Herzen Ibizas. Jedes Stück erzählt eine Geschichte unserer Tiere und unseres Landes."
+      "title": "Authentische Finca",
+      "description": "Gelegen im ländlichen Norden Ibizas auf einer authentischen Finca in einer wunderschönen natürlichen Umgebung. Erleben Sie echtes Landleben."
     },
     "artisan": {
-      "title": "Handwerklicher Prozess",
-      "description": "Handverarbeitete Fasern, natürliche Farbstoffe, traditionelle Muster. Jeder Schritt ehrt das Handwerk und die Alpakas."
+      "title": "Traditionelles Weben",
+      "description": "Handgewebte exklusive Schals auf einem traditionellen Holzwebstuhl aus hochwertiger Alpakawolle, Leinen, Mohair und Seide."
     },
     "sustainable": {
-      "title": "Nachhaltig & Natürlich",
-      "description": "Bio-Praktiken, umweltfreundliche Produkte, biologisch abbaubare Verpackungen. Fürsorge für Tiere und Planeten."
+      "title": "Made in Ibiza",
+      "description": "Wishfulfilling Weaving – Made in Ibiza, die Welt umarmend. Nachhaltige Praktiken mit unserer eigenen Alpakawolle. Fürsorge für Tiere und Planeten."
     },
     "appointment": {
       "title": "Nur nach Vereinbarung",
@@ -95,14 +95,178 @@
     "title": "Buchen Sie Ihr Alpaka-Erlebnis",
     "subtitle": "Begrenzte Plätze auf Anfrage. Jeder Besuch ist intim und persönlich.",
     "reserveTitle": "Reservieren Sie Ihren Besuch",
-    "reserveText": "Unser Buchungssystem wird von FareHarbor betrieben. Klicken Sie auf die Schaltfläche unten, um Datum und Uhrzeit auszuwählen.",
+    "reserveText": "Wählen Sie Ihr bevorzugtes Datum und Ihre Uhrzeit, um Ihren Besuch bei unseren Alpakas zu buchen.",
     "integrationTitle": "FareHarbor-Integration",
     "integrationText": "Um das FareHarbor-Buchungs-Widget zu aktivieren, fügen Sie Ihre Unternehmens-ID in den Umgebungsvariablen hinzu.",
+    "heroTitle": "Besuchen Sie Alpacas Ibiza",
+    "heroSubtitle": "Begleiten Sie uns für ein unvergessliches Farm-Erlebnis. Treffen Sie unsere Alpakas, lernen Sie handwerkliches Weben und tauchen Sie ein in Ibizas friedliche Landschaft.",
+    "heroCta": "Buchen Sie Ihren Besuch",
+    "tourOptionsTitle": "Tour-Optionen",
+    "tourOptionsSubtitle": "Wählen Sie das Erlebnis, das Sie anspricht",
+    "tourTypes": {
+      "meetHerd": {
+        "title": "Die Herde treffen",
+        "description": "Verbinden Sie sich mit unseren Alpakas, lernen Sie ihre Persönlichkeiten kennen und verstehen Sie ihre Pflege und ihr Wohlbefinden."
+      },
+      "weaving": {
+        "title": "Web-Workshop",
+        "description": "Praktische Einführung in die Faserkunst. Probieren Sie Handverarbeitung, natürliches Färben oder einfaches Weben."
+      },
+      "farm": {
+        "title": "Farm-Erlebnis",
+        "description": "Erkunden Sie das Land, sehen Sie unsere nachhaltigen Praktiken und genießen Sie die mediterrane Landschaft."
+      },
+      "photo": {
+        "title": "Fotosession",
+        "description": "Professionelle oder persönliche Fotografie mit Alpakas und malerischen Kulissen. Perfekt für Erinnerungen."
+      }
+    },
+    "timelineTitle": "Was Sie bei einer Tour erwartet",
+    "timeline": {
+      "arrival": {
+        "time": "Ankunft",
+        "title": "Willkommen & Orientierung",
+        "description": "Treffen Sie Ihren Guide, erhalten Sie einen Überblick über den Tag und lernen Sie die Farmrichtlinien. Kommen Sie an und lassen Sie die Ruhe auf sich wirken."
+      },
+      "morning": {
+        "time": "Vormittag",
+        "title": "Die Alpakas treffen",
+        "description": "Verbringen Sie Zeit mit unserer Herde. Füttern, streicheln und lernen Sie die Geschichten unserer Tiere. Guides teilen Einblicke in das Verhalten und die Pflege der Alpakas."
+      },
+      "midday": {
+        "time": "Mittag",
+        "title": "Webstudio-Tour",
+        "description": "Erkunden Sie unser Studio. Sehen Sie den gesamten Prozess: Faservorbereitung, natürliches Färben, traditionelle Muster und finale Verarbeitung."
+      },
+      "afternoon": {
+        "time": "Nachmittag",
+        "title": "Praktische Aktivität",
+        "description": "Nehmen Sie an einem Workshop oder einer Aktivität teil, die auf Ihre Interessen zugeschnitten ist: Probieren Sie Handkartieren, Färben oder einfache Webtechniken."
+      },
+      "closing": {
+        "time": "Abschluss",
+        "title": "Entspannen & Reflektieren",
+        "description": "Lassen Sie den Tag mit Erfrischungen ausklingen. Stöbern Sie in unserem Shop. Stellen Sie letzte Fragen. Gehen Sie mit einem Herzen voller Erinnerungen."
+      }
+    },
+    "planVisit": {
+      "hours": {
+        "title": "Öffnungszeiten",
+        "description": "Touren nur nach Vereinbarung. Verfügbarkeit variiert je nach Saison.",
+        "summer": "Sommer: Erweiterte Öffnungszeiten",
+        "winter": "Winter: Begrenzte Verfügbarkeit",
+        "contact": "Kontaktieren Sie uns für genaue Zeiten"
+      },
+      "location": {
+        "title": "Standort",
+        "description": "Ibiza, Spanien",
+        "details": "Private Farm. Wegbeschreibung und Parkinformationen werden bei der Buchung mitgeteilt."
+      },
+      "pricing": {
+        "title": "Preise",
+        "starting": "Ab 30 € pro Person",
+        "custom": "Maßgeschneiderte Erlebnisse und Gruppenrabatte verfügbar"
+      },
+      "specialEvents": {
+        "title": "Besondere Events & Private Buchungen",
+        "description": "Hochzeiten, Fotoshootings, Alpaka-Yoga, Workshops, Firmenretreats — wir gestalten maßgeschneiderte Erlebnisse nach Ihren Vorstellungen.",
+        "cta": "Individuelles Erlebnis anfragen"
+      }
+    },
+    "bookingSection": {
+      "title": "Buchen Sie Ihren Besuch",
+      "subtitle": "Wählen Sie Ihr bevorzugtes Datum und Ihre Uhrzeit, um Ihr Alpaka-Erlebnis zu reservieren.",
+      "cardTitle": "Ihren Besuch reservieren",
+      "cardSubtitle": "Klicken Sie auf die Schaltfläche unten, um zur Buchungsseite zu gelangen und Ihren Platz zu sichern.",
+      "bookNow": "Jetzt buchen",
+      "poweredBy": "Buchung über FareHarbor",
+      "questions": "Fragen?",
+      "questionsText": "Kontaktieren Sie uns unter hello@alpacasibiza.com oder per WhatsApp für persönliche Beratung."
+    },
+    "questionsText": "Kontaktieren Sie uns unter hello@alpacasibiza.com oder per WhatsApp für persönliche Beratung.",
     "backHome": "Zurück zur Startseite"
   },
+  "guestStories": {
+    "title": "Gästegeschichten",
+    "subtitle": "Sehen Sie, was Besucher über ihre Erfahrung sagen",
+    "testimonial": "Ein unvergessliches Erlebnis. Die Alpakas waren wunderbar, die Guides waren kompetent und warmherzig, und die gesamte Farm strahlte Frieden und Authentizität aus.",
+    "guest": "Gast",
+    "visited": "Kürzlich besucht",
+    "translateButton": "Übersetzen",
+    "showOriginal": "Original anzeigen",
+    "readMore": "Mehr Bewertungen auf Facebook lesen",
+    "reviews": {
+      "sue": "Ich war Ende August zu Besuch und hatte eine fantastische Zeit! Ibiza hat neben der Musik so viel zu bieten und ich würde einen Besuch bei den wunderschönen Alpakas sehr empfehlen. Man kann sie füttern und so viel über diese erstaunlichen Tiere lernen ❤️. Ich wurde herzlich empfangen und hatte eine wertvolle Erfahrung. Geht hin und seht sie euch an – ihr werdet sie lieben!",
+      "verena": "Wir waren zu Besuch bei den süßen, flauschigen Alpakas. Ein super nettes Pärchen führt dich durch die Gehege der Alpakas mit tollen Informationen über diese Tiere. Du hast die Möglichkeit die Tiere zu füttern, streicheln und auch ein AlpakaBussi zu geben. Die Tiere sind sehr zutraulich und freuen sich riesig über deine Nähe und Futter. Es war eine tolle Erfahrung und ich kann sie nur jedem empfehlen, der auf Ibiza ist. 🤗🥳",
+      "gemma": "Ich habe eine Gruppenbuchung für 6 Personen für Freitag, den 9. Mai gemacht. Bart meldete sich und teilte mir mit, dass sie an diesem Tag wegen der Alpaka-Schur geschlossen hatten. Dann bot er freundlicherweise an, uns am Tag zuvor aufzunehmen, obwohl die Farm geschlossen war. Das Erlebnis selbst war fantastisch. Bart war sehr kompetent und freundlich und die Alpakas waren so süß. Alle Alpakas werden sehr gut versorgt und lieben Bart, was zeigt, wie sehr er sie liebt.",
+      "renate": "Super leuk om te doen met onze 2 jongens van 12 jaar oud maar eigenlijk leuk voor alle leeftijden. Wij wisten eigenlijk niets van Alpaca's, was heel interessant! precies een uur bezig geweest.",
+      "sven": "Sehr empfehlenswert! Bart & San führen einen fantastischen Betrieb. Das ultimative Chill-Out-Erlebnis 🦙❤️🦙",
+      "paul": "War am 23. September dort, tolle Tour, Bart ist so kompetent und freundlich. Wenn Sie ein Auto haben, ist es ein Muss 😀🦙"
+    }
+  },
+  "faq": {
+    "sectionTitle": "Häufig gestellte Fragen",
+    "sectionSubtitle": "Alles, was Sie vor Ihrem Besuch wissen müssen",
+    "duration": {
+      "q": "Wie lange dauert eine typische Tour?",
+      "a": "Standardtouren dauern 2–3 Stunden. Workshops und erweiterte Erlebnisse können angepasst werden. Wir empfehlen, die verfügbaren Zeitfenster bei der Buchung zu prüfen."
+    },
+    "languages": {
+      "q": "In welchen Sprachen bieten Sie Touren an?",
+      "a": "Wir bieten Touren auf Englisch, Spanisch und Niederländisch an. Wenn Sie eine andere Sprache benötigen, kontaktieren Sie uns bitte."
+    },
+    "children": {
+      "q": "Sind Besuche für Kinder geeignet?",
+      "a": "Ja! Touren sind familienfreundlich. Kinder sollten beaufsichtigt werden, besonders in der Nähe der Tiere. Wir empfehlen ein Alter ab 4 Jahren, aber jüngere Kinder können unter elterlicher Aufsicht mitkommen."
+    },
+    "wear": {
+      "q": "Was sollte ich anziehen?",
+      "a": "Tragen Sie bequeme, geschlossene Schuhe, die für Farmgelände geeignet sind. Bringen Sie im Sommer Sonnenschutz mit. Leichte Schichten sind ideal, da die Farm im Freien liegt. Vermeiden Sie laute Farben oder starke Parfums, um die Alpakas ruhig zu halten."
+    },
+    "accessibility": {
+      "q": "Ist die Farm für Menschen mit Behinderungen zugänglich?",
+      "a": "Unsere Farm liegt auf natürlichem Gelände. Bitte kontaktieren Sie uns im Voraus, um die Zugänglichkeit zu besprechen und wie wir Ihre Bedürfnisse berücksichtigen können."
+    },
+    "food": {
+      "q": "Können wir Essen oder Getränke mitbringen?",
+      "a": "Mitgebrachtes Essen ist nicht gestattet, aber wir bieten Bio-Erfrischungen an. Wir berücksichtigen diätetische Einschränkungen — erwähnen Sie diese bei der Buchung."
+    },
+    "booking": {
+      "q": "Wie buche ich eine Tour?",
+      "a": "Nutzen Sie unser Online-Buchungssystem unten, um die Verfügbarkeit zu prüfen und Ihren Platz zu reservieren. Gruppenbuchungen und individuelle Erlebnisse: Kontaktieren Sie uns für Optionen."
+    },
+    "cancellation": {
+      "q": "Was ist, wenn ich stornieren oder umbuchen muss?",
+      "a": "Stornierungen bis 48 Stunden vor Ihrer Tour erhalten eine vollständige Rückerstattung oder Umbuchung. Bei kürzerer Frist fällt eine Gebühr von 50% an."
+    },
+    "private": {
+      "q": "Bieten Sie private Touren oder Gruppenevents an?",
+      "a": "Ja! Wir bieten private Farm-Erlebnisse, Hochzeiten, Firmenretreats und Alpaka-Yoga-Sessions an. Kontaktieren Sie uns für individuelle Pakete."
+    },
+    "parking": {
+      "q": "Gibt es Parkmöglichkeiten?",
+      "a": "Ja, kostenlose Parkplätze sind vor Ort verfügbar. Die Plätze sind begrenzt — kommen Sie 15 Minuten früher, um Zeit zum Parken einzuplanen."
+    }
+  },
+  "backHome": "Zurück zur Startseite",
   "shop": {
-    "title": "Unser Shop",
-    "subtitle": "Entdecken Sie handgefertigte Alpakaprodukte, Sonderanfertigungen und Premium-Dünger",
+    "title": "Wishfulfilling Weaving Kollektion",
+    "subtitle": "Made in Ibiza, die Welt umarmend",
+    "description": "Handgewebte exklusive Schals auf einem traditionellen Holzwebstuhl aus hochwertiger Alpakawolle, Leinen, Mohair und Seidenwolle.",
+    "categories": {
+      "woven": {
+        "title": "Gewobene Kollektion",
+        "description": "Exklusive handgewebte Schals und Textilien"
+      },
+      "commission": {
+        "title": "Sonderanfertigung",
+        "description": "Erstellen Sie Ihr eigenes einzigartiges Stück mit individuellen Farben und Mustern"
+      },
+      "alcaca": {
+        "title": "Alcaca – Alpaka-Dünger",
+        "description": "Premium-Bio-Dünger von unseren Alpakas"
+      }
+    },
     "explore": "Erkunden",
     "woven": {
       "title": "Gewobene Kollektion",
@@ -154,6 +318,9 @@
     "storyTitle": "Unsere Geschichte",
     "storyText": "Alpacas Ibiza wurde gegründet in dem Glauben, dass Tourismus bedeutungsvoll, handwerklich und tief mit Tierwohl verbunden sein kann. Wir haben die erste Alpakafarm der Insel gegründet, um unsere Leidenschaft für diese sanften Geschöpfe und ihre erstaunliche Faser zu teilen.",
     "valuesTitle": "Unsere Werte",
+    "weavingTitle": "Wishfulfilling Weaving",
+    "weavingSubtitle": "Made in Ibiza, die Welt umarmend",
+    "weavingDescription": "Wishfulfilling Weaving ist unsere einzigartige Weblinie. San webt exklusive Schals auf einem traditionellen Holzwebstuhl, wobei sie hochwertige Alpakawolle, Leinen, Mohair und Seide verwendet. Jedes Stück wird mit Intention und Liebe auf Ibiza handgefertigt.",
     "welfare": {
       "title": "Tierwohl",
       "description": "Unsere Alpakas stehen in jeder Entscheidung an erster Stelle"
@@ -201,29 +368,285 @@
     "cookies": "Cookie-Richtlinie",
     "copyright": "Alle Rechte vorbehalten."
   },
-  "guestStories": {
-    "title": "Gästegeschichten",
-    "subtitle": "Sehen Sie, was Besucher über ihre Erfahrung sagen",
-    "translateButton": "Übersetzen",
-    "showOriginal": "Original anzeigen",
-    "readMore": "Mehr Bewertungen auf Facebook lesen",
-    "reviews": {
-      "sue": "Ich war Ende August zu Besuch und hatte eine fantastische Zeit! Ibiza hat neben der Musik so viel zu bieten und ich würde einen Besuch bei den wunderschönen Alpakas sehr empfehlen. Man kann sie füttern und so viel über diese erstaunlichen Tiere lernen ❤️. Ich wurde herzlich empfangen und hatte eine wertvolle Erfahrung. Geht hin und seht sie euch an – ihr werdet sie lieben!",
-      "verena": "Wir waren zu Besuch bei den süßen, flauschigen Alpakas. Ein super nettes Pärchen führt dich durch die Gehege der Alpakas mit tollen Informationen über diese Tiere. Du hast die Möglichkeit die Tiere zu füttern, streicheln und auch ein AlpakaBussi zu geben. Die Tiere sind sehr zutraulich und freuen sich riesig über deine Nähe und Futter. Es war eine tolle Erfahrung und ich kann sie nur jedem empfehlen, der auf Ibiza ist. 🤗🥳",
-      "gemma": "Ich habe eine Gruppenbuchung für 6 Personen für Freitag, den 9. Mai gemacht. Bart meldete sich und teilte mir mit, dass sie an diesem Tag wegen der Alpaka-Schur geschlossen hatten. Dann bot er freundlicherweise an, uns am Tag zuvor aufzunehmen, obwohl die Farm geschlossen war. Das Erlebnis selbst war fantastisch. Bart war sehr kompetent und freundlich und die Alpakas waren so süß. Alle Alpakas werden sehr gut versorgt und lieben Bart, was zeigt, wie sehr er sie liebt.",
-      "renate": "Super leuk om te doen met onze 2 jongens van 12 jaar oud maar eigenlijk leuk voor alle leeftijden. Wij wisten eigenlijk niets van Alpaca's, was heel interessant! precies een uur bezig geweest.",
-      "sven": "Sehr empfehlenswert! Bart & San führen einen fantastischen Betrieb. Das ultimative Chill-Out-Erlebnis 🦙❤️🦙",
-      "paul": "War am 23. September dort, tolle Tour, Bart ist so kompetent und freundlich. Wenn Sie ein Auto haben, ist es ein Muss 😀🦙"
-    }
-  },
-  "faq": {
-    "sectionTitle": "Häufig gestellte Fragen",
-    "sectionSubtitle": "Alles, was Sie vor Ihrem Besuch wissen müssen"
-  },
   "homepage": {
     "experiences": {
       "title": "Wählen Sie Ihr Erlebnis",
-      "subtitle": "Entdecken Sie unsere Farm, kaufen Sie handwerkliche Produkte oder bestellen Sie etwas Einzigartiges"
+      "subtitle": "Kuratierte Erlebnisse für jeden Anlass",
+      "corporate": {
+        "title": "Firmen & Teambuilding",
+        "description": "Abschalten, um sich zu verbinden. Führungskräfte-Retreats und Teambuilding mit unserer sanften Herde.",
+        "cta": "Event planen"
+      },
+      "romantic": {
+        "title": "Romantische Sonnenuntergangsspaziergänge",
+        "description": "Goldene-Stunde-Magie. Private, intime Spaziergänge für Paare (und Heiratsanträge!).",
+        "cta": "Privattour buchen"
+      },
+      "family": {
+        "title": "Familien-Farmtage",
+        "description": "Sicherer, pädagogischer Spaß für alle Altersgruppen. Bringen Sie Ihre Kleinen der Natur näher.",
+        "cta": "Familienbesuch"
+      }
     }
+  },
+  "corporate": {
+    "title": "Firmenretreats & Teambuilding",
+    "subtitle": "Abschalten, um sich zu verbinden. Bringen Sie Ihr Team in die friedliche Landschaft Ibizas für ein einzigartiges Bonding-Erlebnis mit unserer Alpaka-Herde.",
+    "cta": "Anfrage für Teams",
+    "whyTitle": "Warum Alpakas fürs Teambuilding?",
+    "whyText": "Alpakas sind sensible, beruhigende Tiere, die menschliche Energie widerspiegeln. Der Umgang mit ihnen erfordert Geduld, Beobachtungsgabe und nonverbale Kommunikation — perfekte Fähigkeiten für effektive Teamarbeit.",
+    "features": {
+      "stress": {
+        "title": "Stressabbau",
+        "description": "Die beruhigende Präsenz der Alpakas senkt Cortisol und fördert Achtsamkeit."
+      },
+      "communication": {
+        "title": "Kommunikation",
+        "description": "Lernen Sie, ohne Zwang zu führen. Alpakas reagieren auf ruhige Bestimmtheit."
+      },
+      "creativity": {
+        "title": "Kreativität",
+        "description": "Web-Workshops stimulieren kreatives Problemlösen und Konzentration."
+      },
+      "nature": {
+        "title": "Naturverbindung",
+        "description": "Holen Sie Ihr Team aus dem Büro und in die frische Mittelmeerluft."
+      }
+    },
+    "itinerary": {
+      "title": "Beispiel-Programm",
+      "item1": {
+        "time": "10:00 Uhr",
+        "title": "Willkommen & Erfrischungen",
+        "desc": "Kaffee, Tee und lokales Gebäck auf der Terrasse."
+      },
+      "item2": {
+        "time": "10:30 Uhr",
+        "title": "Die Herde treffen",
+        "desc": "Geführte Vorstellung der Alpakas. Lernen Sie ihre Namen und Persönlichkeiten kennen."
+      },
+      "item3": {
+        "time": "11:30 Uhr",
+        "title": "Team-Challenge",
+        "desc": "Interaktive Aktivität: Ein Alpaka durch einen einfachen Geschicklichkeitsparcours führen, der Teamarbeit erfordert."
+      },
+      "item4": {
+        "time": "13:00 Uhr",
+        "title": "Farm-Mittagessen",
+        "desc": "Bio, regional bezogenes Picknick-Mittagessen unter den Johannisbrotbäumen."
+      }
+    },
+    "planTitle": "Bereit, Ihr Event zu planen?",
+    "planText": "Wir passen jedes Firmenpaket an die Größe und Ziele Ihres Teams an. Kontaktieren Sie uns für ein Angebot.",
+    "planCta": "Angebot anfordern"
+  },
+  "romantic": {
+    "title": "Romantische Sonnenuntergangsspaziergänge",
+    "subtitle": "Goldene Stunde mit den Alpakas. Ein privates, intimes Erlebnis für Paare im Herzen Ibizas.",
+    "cta": "Private Sonnenuntergangstour buchen",
+    "quote": "\"Das magischste Date, das wir je hatten.\"",
+    "description": "Entfliehen Sie den Menschenmassen. Nur Sie, Ihr Partner und unsere sanften Alpakas, die durch die Orangenhaine wandern, während die Sonne hinter den Hügeln versinkt.",
+    "champagne": {
+      "title": "Champagner",
+      "desc": "Optionaler Cava-Zusatz, um auf den Sonnenuntergang anzustoßen."
+    },
+    "photos": {
+      "title": "Fotos",
+      "desc": "Ihr Guide hält offen Momente fest, damit Sie im Moment bleiben können."
+    },
+    "privacy": {
+      "title": "Privatsphäre",
+      "desc": "Streng private Touren auf Anfrage verfügbar."
+    },
+    "proposalTitle": "Perfekt für Heiratsanträge",
+    "proposalText": "Denken Sie daran, die Frage zu stellen? Wir können helfen, den perfekten Moment mit den Alpakas als Ihren Zeugen zu inszenieren.",
+    "proposalCta": "Kontaktieren zur Planung"
+  },
+  "family": {
+    "title": "Familien-Farmtage",
+    "subtitle": "Bringen Sie Ihren Kindern die Freude an Tieren näher. Sicher, pädagogisch und Spaß für alle Altersgruppen.",
+    "cta": "Familienbesuch buchen",
+    "educationTitle": "Bildung trifft auf Niedlichkeit",
+    "educationText": "Unsere Farm ist nicht nur ein Streichelzoo — sie ist ein pädagogisches Erlebnis. Kinder lernen:",
+    "points": {
+      "respect": "Respekt: Wie man Tiere sanft annähert.",
+      "biology": "Biologie: Warum Alpakas weiches Vlies und Polster statt Hufe haben.",
+      "sustainability": "Nachhaltigkeit: Wie wir Alpaka-Dünger (\"Oro Negro\") für die Landwirtschaft nutzen."
+    },
+    "safetyTitle": "Sicherheit zuerst",
+    "safety": {
+      "gentle": {
+        "title": "Sanfte Tiere",
+        "desc": "Unsere Herde ist sozialisiert und an Kinder gewöhnt."
+      },
+      "stroller": {
+        "title": "Kinderwagenfreundlich",
+        "desc": "Wege sind für robuste Kinderwagen zugänglich."
+      },
+      "hygiene": {
+        "title": "Hygiene",
+        "desc": "Handwaschstationen verfügbar."
+      },
+      "refreshments": {
+        "title": "Erfrischungen",
+        "desc": "Kinderfreundliche Getränke und Snacks."
+      }
+    },
+    "faq": {
+      "age": {
+        "q": "Ab welchem Alter?",
+        "a": "Wir heißen alle Altersgruppen willkommen! Kinder unter 3 sind kostenlos. Wir empfehlen ein Alter ab 4 Jahren für das volle Wandererlebnis."
+      },
+      "safe": {
+        "q": "Sind die Alpakas sicher?",
+        "a": "Ja, Alpakas beißen nicht (sie haben nur untere Zähne!) und sind generell sehr ruhig. Wir bringen Ihren Kindern genau bei, wie sie sicher interagieren können."
+      },
+      "duration": {
+        "q": "Wie lange dauert der Besuch?",
+        "a": "Familienbesuche dauern typischerweise 1,5 bis 2 Stunden, was perfekt für kürzere Aufmerksamkeitsspannen ist."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "subtitle": "Wie wir Ihre Informationen sammeln, verwenden und schützen",
+    "section1Title": "1. Informationen, die wir sammeln",
+    "section1Intro": "Wir sammeln Informationen, die Sie direkt bereitstellen:",
+    "section1Items": [
+      "Buchungsdetails (Name, E-Mail, Telefon)",
+      "Bestellinformationen (Lieferadresse, Zahlungsinformation)",
+      "Auftragsanfragen (Projektdetails, Präferenzen)",
+      "Newsletter-Anmeldung (E-Mail-Adresse)",
+      "Kontaktformular-Eingaben"
+    ],
+    "section2Title": "2. Wie wir Ihre Informationen verwenden",
+    "section2Items": [
+      "Tourbuchungen und Bestellungen abwickeln",
+      "Bestätigungs-E-Mails und Updates senden",
+      "Auf Anfragen antworten",
+      "Unsere Website und Dienstleistungen verbessern",
+      "Newsletter senden (Sie können sich jederzeit abmelden)",
+      "Gesetzliche Verpflichtungen erfüllen"
+    ],
+    "section3Title": "3. Datenschutz",
+    "section3Intro": "Wir nehmen Ihre Privatsphäre ernst. Ihre Daten werden verschlüsselt und sicher gespeichert. Wir geben Ihre Informationen nicht an Dritte weiter, außer:",
+    "section3Items": [
+      "Zahlungsanbieter (für sichere Transaktionen)",
+      "Buchungssysteme (FareHarbor, bei Bedarf)",
+      "Gesetzliche Anforderungen (wenn gesetzlich vorgeschrieben)"
+    ],
+    "section4Title": "4. Cookies & Tracking",
+    "section4Text": "Wir verwenden Cookies, um Ihr Erlebnis zu verbessern. Wesentliche Cookies sind für die Funktionalität erforderlich. Sie können Cookie-Einstellungen in Ihrem Browser oder unserem Cookie-Banner steuern.",
+    "section5Title": "5. Ihre Rechte",
+    "section5Intro": "Sie haben das Recht:",
+    "section5Items": [
+      "Auf Ihre Daten zuzugreifen",
+      "Ungenaue Informationen zu korrigieren",
+      "Löschung zu beantragen (Recht auf Vergessenwerden)",
+      "Marketing-Kommunikation abzulehnen"
+    ],
+    "lastUpdated": "Zuletzt aktualisiert: Februar 2024. Kontaktieren Sie uns unter hello@alpacasibiza.com für Datenschutzanfragen."
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "subtitle": "Bitte lesen Sie diese Bedingungen, bevor Sie unsere Website und Buchungsdienste nutzen",
+    "section1Title": "1. Buchung & Touren",
+    "section1Intro": "Mit der Buchung einer Tour stimmen Sie zu:",
+    "section1Items": [
+      "Alle Farm- und Tiersicherheitsrichtlinien zu befolgen",
+      "15 Minuten vor Ihrer geplanten Zeit anzukommen",
+      "Die Alpakas und das Farmgelände zu respektieren",
+      "Einen gültigen Ausweis mitzubringen, falls erforderlich",
+      "Alle geltenden Gesundheits-/Sicherheitsprotokolle zu befolgen"
+    ],
+    "section2Title": "2. Stornierung & Rückerstattungen",
+    "section2Items": [
+      "Stornierung bis 48 Stunden vorher: Vollständige Rückerstattung oder Umbuchung",
+      "Stornierung weniger als 48 Stunden vorher: 50% Gebühr",
+      "Nicht-Erscheinen: Volle Zahlung verwirkt",
+      "Wetterbedingte Schließung: Vollständige Rückerstattung oder Umbuchung"
+    ],
+    "section3Title": "3. Shop-Bestellungen",
+    "section3Intro": "Alle Produkte sind handgefertigt. Kleine Variationen und Unvollkommenheiten sind normal und Teil des handwerklichen Prozesses.",
+    "section3Items": [
+      "Versand innerhalb von 5-7 Werktagen",
+      "Internationale Bestellungen können länger dauern",
+      "Rückgabe: 30 Tage für unbenutzte, unbeschädigte Artikel",
+      "Sonder-/Auftragsartikel sind nicht rückgabefähig"
+    ],
+    "section4Title": "4. Auftragsvereinbarungen",
+    "section4Items": [
+      "50% Anzahlung zur Sicherung Ihres Projekts erforderlich",
+      "Restbetrag vor dem endgültigen Versand fällig",
+      "Zeitschätzungen sind ungefähr",
+      "Stornierung nach Produktionsbeginn: nur 50% Rückerstattung"
+    ],
+    "section5Title": "5. Fotografie & Zustimmung",
+    "section5Text": "Mit dem Besuch unserer Farm oder dem Kauf unserer Produkte stimmen Sie zu, fotografiert zu werden. Diese Bilder können auf unserer Website und in sozialen Medien verwendet werden. Wenn Sie nicht fotografiert werden möchten, informieren Sie Ihren Guide.",
+    "section6Title": "6. Haftungsausschluss",
+    "section6Text": "Farmbesuche beinhalten den Umgang mit Tieren. Besucher übernehmen alle Risiken. Wir haften nicht für Verletzungen, es sei denn, sie wurden durch grobe Fahrlässigkeit verursacht. Kinder müssen jederzeit beaufsichtigt werden.",
+    "section7Title": "7. Website-Nutzung",
+    "section7Items": [
+      "Reproduzieren oder verbreiten Sie unsere Inhalte nicht ohne Erlaubnis",
+      "Versuchen Sie nicht, die Website zu hacken oder zu stören",
+      "Respektieren Sie geistige Eigentumsrechte"
+    ],
+    "lastUpdated": "Zuletzt aktualisiert: Februar 2024. Kontaktieren Sie hello@alpacasibiza.com bei Fragen."
+  },
+  "cookies": {
+    "title": "Cookie-Richtlinie",
+    "subtitle": "Informationen über die Verwendung von Cookies auf unserer Website",
+    "whatTitle": "Was sind Cookies?",
+    "whatText": "Cookies sind kleine Textdateien, die in Ihrem Browser gespeichert werden. Sie helfen Websites, Ihre Einstellungen zu speichern und zu verfolgen, wie Sie die Seite nutzen.",
+    "typesTitle": "Arten von Cookies, die wir verwenden",
+    "essentialTitle": "Wesentliche Cookies",
+    "essentialText": "Erforderlich für die Funktion der Website. Dazu gehören:",
+    "essentialItems": [
+      "Session-Cookies (für Ihre Buchung)",
+      "Sicherheits-Cookies (zum Schutz Ihrer Daten)",
+      "Website-Funktions-Cookies"
+    ],
+    "preferenceTitle": "Präferenz-Cookies",
+    "preferenceText": "Speichern Ihre Einstellungen (Sprache, Design usw.) für ein besseres Erlebnis.",
+    "analyticsTitle": "Analytik-Cookies",
+    "analyticsText": "Helfen uns zu verstehen, wie Sie unsere Website nutzen, damit wir sie verbessern können. Wir verwenden:",
+    "analyticsItems": [
+      "Google Analytics (Seitenaufrufe, Verkehrsquellen)",
+      "Conversion-Tracking (Buchungs-, Kaufverfolgung)"
+    ],
+    "marketingTitle": "Marketing-Cookies",
+    "marketingText": "Werden für Retargeting-Anzeigen und Remarketing-Kampagnen verwendet. Sie können sich jederzeit abmelden.",
+    "choicesTitle": "Ihre Cookie-Einstellungen",
+    "choicesItems": [
+      "Wesentliche Cookies: Können nicht deaktiviert werden (erforderlich für die Website-Funktion)",
+      "Analytik & Marketing: Über unser Cookie-Banner deaktivierbar",
+      "Browser-Einstellungen: Die meisten Browser ermöglichen die Cookie-Verwaltung",
+      "Abmeldung: Verwenden Sie die \"Do Not Track\"-Einstellung Ihres Browsers"
+    ],
+    "thirdPartyTitle": "Drittanbieter-Dienste",
+    "thirdPartyText": "Wir nutzen Drittanbieter-Dienste, die eigene Cookies setzen können:",
+    "thirdPartyItems": [
+      "Zahlungsanbieter (für sichere Transaktionen)",
+      "Buchungssysteme (FareHarbor)",
+      "Analytik-Anbieter"
+    ],
+    "manageTitle": "Cookies verwalten",
+    "manageText": "Die meisten Browser ermöglichen Ihnen:",
+    "manageItems": [
+      "Gespeicherte Cookies anzeigen",
+      "Bestimmte Cookies löschen",
+      "Neue Cookies blockieren",
+      "Datenschutzstufen festlegen"
+    ],
+    "manageNote": "Informationen finden Sie in der Dokumentation Ihres Browsers.",
+    "gdprTitle": "DSGVO-Konformität",
+    "gdprText": "Wir erfüllen die DSGVO und ePrivacy-Vorschriften. Wir:",
+    "gdprItems": [
+      "Setzen nicht-wesentliche Cookies nur mit Ihrer Zustimmung",
+      "Stellen klare Cookie-Informationen bereit",
+      "Ermöglichen einfache Abmeldung",
+      "Respektieren Ihre Datenschutzentscheidungen"
+    ],
+    "lastUpdated": "Zuletzt aktualisiert: Februar 2024. Kontaktieren Sie hello@alpacasibiza.com für Cookie-Fragen."
   }
 }

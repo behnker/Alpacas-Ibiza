@@ -1,116 +1,102 @@
 import { Hero } from '@/components/hero'
+import { t, ta } from '@/lib/translations'
+import type { Locale } from '@/i18n.config'
 
-export default function CookiesPage() {
+export default function CookiesPage({ params }: { params: { locale: Locale } }) {
+    const locale = params.locale
+    const translate = t(locale)
+    const translateArray = ta(locale)
+
     return (
         <>
             <Hero
-                title="Cookie Policy"
-                subtitle="Information about how we use cookies on our website"
+                title={translate('cookies.title')}
+                subtitle={translate('cookies.subtitle')}
             />
 
             <section className="w-full py-16 md:py-24 px-4 bg-background">
                 <div className="max-w-4xl mx-auto prose prose-lg max-w-none text-foreground/70">
                     <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">
-                        What Are Cookies?
+                        {translate('cookies.whatTitle')}
                     </h2>
-                    <p>
-                        Cookies are small text files stored on your browser. They help websites remember your preferences and track how you use the site.
-                    </p>
+                    <p>{translate('cookies.whatText')}</p>
 
                     <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">
-                        Types of Cookies We Use
+                        {translate('cookies.typesTitle')}
                     </h2>
 
                     <h3 className="text-xl font-semibold text-foreground mt-6 mb-3">
-                        Essential Cookies
+                        {translate('cookies.essentialTitle')}
                     </h3>
-                    <p>
-                        Required for the website to function. These include:
-                    </p>
+                    <p>{translate('cookies.essentialText')}</p>
                     <ul className="list-disc list-inside space-y-2 mb-6">
-                        <li>Session cookies (for your booking)</li>
-                        <li>Security cookies (to protect your data)</li>
-                        <li>Site functionality cookies</li>
+                        {translateArray('cookies.essentialItems').map((item, i) => (
+                            <li key={i}>{item}</li>
+                        ))}
                     </ul>
 
                     <h3 className="text-xl font-semibold text-foreground mt-6 mb-3">
-                        Preference Cookies
+                        {translate('cookies.preferenceTitle')}
                     </h3>
-                    <p>
-                        Remember your choices (language, theme, etc.) for better experience.
-                    </p>
+                    <p>{translate('cookies.preferenceText')}</p>
 
                     <h3 className="text-xl font-semibold text-foreground mt-6 mb-3">
-                        Analytics Cookies
+                        {translate('cookies.analyticsTitle')}
                     </h3>
-                    <p>
-                        Help us understand how you use our site so we can improve it. We use:
-                    </p>
+                    <p>{translate('cookies.analyticsText')}</p>
                     <ul className="list-disc list-inside space-y-2 mb-6">
-                        <li>Google Analytics (page views, traffic sources)</li>
-                        <li>Conversion tracking (booking, purchase tracking)</li>
+                        {translateArray('cookies.analyticsItems').map((item, i) => (
+                            <li key={i}>{item}</li>
+                        ))}
                     </ul>
 
                     <h3 className="text-xl font-semibold text-foreground mt-6 mb-3">
-                        Marketing Cookies
+                        {translate('cookies.marketingTitle')}
                     </h3>
-                    <p>
-                        Used for retargeting ads and remarketing campaigns. You can opt out anytime.
-                    </p>
+                    <p>{translate('cookies.marketingText')}</p>
 
                     <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">
-                        Your Cookie Choices
+                        {translate('cookies.choicesTitle')}
                     </h2>
                     <ul className="list-disc list-inside space-y-2 mb-6">
-                        <li>Essential cookies: Cannot be disabled (required for site function)</li>
-                        <li>Analytics & Marketing: Disable via our cookie banner</li>
-                        <li>Browser settings: Most browsers allow you to control cookies</li>
-                        <li>Opt-out: Use browser "Do Not Track" settings</li>
+                        {translateArray('cookies.choicesItems').map((item, i) => (
+                            <li key={i}>{item}</li>
+                        ))}
                     </ul>
 
                     <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">
-                        Third-Party Services
+                        {translate('cookies.thirdPartyTitle')}
                     </h2>
-                    <p>
-                        We use third-party services that may set their own cookies:
-                    </p>
+                    <p>{translate('cookies.thirdPartyText')}</p>
                     <ul className="list-disc list-inside space-y-2 mb-6">
-                        <li>Payment processors (for secure transactions)</li>
-                        <li>Booking systems (FareHarbor)</li>
-                        <li>Analytics providers</li>
+                        {translateArray('cookies.thirdPartyItems').map((item, i) => (
+                            <li key={i}>{item}</li>
+                        ))}
                     </ul>
 
                     <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">
-                        How to Manage Cookies
+                        {translate('cookies.manageTitle')}
                     </h2>
-                    <p>
-                        Most browsers allow you to:
-                    </p>
+                    <p>{translate('cookies.manageText')}</p>
                     <ul className="list-disc list-inside space-y-2 mb-6">
-                        <li>View stored cookies</li>
-                        <li>Delete specific cookies</li>
-                        <li>Block new cookies</li>
-                        <li>Set privacy levels</li>
+                        {translateArray('cookies.manageItems').map((item, i) => (
+                            <li key={i}>{item}</li>
+                        ))}
                     </ul>
-                    <p>
-                        See your browser documentation for specific instructions.
-                    </p>
+                    <p>{translate('cookies.manageNote')}</p>
 
                     <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">
-                        GDPR Compliance
+                        {translate('cookies.gdprTitle')}
                     </h2>
-                    <p>
-                        We comply with GDPR and ePrivacy regulations. We:
-                    </p>
+                    <p>{translate('cookies.gdprText')}</p>
                     <ul className="list-disc list-inside space-y-2 mb-6">
-                        <li>Only set non-essential cookies with your consent</li>
-                        <li>Provide clear cookie information</li>
-                        <li>Allow easy opt-out</li>
-                        <li>Respect your privacy choices</li>
+                        {translateArray('cookies.gdprItems').map((item, i) => (
+                            <li key={i}>{item}</li>
+                        ))}
                     </ul>
 
                     <p className="text-sm text-foreground/60 mt-8">
-                        Last updated: February 2024. Contact hello@alpacasibiza.com for cookie questions.
+                        {translate('cookies.lastUpdated')}
                     </p>
                 </div>
             </section>

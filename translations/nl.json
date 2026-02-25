@@ -8,9 +8,9 @@
     "language": "Taal"
   },
   "hero": {
-    "title": "Ibiza's eerste alpacaboerderij en weefstudio",
-    "subtitle": "Beleef ambachtelijk weven, ontmoet onze alpaca's, koop handgemaakte wolproducten en ontdek duurzame landbouw. Welkom op een plek waar traditie mediterrane rust ontmoet.",
-    "ctaPrimary": "Boek een Tour",
+    "title": "Es Currals Alpacas Ibiza",
+    "subtitle": "De allereerste alpacaboerderij van Ibiza, gelegen in het landelijke noorden op een authentieke finca. Thuisbasis van Wishfulfilling Weaving, waar exclusieve sjaals met de hand worden geweven op een traditioneel houten weefgetouw met alpacawol.",
+    "ctaPrimary": "Plan Je Bezoek",
     "ctaSecondary": "Nu Winkelen"
   },
   "paths": {
@@ -36,19 +36,19 @@
     }
   },
   "features": {
-    "sectionTitle": "Waarom Kiezen voor Alpacas Ibiza",
-    "sectionSubtitle": "We combineren gastvrijheid, vakmanschap en dierenwelzijn in elke ervaring",
+    "sectionTitle": "Waarom Kiezen voor Es Currals Alpacas Ibiza",
+    "sectionSubtitle": "De eerste alpacaboerderij van Ibiza op een authentieke finca in het landelijke noorden",
     "farm": {
-      "title": "Werkende Boerderij",
-      "description": "Een echte, actieve alpacaboerderij en weefstudio in het hart van Ibiza. Elk stuk vertelt een verhaal van onze dieren en ons land."
+      "title": "Authentieke Finca",
+      "description": "Gelegen in het landelijke noorden van Ibiza op een authentieke finca in een prachtige natuurlijke omgeving. Beleef het echte plattelandsleven."
     },
     "artisan": {
-      "title": "Ambachtelijk Proces",
-      "description": "Met de hand verwerkte vezels, natuurlijke kleurstoffen, traditionele patronen. Elke stap eert het ambacht en de alpaca's."
+      "title": "Traditioneel Weven",
+      "description": "Exclusieve sjaals met de hand geweven op een traditioneel houten weefgetouw met hoogwaardige alpacawol, linnen, mohair en zijde."
     },
     "sustainable": {
-      "title": "Duurzaam en Natuurlijk",
-      "description": "Biologische praktijken, milieuvriendelijke producten, biologisch afbreekbare verpakkingen. Zorg voor dieren en planeet."
+      "title": "Made in Ibiza",
+      "description": "Wishfulfilling Weaving – Made in Ibiza, de wereld omarmend. Duurzame praktijken met onze eigen alpacawol. Zorg voor dieren en planeet."
     },
     "appointment": {
       "title": "Alleen op Afspraak",
@@ -95,14 +95,178 @@
     "title": "Boek Je Alpaca-Ervaring",
     "subtitle": "Beperkte plekken beschikbaar op afspraak. Elk bezoek is intiem en persoonlijk.",
     "reserveTitle": "Reserveer Je Bezoek",
-    "reserveText": "Ons boekingssysteem wordt mogelijk gemaakt door FareHarbor. Klik op de knop hieronder om je voorkeursdatum en -tijd te selecteren.",
+    "reserveText": "Selecteer je voorkeursdatum en -tijd om je bezoek aan onze alpaca's te boeken.",
     "integrationTitle": "FareHarbor-integratie",
     "integrationText": "Om de FareHarbor-boekingswidget te activeren, voeg je bedrijfs-ID toe in de omgevingsvariabelen.",
+    "heroTitle": "Bezoek Alpacas Ibiza",
+    "heroSubtitle": "Doe mee voor een onvergetelijke boerderij-ervaring. Ontmoet onze alpaca's, leer ambachtelijk weven en dompel je onder in het vredig platteland van Ibiza.",
+    "heroCta": "Boek Je Bezoek",
+    "tourOptionsTitle": "Tour Opties",
+    "tourOptionsSubtitle": "Kies de ervaring die je aanspreekt",
+    "tourTypes": {
+      "meetHerd": {
+        "title": "Ontmoet de Kudde",
+        "description": "Maak verbinding met onze alpaca's, leer hun persoonlijkheden kennen en begrijp hun verzorging en welzijn."
+      },
+      "weaving": {
+        "title": "Weefworkshop",
+        "description": "Praktische introductie in vezelkunst. Probeer handbewerking, natuurlijk verven of basis weven."
+      },
+      "farm": {
+        "title": "Boerderij-ervaring",
+        "description": "Verken het land, ontdek onze duurzame praktijken en geniet van het mediterrane landschap."
+      },
+      "photo": {
+        "title": "Fotosessie",
+        "description": "Professionele of persoonlijke fotografie met alpaca's en schilderachtige achtergronden. Perfect voor herinneringen."
+      }
+    },
+    "timelineTitle": "Wat Je Kunt Verwachten bij een Tour",
+    "timeline": {
+      "arrival": {
+        "time": "Aankomst",
+        "title": "Welkom & Oriëntatie",
+        "description": "Ontmoet je gids, krijg een overzicht van de dag en leer de regels van de boerderij. Kom aan en laat de rust over je komen."
+      },
+      "morning": {
+        "time": "Ochtend",
+        "title": "Ontmoet de Alpaca's",
+        "description": "Breng tijd door met onze kudde. Voer, aai en leer de verhalen van onze dieren kennen. Gidsen delen inzichten over alpacagedrag en -verzorging."
+      },
+      "midday": {
+        "time": "Middag",
+        "title": "Tour door het Weefstudio",
+        "description": "Verken ons studio. Bekijk het hele proces: vezelvoorbereiding, natuurlijk verven, traditionele patronen en afwerking."
+      },
+      "afternoon": {
+        "time": "Namiddag",
+        "title": "Praktische Activiteit",
+        "description": "Neem deel aan een workshop of activiteit op maat van je interesses: probeer handkaarden, verven of eenvoudige weeftechnieken."
+      },
+      "closing": {
+        "time": "Afsluiting",
+        "title": "Ontspannen & Reflecteren",
+        "description": "Sluit de dag af met versnaperingen. Bekijk onze winkel. Stel je laatste vragen. Ga weg met een hart vol herinneringen."
+      }
+    },
+    "planVisit": {
+      "hours": {
+        "title": "Openingstijden",
+        "description": "Tours alleen op afspraak. Beschikbaarheid varieert per seizoen.",
+        "summer": "Zomer: Uitgebreide openingstijden",
+        "winter": "Winter: Beperkte beschikbaarheid",
+        "contact": "Neem contact op voor exacte tijden"
+      },
+      "location": {
+        "title": "Locatie",
+        "description": "Ibiza, Spanje",
+        "details": "Privéboerderij. Routebeschrijving en parkeerinformatie worden bij de boeking verstrekt."
+      },
+      "pricing": {
+        "title": "Prijzen",
+        "starting": "Vanaf €30 per persoon",
+        "custom": "Op maat gemaakte ervaringen en groepstarieven beschikbaar"
+      },
+      "specialEvents": {
+        "title": "Speciale Evenementen & Privé Boekingen",
+        "description": "Bruiloften, fotoshoots, alpaca yoga, workshops, bedrijfsretreats — we creëren op maat gemaakte ervaringen volgens jouw visie.",
+        "cta": "Vraag een Op Maat Ervaring Aan"
+      }
+    },
+    "bookingSection": {
+      "title": "Boek Je Bezoek",
+      "subtitle": "Selecteer je voorkeursdatum en -tijd om je alpaca-ervaring te reserveren.",
+      "cardTitle": "Reserveer Je Bezoek",
+      "cardSubtitle": "Klik op de knop hieronder om naar de boekingspagina te gaan en je plek te verzekeren.",
+      "bookNow": "Nu Boeken",
+      "poweredBy": "Boeking via FareHarbor",
+      "questions": "Vragen?",
+      "questionsText": "Neem contact op via hello@alpacasibiza.com of WhatsApp voor persoonlijke begeleiding."
+    },
+    "questionsText": "Neem contact op via hello@alpacasibiza.com of WhatsApp voor persoonlijke begeleiding.",
     "backHome": "Terug naar Home"
   },
+  "guestStories": {
+    "title": "Ervaringen van Gasten",
+    "subtitle": "Ontdek wat bezoekers zeggen over hun ervaring",
+    "testimonial": "Een onvergetelijke ervaring. De alpaca's waren geweldig, de gidsen waren deskundig en hartelijk, en de hele boerderij straalde rust en authenticiteit uit.",
+    "guest": "Gast",
+    "visited": "Recent bezocht",
+    "translateButton": "Vertalen",
+    "showOriginal": "Origineel tonen",
+    "readMore": "Lees meer beoordelingen op Facebook",
+    "reviews": {
+      "sue": "Ik bezocht eind augustus en had een fantastische tijd! Ibiza heeft naast de muziek zoveel te bieden en ik zou een bezoek aan de prachtige alpaca's ten zeerste aanbevelen. Je kunt ze voeren en zoveel leren over deze geweldige dieren ❤️. Ik werd warm ontvangen en had een waardevolle ervaring. Ga ze bekijken - je zult van ze houden!",
+      "verena": "We bezochten de lieve, pluizige alpaca's. Een super aardig stel leidt je door de verblijven van de alpaca's met geweldige informatie over deze dieren. Je hebt de mogelijkheid om de dieren te voeren, aaien en zelfs een alpacakus te geven. De dieren zijn erg tam en zijn dolblij met je nabijheid en voer. Het was een geweldige ervaring en ik kan het iedereen aanbevelen die op Ibiza is. 🤗🥳",
+      "gemma": "Ik maakte een groepsboeking voor 6 personen voor vrijdag 9 mei. Bart nam contact op om te laten weten dat ze die dag gesloten waren omdat ze de alpaca's aan het scheren waren. Hij bood toen vriendelijk aan om ons de dag ervoor te ontvangen, ook al was de boerderij gesloten. De ervaring zelf was geweldig. Bart was heel kundig en vriendelijk en de alpaca's waren zo lief. Alle alpaca's worden heel goed verzorgd en zijn dol op Bart, wat laat zien hoeveel hij van ze houdt.",
+      "renate": "Heel leuk om te doen met onze 2 jongens van 12 jaar oud maar eigenlijk leuk voor alle leeftijden. Wij wisten eigenlijk niets van Alpaca's, was heel interessant! precies een uur bezig geweest.",
+      "sven": "Sterk aanbevolen! Bart & San runnen een fantastische operatie. De ultieme Chill Out ervaring 🦙❤️🦙",
+      "paul": "Geweest op 23 september, geweldige tour, Bart is ontzettend kundig en vriendelijk. Als je een auto hebt is het een must 😀🦙"
+    }
+  },
+  "faq": {
+    "sectionTitle": "Veelgestelde Vragen",
+    "sectionSubtitle": "Alles wat je moet weten voor je bezoek",
+    "duration": {
+      "q": "Hoe lang duurt een typische tour?",
+      "a": "Standaard tours duren 2-3 uur. Workshops en uitgebreide ervaringen kunnen worden aangepast. We raden aan om de beschikbare tijdsloten te bekijken bij het boeken."
+    },
+    "languages": {
+      "q": "In welke talen bieden jullie tours aan?",
+      "a": "We bieden tours aan in het Engels, Spaans en Nederlands. Als je een andere taal nodig hebt, neem dan contact met ons op."
+    },
+    "children": {
+      "q": "Zijn bezoeken geschikt voor kinderen?",
+      "a": "Ja! Tours zijn gezinsvriendelijk. Kinderen moeten worden begeleid, vooral in de buurt van de dieren. We raden 4 jaar en ouder aan, maar jongere kinderen zijn welkom onder ouderlijk toezicht."
+    },
+    "wear": {
+      "q": "Wat moet ik dragen?",
+      "a": "Draag comfortabele, gesloten schoenen geschikt voor boerderijterrein. Neem zonnebescherming mee in de zomer. Lichte laagjes zijn ideaal want de boerderij is buiten. Vermijd felle kleuren of sterke parfums om de alpaca's rustig te houden."
+    },
+    "accessibility": {
+      "q": "Is de boerderij toegankelijk voor mensen met een beperking?",
+      "a": "Onze boerderij ligt op natuurlijk terrein. Neem van tevoren contact op om de toegankelijkheid te bespreken en hoe we aan je behoeften kunnen voldoen."
+    },
+    "food": {
+      "q": "Mogen we eten en drinken meebrengen?",
+      "a": "Eigen eten is niet toegestaan, maar we bieden biologische versnaperingen aan. We houden rekening met dieetbeperkingen — vermeld deze bij het boeken."
+    },
+    "booking": {
+      "q": "Hoe boek ik een tour?",
+      "a": "Gebruik ons online boekingssysteem hieronder om de beschikbaarheid te controleren en je plek te reserveren. Voor groepsboekingen en op maat gemaakte ervaringen: neem contact met ons op."
+    },
+    "cancellation": {
+      "q": "Wat als ik moet annuleren of verzetten?",
+      "a": "Annuleringen tot 48 uur voor de tour krijgen volledige terugbetaling of verplaatsing. Bij kortere termijn geldt een toeslag van 50%."
+    },
+    "private": {
+      "q": "Bieden jullie privé tours of groepsevenementen aan?",
+      "a": "Ja! We bieden privé boerderijervaringen, bruiloften, bedrijfsretreats en alpaca yoga sessies aan. Neem contact op voor op maat gemaakte pakketten."
+    },
+    "parking": {
+      "q": "Is er parkeerruimte?",
+      "a": "Ja, gratis parkeren op het terrein. Plaatsen zijn beperkt — kom 15 minuten eerder om rustig te parkeren."
+    }
+  },
+  "backHome": "Terug naar Home",
   "shop": {
-    "title": "Onze Winkel",
-    "subtitle": "Ontdek handgemaakte alpacaproducten, op maat gemaakte stukken en premium mest",
+    "title": "Wishfulfilling Weaving Collectie",
+    "subtitle": "Made in Ibiza, de wereld omarmend",
+    "description": "Exclusieve sjaals met de hand geweven op een traditioneel houten weefgetouw met hoogwaardige alpacawol, linnen, mohair en zijdewol.",
+    "categories": {
+      "woven": {
+        "title": "Geweven Collectie",
+        "description": "Exclusieve handgeweven sjaals en textiel"
+      },
+      "commission": {
+        "title": "Op Maat Bestelling",
+        "description": "Maak je eigen unieke stuk met eigen kleuren en patronen"
+      },
+      "alcaca": {
+        "title": "Alcaca – Alpacamest",
+        "description": "Premium biologische meststof van onze alpaca's"
+      }
+    },
     "explore": "Ontdekken",
     "woven": {
       "title": "Geweven Collectie",
@@ -154,6 +318,9 @@
     "storyTitle": "Ons Verhaal",
     "storyText": "Alpacas Ibiza werd opgericht in het geloof dat toerisme betekenisvol, ambachtelijk en diep verbonden met dierenwelzijn kan zijn. We creëerden de eerste alpacaboerderij op het eiland om onze passie voor deze zachte wezens en hun ongelooflijke vezels te delen.",
     "valuesTitle": "Onze Waarden",
+    "weavingTitle": "Wishfulfilling Weaving",
+    "weavingSubtitle": "Made in Ibiza, de wereld omarmend",
+    "weavingDescription": "Wishfulfilling Weaving is onze exclusieve weeflijn. San weeft exclusieve sjaals op een traditioneel houten weefgetouw, met gebruik van hoogwaardige alpacawol, linnen, mohair en zijde. Elk stuk wordt met intentie en liefde met de hand gemaakt op Ibiza.",
     "welfare": {
       "title": "Dierenwelzijn",
       "description": "Onze alpaca's gaan in elke beslissing voor"
@@ -201,29 +368,285 @@
     "cookies": "Cookiebeleid",
     "copyright": "Alle rechten voorbehouden."
   },
-  "guestStories": {
-    "title": "Ervaringen van Gasten",
-    "subtitle": "Ontdek wat bezoekers zeggen over hun ervaring",
-    "translateButton": "Vertalen",
-    "showOriginal": "Origineel tonen",
-    "readMore": "Lees meer beoordelingen op Facebook",
-    "reviews": {
-      "sue": "Ik bezocht eind augustus en had een fantastische tijd! Ibiza heeft naast de muziek zoveel te bieden en ik zou een bezoek aan de prachtige alpaca's ten zeerste aanbevelen. Je kunt ze voeren en zoveel leren over deze geweldige dieren ❤️. Ik werd warm ontvangen en had een waardevolle ervaring. Ga ze bekijken - je zult van ze houden!",
-      "verena": "We bezochten de lieve, pluizige alpaca's. Een super aardig stel leidt je door de verblijven van de alpaca's met geweldige informatie over deze dieren. Je hebt de mogelijkheid om de dieren te voeren, aaien en zelfs een alpacakus te geven. De dieren zijn erg tam en zijn dolblij met je nabijheid en voer. Het was een geweldige ervaring en ik kan het iedereen aanbevelen die op Ibiza is. 🤗🥳",
-      "gemma": "Ik maakte een groepsboeking voor 6 personen voor vrijdag 9 mei. Bart nam contact op om te laten weten dat ze die dag gesloten waren omdat ze de alpaca's aan het scheren waren. Hij bood toen vriendelijk aan om ons de dag ervoor te ontvangen, ook al was de boerderij gesloten. De ervaring zelf was geweldig. Bart was heel kundig en vriendelijk en de alpaca's waren zo lief. Alle alpaca's worden heel goed verzorgd en zijn dol op Bart, wat laat zien hoeveel hij van ze houdt.",
-      "renate": "Heel leuk om te doen met onze 2 jongens van 12 jaar oud maar eigenlijk leuk voor alle leeftijden. Wij wisten eigenlijk niets van Alpaca's, was heel interessant! precies een uur bezig geweest.",
-      "sven": "Sterk aanbevolen! Bart & San runnen een fantastische operatie. De ultieme Chill Out ervaring 🦙❤️🦙",
-      "paul": "Geweest op 23 september, geweldige tour, Bart is ontzettend kundig en vriendelijk. Als je een auto hebt is het een must 😀🦙"
-    }
-  },
-  "faq": {
-    "sectionTitle": "Veelgestelde Vragen",
-    "sectionSubtitle": "Alles wat je moet weten voor je bezoek"
-  },
   "homepage": {
     "experiences": {
       "title": "Kies Je Ervaring",
-      "subtitle": "Verken onze boerderij, koop ambachtelijke producten of bestel iets unieks"
+      "subtitle": "Samengestelde ervaringen voor elke gelegenheid",
+      "corporate": {
+        "title": "Bedrijf & Teambuilding",
+        "description": "Ontkoppel om te verbinden. Leiderschapsretreats en teambinding met onze zachte kudde.",
+        "cta": "Evenement Plannen"
+      },
+      "romantic": {
+        "title": "Romantische Zonsondergangswandelingen",
+        "description": "Gouden uur magie. Privé, intieme wandelingen voor koppels (en huwelijksaanzoeken!).",
+        "cta": "Privé Tour Boeken"
+      },
+      "family": {
+        "title": "Familie Boerderijdagen",
+        "description": "Veilig, educatief plezier voor alle leeftijden. Breng je kleintjes dichter bij de natuur.",
+        "cta": "Familiebezoek"
+      }
     }
+  },
+  "corporate": {
+    "title": "Bedrijfsretreats & Teambuilding",
+    "subtitle": "Ontkoppel om te verbinden. Breng je team naar het rustige platteland van Ibiza voor een unieke bondingervaring met onze alpacakudde.",
+    "cta": "Informatie voor Teams",
+    "whyTitle": "Waarom Alpaca's voor Teambuilding?",
+    "whyText": "Alpaca's zijn gevoelige, kalmerende dieren die menselijke energie weerspiegelen. Interactie met hen vereist geduld, observatie en non-verbale communicatie — perfecte vaardigheden voor effectief teamwerk.",
+    "features": {
+      "stress": {
+        "title": "Stressvermindering",
+        "description": "De kalmerende aanwezigheid van alpaca's verlaagt cortisol en bevordert mindfulness."
+      },
+      "communication": {
+        "title": "Communicatie",
+        "description": "Leer leiden zonder te forceren. Alpaca's reageren op kalme assertiviteit."
+      },
+      "creativity": {
+        "title": "Creativiteit",
+        "description": "Weefworkshops stimuleren creatief probleemoplossend denken en concentratie."
+      },
+      "nature": {
+        "title": "Natuurverbinding",
+        "description": "Haal je team uit kantoor de frisse mediterrane lucht in."
+      }
+    },
+    "itinerary": {
+      "title": "Voorbeeldprogramma",
+      "item1": {
+        "time": "10:00",
+        "title": "Welkom & Versnaperingen",
+        "desc": "Koffie, thee en lokaal gebak op het terras."
+      },
+      "item2": {
+        "time": "10:30",
+        "title": "Ontmoet de Kudde",
+        "desc": "Begeleide kennismaking met de alpaca's. Leer hun namen en persoonlijkheden kennen."
+      },
+      "item3": {
+        "time": "11:30",
+        "title": "Teamuitdaging",
+        "desc": "Interactieve activiteit: Een alpaca door een eenvoudig parcours leiden dat teamwork vereist."
+      },
+      "item4": {
+        "time": "13:00",
+        "title": "Boerderijlunch",
+        "desc": "Biologische, lokaal geproduceerde picknicklunch onder de johannesbroodbomen."
+      }
+    },
+    "planTitle": "Klaar om Je Evenement te Plannen?",
+    "planText": "We passen elk bedrijfspakket aan op de grootte en doelen van je team. Neem contact op voor een offerte.",
+    "planCta": "Offerte Aanvragen"
+  },
+  "romantic": {
+    "title": "Romantische Zonsondergangswandelingen",
+    "subtitle": "Het gouden uur met de alpaca's. Een privé, intieme ervaring voor koppels in het hart van Ibiza.",
+    "cta": "Boek Privé Zonsondergangstour",
+    "quote": "\"De meest magische date die we ooit hebben gehad.\"",
+    "description": "Ontvlucht de drukte. Alleen jij, je partner en onze zachte alpaca's die door de sinaasappelboomgaarden wandelen terwijl de zon achter de heuvels zakt.",
+    "champagne": {
+      "title": "Champagne",
+      "desc": "Optionele Cava-toevoeging om te proosten op de zonsondergang."
+    },
+    "photos": {
+      "title": "Foto's",
+      "desc": "Je gids legt spontane momenten vast zodat je in het moment kunt blijven."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "desc": "Strikt privé tours beschikbaar op aanvraag."
+    },
+    "proposalTitle": "Perfect voor Huwelijksaanzoeken",
+    "proposalText": "Denk je erover om de vraag te stellen? We kunnen helpen het perfecte moment te orkestreren met de alpaca's als je getuigen.",
+    "proposalCta": "Neem Contact Op om te Plannen"
+  },
+  "family": {
+    "title": "Familie Boerderijdagen",
+    "subtitle": "Laat je kinderen de vreugde van dieren ontdekken. Veilig, educatief en leuk voor alle leeftijden.",
+    "cta": "Boek Familiebezoek",
+    "educationTitle": "Educatie Ontmoet Schattigheid",
+    "educationText": "Onze boerderij is niet zomaar een kinderboerderij — het is een educatieve ervaring. Kinderen leren:",
+    "points": {
+      "respect": "Respect: Hoe je dieren voorzichtig benadert.",
+      "biology": "Biologie: Waarom alpaca's zachte vacht en kussentjes hebben in plaats van hoeven.",
+      "sustainability": "Duurzaamheid: Hoe we alpacamest (\"Oro Negro\") gebruiken voor de landbouw."
+    },
+    "safetyTitle": "Veiligheid Voorop",
+    "safety": {
+      "gentle": {
+        "title": "Zachte Dieren",
+        "desc": "Onze kudde is gesocialiseerd en gewend aan kinderen."
+      },
+      "stroller": {
+        "title": "Buggy-vriendelijk",
+        "desc": "Paden zijn toegankelijk voor stevige buggy's."
+      },
+      "hygiene": {
+        "title": "Hygiëne",
+        "desc": "Handwasstations beschikbaar."
+      },
+      "refreshments": {
+        "title": "Versnaperingen",
+        "desc": "Kindvriendelijke drankjes en snacks."
+      }
+    },
+    "faq": {
+      "age": {
+        "q": "Wat is de minimumleeftijd?",
+        "a": "Alle leeftijden zijn welkom! Kinderen onder 3 zijn gratis. We raden 4 jaar en ouder aan voor de volledige wandelervaring."
+      },
+      "safe": {
+        "q": "Zijn de alpaca's veilig?",
+        "a": "Ja, alpaca's bijten niet (ze hebben alleen ondertanden!) en zijn over het algemeen heel rustig. We leren je kinderen precies hoe ze veilig kunnen omgaan met de dieren."
+      },
+      "duration": {
+        "q": "Hoe lang duurt het bezoek?",
+        "a": "Familiebezoeken duren doorgaans 1,5 tot 2 uur, perfect voor kortere aandachtsspannen."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "subtitle": "Hoe we je informatie verzamelen, gebruiken en beschermen",
+    "section1Title": "1. Informatie die We Verzamelen",
+    "section1Intro": "We verzamelen informatie die je direct verstrekt:",
+    "section1Items": [
+      "Tourboekingsgegevens (naam, email, telefoon)",
+      "Bestelinformatie (verzendadres, betalingsgegevens)",
+      "Commissieverzoeken (projectdetails, voorkeuren)",
+      "Nieuwsbriefaanmelding (e-mailadres)",
+      "Contactformulierinzendingen"
+    ],
+    "section2Title": "2. Hoe We Je Informatie Gebruiken",
+    "section2Items": [
+      "Tourboekingen en bestellingen verwerken",
+      "Bevestigingsmails en updates verzenden",
+      "Reageren op vragen",
+      "Onze website en diensten verbeteren",
+      "Nieuwsbrieven verzenden (je kunt je op elk moment uitschrijven)",
+      "Aan wettelijke verplichtingen voldoen"
+    ],
+    "section3Title": "3. Gegevensbescherming",
+    "section3Intro": "We nemen je privacy serieus. Je gegevens worden versleuteld en veilig opgeslagen. We delen je informatie niet met derden, behalve:",
+    "section3Items": [
+      "Betalingsverwerkers (voor veilige transacties)",
+      "Boekingssystemen (FareHarbor, indien nodig)",
+      "Wettelijke vereisten (wanneer wettelijk verplicht)"
+    ],
+    "section4Title": "4. Cookies & Tracking",
+    "section4Text": "We gebruiken cookies om je ervaring te verbeteren. Essentiële cookies zijn noodzakelijk voor de functionaliteit. Je kunt cookievoorkeuren beheren in je browser of ons cookiebanner.",
+    "section5Title": "5. Je Rechten",
+    "section5Intro": "Je hebt het recht om:",
+    "section5Items": [
+      "Toegang tot je gegevens te krijgen",
+      "Onjuiste informatie te corrigeren",
+      "Verwijdering aan te vragen (recht op vergetelheid)",
+      "Af te melden voor marketingcommunicatie"
+    ],
+    "lastUpdated": "Laatst bijgewerkt: Februari 2024. Neem contact op via hello@alpacasibiza.com voor privacyvragen."
+  },
+  "terms": {
+    "title": "Servicevoorwaarden",
+    "subtitle": "Lees deze voorwaarden voordat je onze website en boekingsdiensten gebruikt",
+    "section1Title": "1. Boekingen & Tours",
+    "section1Intro": "Door een tour te boeken ga je akkoord met:",
+    "section1Items": [
+      "Alle boerderij- en dierenveiligheidsrichtlijnen volgen",
+      "15 minuten voor je geplande tijd arriveren",
+      "De alpaca's en het boerderijeigendom respecteren",
+      "Een geldig identiteitsbewijs meebrengen indien vereist",
+      "Alle geldende gezondheids-/veiligheidsprotocollen volgen"
+    ],
+    "section2Title": "2. Annulering & Terugbetaling",
+    "section2Items": [
+      "Annulering tot 48 uur van tevoren: Volledige terugbetaling of verplaatsing",
+      "Annulering minder dan 48 uur: 50% toeslag",
+      "Niet-verschijning: Volledige betaling vervalt",
+      "Sluiting door weer: Volledige terugbetaling of verplaatsing"
+    ],
+    "section3Title": "3. Winkelbestellingen",
+    "section3Intro": "Alle producten zijn handgemaakt. Kleine variaties en onvolkomenheden zijn normaal en onderdeel van het ambachtelijke proces.",
+    "section3Items": [
+      "Verzending binnen 5-7 werkdagen na bestelling",
+      "Internationale bestellingen kunnen langer duren",
+      "Retourneren: 30 dagen voor ongebruikte, onbeschadigde artikelen",
+      "Op maat gemaakte/bestelde artikelen zijn niet retourneerbaar"
+    ],
+    "section4Title": "4. Commissieovereenkomsten",
+    "section4Items": [
+      "50% aanbetaling vereist om je project te verzekeren",
+      "Restbedrag verschuldigd voor definitieve verzending",
+      "Tijdsinschattingen zijn bij benadering",
+      "Annulering na start productie: alleen 50% terugbetaling"
+    ],
+    "section5Title": "5. Fotografie & Toestemming",
+    "section5Text": "Door onze boerderij te bezoeken of onze producten te kopen, stem je in met het gefotografeerd worden. Deze beelden kunnen worden gebruikt op onze website en sociale media. Als je liever niet gefotografeerd wordt, laat dit dan aan je gids weten.",
+    "section6Title": "6. Aansprakelijkheidsverklaring",
+    "section6Text": "Boerderijbezoeken omvatten interactie met dieren. Bezoekers nemen alle risico's op zich. We zijn niet aansprakelijk voor letsel tenzij veroorzaakt door grove nalatigheid. Kinderen moeten te allen tijde onder toezicht staan.",
+    "section7Title": "7. Websitegebruik",
+    "section7Items": [
+      "Reproduceer of verspreid onze content niet zonder toestemming",
+      "Probeer de website niet te hacken of te verstoren",
+      "Respecteer intellectuele eigendomsrechten"
+    ],
+    "lastUpdated": "Laatst bijgewerkt: Februari 2024. Neem contact op via hello@alpacasibiza.com bij vragen."
+  },
+  "cookies": {
+    "title": "Cookiebeleid",
+    "subtitle": "Informatie over hoe we cookies gebruiken op onze website",
+    "whatTitle": "Wat Zijn Cookies?",
+    "whatText": "Cookies zijn kleine tekstbestanden die in je browser worden opgeslagen. Ze helpen websites je voorkeuren te onthouden en bij te houden hoe je de site gebruikt.",
+    "typesTitle": "Soorten Cookies die We Gebruiken",
+    "essentialTitle": "Essentiële Cookies",
+    "essentialText": "Vereist voor het functioneren van de website. Deze omvatten:",
+    "essentialItems": [
+      "Sessiecookies (voor je boeking)",
+      "Beveiligingscookies (om je gegevens te beschermen)",
+      "Sitefunctionaliteitscookies"
+    ],
+    "preferenceTitle": "Voorkeurscookies",
+    "preferenceText": "Onthouden je keuzes (taal, thema, etc.) voor een betere ervaring.",
+    "analyticsTitle": "Analytische Cookies",
+    "analyticsText": "Helpen ons begrijpen hoe je onze site gebruikt zodat we deze kunnen verbeteren. We gebruiken:",
+    "analyticsItems": [
+      "Google Analytics (paginaweergaven, verkeersbronnen)",
+      "Conversietracking (boekingen, aankooptracking)"
+    ],
+    "marketingTitle": "Marketingcookies",
+    "marketingText": "Worden gebruikt voor retargeting-advertenties en remarketingcampagnes. Je kunt je op elk moment afmelden.",
+    "choicesTitle": "Je Cookiekeuzes",
+    "choicesItems": [
+      "Essentiële cookies: Kunnen niet worden uitgeschakeld (vereist voor sitefunctie)",
+      "Analyse & Marketing: Uitschakelen via ons cookiebanner",
+      "Browserinstellingen: De meeste browsers staan cookiebeheer toe",
+      "Afmelden: Gebruik de \"Niet volgen\"-instelling van je browser"
+    ],
+    "thirdPartyTitle": "Diensten van Derden",
+    "thirdPartyText": "We gebruiken diensten van derden die hun eigen cookies kunnen plaatsen:",
+    "thirdPartyItems": [
+      "Betalingsverwerkers (voor veilige transacties)",
+      "Boekingssystemen (FareHarbor)",
+      "Analyseproviders"
+    ],
+    "manageTitle": "Cookies Beheren",
+    "manageText": "De meeste browsers staan je toe om:",
+    "manageItems": [
+      "Opgeslagen cookies te bekijken",
+      "Specifieke cookies te verwijderen",
+      "Nieuwe cookies te blokkeren",
+      "Privacyniveaus in te stellen"
+    ],
+    "manageNote": "Raadpleeg je browserdocumentatie voor specifieke instructies.",
+    "gdprTitle": "AVG-Naleving",
+    "gdprText": "We voldoen aan de AVG en ePrivacy-regelgeving. We:",
+    "gdprItems": [
+      "Plaatsen niet-essentiële cookies alleen met je toestemming",
+      "Verstrekken duidelijke cookie-informatie",
+      "Staan eenvoudige afmelding toe",
+      "Respecteren je privacykeuzes"
+    ],
+    "lastUpdated": "Laatst bijgewerkt: Februari 2024. Neem contact op via hello@alpacasibiza.com voor cookievragen."
   }
 }

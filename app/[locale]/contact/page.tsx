@@ -100,7 +100,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
                     <h3 className="font-semibold text-foreground">
                       {translate('contact.phone')}
                     </h3>
-                    <p className="text-foreground/70">+34 971 XXX XXX</p>
+                    <p className="text-foreground/70">+32 475 58 65 44</p>
                   </div>
                 </div>
 
@@ -110,7 +110,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
                     <h3 className="font-semibold text-foreground">
                       {translate('contact.emailLabel')}
                     </h3>
-                    <p className="text-foreground/70">hello@alpacasibiza.com</p>
+                    <p className="text-foreground/70">info@alpacasibiza.com</p>
                   </div>
                 </div>
 

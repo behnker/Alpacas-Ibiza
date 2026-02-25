@@ -8,9 +8,9 @@
     "language": "Lingua"
   },
   "hero": {
-    "title": "La prima fattoria di alpaca e studio tessile di Ibiza",
-    "subtitle": "Scopri la tessitura artigianale, incontra i nostri alpaca, acquista prodotti di lana fatti a mano e scopri l'agricoltura sostenibile. Benvenuti in un luogo dove la tradizione incontra la calma mediterranea.",
-    "ctaPrimary": "Prenota un Tour",
+    "title": "Es Currals Alpacas Ibiza",
+    "subtitle": "La primissima fattoria di alpaca di Ibiza, situata nel nord rurale su una finca autentica. Casa di Wishfulfilling Weaving, dove sciarpe esclusive sono tessute a mano su un telaio tradizionale in legno con lana di alpaca.",
+    "ctaPrimary": "Pianifica la Tua Visita",
     "ctaSecondary": "Acquista Ora"
   },
   "paths": {
@@ -36,19 +36,19 @@
     }
   },
   "features": {
-    "sectionTitle": "Perché Scegliere Alpacas Ibiza",
-    "sectionSubtitle": "Uniamo ospitalità, artigianalità e benessere animale in ogni esperienza",
+    "sectionTitle": "Perché Scegliere Es Currals Alpacas Ibiza",
+    "sectionSubtitle": "La prima fattoria di alpaca di Ibiza su una finca autentica nel nord rurale",
     "farm": {
-      "title": "Fattoria Attiva",
-      "description": "Una vera fattoria di alpaca e studio tessile nel cuore di Ibiza. Ogni pezzo racconta una storia dei nostri animali e della nostra terra."
+      "title": "Finca Autentica",
+      "description": "Situata nel nord rurale di Ibiza su una finca autentica in un bellissimo contesto naturale. Vivi la vera vita di campagna."
     },
     "artisan": {
-      "title": "Processo Artigianale",
-      "description": "Fibre lavorate a mano, tinture naturali, motivi tradizionali. Ogni passaggio onora l'artigianato e gli alpaca."
+      "title": "Tessitura Tradizionale",
+      "description": "Sciarpe esclusive tessute a mano su un telaio tradizionale in legno con lana di alpaca di alta qualità, lino, mohair e seta."
     },
     "sustainable": {
-      "title": "Sostenibile e Naturale",
-      "description": "Pratiche biologiche, prodotti ecologici, imballaggi biodegradabili. Cura per gli animali e il pianeta."
+      "title": "Fatto a Ibiza",
+      "description": "Wishfulfilling Weaving – Fatto a Ibiza, abbracciando il mondo. Pratiche sostenibili con la nostra lana di alpaca. Cura per gli animali e il pianeta."
     },
     "appointment": {
       "title": "Solo su Appuntamento",
@@ -95,14 +95,178 @@
     "title": "Prenota la Tua Esperienza con gli Alpaca",
     "subtitle": "Posti limitati disponibili su prenotazione. Ogni visita è intima e personalizzata.",
     "reserveTitle": "Prenota la Tua Visita",
-    "reserveText": "Il nostro sistema di prenotazione è gestito da FareHarbor. Clicca il pulsante qui sotto per selezionare data e ora preferite.",
+    "reserveText": "Seleziona la data e l'ora preferite per prenotare la tua visita con i nostri alpaca.",
     "integrationTitle": "Integrazione FareHarbor",
     "integrationText": "Per attivare il widget di prenotazione FareHarbor, aggiungi il tuo ID azienda nelle variabili di ambiente.",
+    "heroTitle": "Visita Alpacas Ibiza",
+    "heroSubtitle": "Unisciti a noi per un'esperienza indimenticabile in fattoria. Incontra i nostri alpaca, impara la tessitura artigianale e immergiti nella tranquilla campagna di Ibiza.",
+    "heroCta": "Prenota la Tua Visita",
+    "tourOptionsTitle": "Opzioni Tour",
+    "tourOptionsSubtitle": "Scegli l'esperienza che ti ispira",
+    "tourTypes": {
+      "meetHerd": {
+        "title": "Incontra il Gregge",
+        "description": "Connettiti con i nostri alpaca, scopri le loro personalità e comprendi le loro cure e il loro benessere."
+      },
+      "weaving": {
+        "title": "Workshop di Tessitura",
+        "description": "Introduzione pratica alle arti della fibra. Prova la lavorazione manuale, la tintura naturale o la tessitura di base."
+      },
+      "farm": {
+        "title": "Esperienza in Fattoria",
+        "description": "Esplora il terreno, scopri le nostre pratiche sostenibili e goditi il paesaggio mediterraneo."
+      },
+      "photo": {
+        "title": "Sessione Fotografica",
+        "description": "Fotografia professionale o personale con alpaca e scenari pittoreschi. Perfetto per i ricordi."
+      }
+    },
+    "timelineTitle": "Cosa Aspettarsi da un Tour",
+    "timeline": {
+      "arrival": {
+        "time": "Arrivo",
+        "title": "Benvenuto e Orientamento",
+        "description": "Incontra la tua guida, ricevi una panoramica della giornata e impara le regole della fattoria. Rilassati e lascia che la serenità ti avvolga."
+      },
+      "morning": {
+        "time": "Mattina",
+        "title": "Incontra gli Alpaca",
+        "description": "Trascorri del tempo con il nostro gregge. Nutri, accarezza e scopri le storie dei nostri animali. Le guide condividono informazioni sul comportamento e la cura degli alpaca."
+      },
+      "midday": {
+        "time": "Mezzogiorno",
+        "title": "Tour dello Studio di Tessitura",
+        "description": "Esplora il nostro studio. Osserva l'intero processo: preparazione della fibra, tintura naturale, motivi tradizionali e finitura finale."
+      },
+      "afternoon": {
+        "time": "Pomeriggio",
+        "title": "Attività Pratica",
+        "description": "Partecipa a un workshop o un'attività su misura per i tuoi interessi: prova la cardatura manuale, la tintura o semplici tecniche di tessitura."
+      },
+      "closing": {
+        "time": "Chiusura",
+        "title": "Relax e Riflessione",
+        "description": "Concludi la giornata con rinfreschi. Visita il nostro negozio. Fai le ultime domande. Vai via con il cuore pieno di ricordi."
+      }
+    },
+    "planVisit": {
+      "hours": {
+        "title": "Orari",
+        "description": "Tour solo su appuntamento. La disponibilità varia in base alla stagione.",
+        "summer": "Estate: Orari estesi",
+        "winter": "Inverno: Disponibilità limitata",
+        "contact": "Contattaci per orari esatti"
+      },
+      "location": {
+        "title": "Posizione",
+        "description": "Ibiza, Spagna",
+        "details": "Fattoria privata. Indicazioni e informazioni sul parcheggio fornite alla prenotazione."
+      },
+      "pricing": {
+        "title": "Prezzi",
+        "starting": "Da 30 € a persona",
+        "custom": "Esperienze personalizzate e tariffe di gruppo disponibili"
+      },
+      "specialEvents": {
+        "title": "Eventi Speciali e Prenotazioni Private",
+        "description": "Matrimoni, servizi fotografici, yoga con alpaca, workshop, ritiri aziendali — creiamo esperienze su misura secondo la tua visione.",
+        "cta": "Richiedi un'Esperienza Personalizzata"
+      }
+    },
+    "bookingSection": {
+      "title": "Prenota la Tua Visita",
+      "subtitle": "Seleziona la data e l'ora preferite per prenotare la tua esperienza con gli alpaca.",
+      "cardTitle": "Prenota la Tua Visita",
+      "cardSubtitle": "Clicca il pulsante qui sotto per andare alla pagina di prenotazione e assicurarti il tuo posto.",
+      "bookNow": "Prenota Ora",
+      "poweredBy": "Prenotazione tramite FareHarbor",
+      "questions": "Domande?",
+      "questionsText": "Contattaci a hello@alpacasibiza.com o su WhatsApp per assistenza personalizzata."
+    },
+    "questionsText": "Contattaci a hello@alpacasibiza.com o su WhatsApp per assistenza personalizzata.",
     "backHome": "Torna alla Home"
   },
+  "guestStories": {
+    "title": "Storie degli Ospiti",
+    "subtitle": "Scopri cosa dicono i visitatori della loro esperienza",
+    "testimonial": "Un'esperienza indimenticabile. Gli alpaca erano meravigliosi, le guide erano competenti e calorose, e tutta la fattoria emanava pace e autenticità.",
+    "guest": "Ospite",
+    "visited": "Ha visitato di recente",
+    "translateButton": "Traduci",
+    "showOriginal": "Mostra originale",
+    "readMore": "Leggi altre recensioni su Facebook",
+    "reviews": {
+      "sue": "Ho visitato alla fine di agosto e mi sono divertita tantissimo! Ibiza ha molto da offrire oltre alla musica e consiglio vivamente una visita per vedere le bellissime alpache. Puoi dargli da mangiare e imparare tanto su questi animali incredibili ❤️. Sono stata accolta calorosamente e ho avuto un'esperienza preziosa. Andate a vederli - li amerete!",
+      "verena": "Abbiamo visitato le dolci e soffici alpache. Una coppia super simpatica ti guida attraversi i recinti delle alpache con ottime informazioni su questi animali. Hai l'opportunità di nutrire, accarezzare e persino dare un bacio alle alpache. Gli animali sono molto fiduciosi e si entusiasmano per la tua vicinanza e il cibo. È stata un'esperienza meravigliosa e posso solo raccomandarla a tutti coloro che sono a Ibiza. 🤗🥳",
+      "gemma": "Ho fatto una prenotazione di gruppo per 6 persone per venerdì 9 maggio. Bart mi ha contattato per farmi sapere che erano effettivamente chiusi quel giorno perché stavano tosando le alpache. Ha poi gentilmente offerto di accoglierci il giorno prima anche se la fattoria era chiusa. L'esperienza è stata fantastica. Bart era molto competente e amichevole e le alpache erano dolcissime. Tutte le alpache sono molto ben curate e adorano Bart, il che dimostra quanto lui le ami.",
+      "renate": "Molto divertente da fare con i nostri 2 ragazzi di 12 anni, ma in realtà divertente per tutte le età. Non sapevamo nulla delle alpache, è stato molto interessante! Ci è voluta esattamente un'ora.",
+      "sven": "Altamente raccomandato! Bart e San gestiscono un'operazione fantastica. L'esperienza Chill Out definitiva 🦙❤️🦙",
+      "paul": "Andato il 23 settembre, tour fantastico, Bart è molto competente e amichevole. Se avete una macchina è da non perdere 😀🦙"
+    }
+  },
+  "faq": {
+    "sectionTitle": "Domande Frequenti",
+    "sectionSubtitle": "Tutto ciò che devi sapere prima della tua visita",
+    "duration": {
+      "q": "Quanto dura un tour tipico?",
+      "a": "I tour standard durano 2-3 ore. Workshop ed esperienze estese possono essere personalizzati. Ti consigliamo di verificare le fasce orarie disponibili al momento della prenotazione."
+    },
+    "languages": {
+      "q": "In quali lingue offrite i tour?",
+      "a": "Offriamo tour in inglese, spagnolo e olandese. Se hai bisogno di un'altra lingua, contattaci."
+    },
+    "children": {
+      "q": "Le visite sono adatte ai bambini?",
+      "a": "Sì! I tour sono adatti alle famiglie. I bambini devono essere sorvegliati, specialmente vicino agli animali. Consigliamo dai 4 anni in su, ma i bambini più piccoli possono venire con la supervisione dei genitori."
+    },
+    "wear": {
+      "q": "Come devo vestirmi?",
+      "a": "Indossa scarpe chiuse e comode adatte al terreno della fattoria. Porta protezione solare in estate. Strati leggeri sono ideali poiché la fattoria è all'aperto. Evita colori vivaci o profumi forti per mantenere gli alpaca tranquilli."
+    },
+    "accessibility": {
+      "q": "La fattoria è accessibile per persone con disabilità?",
+      "a": "La nostra fattoria è su terreno naturale. Contattaci in anticipo per discutere l'accessibilità e come possiamo adattarci alle tue esigenze."
+    },
+    "food": {
+      "q": "Possiamo portare cibo o bevande?",
+      "a": "Il cibo esterno non è permesso, ma offriamo rinfreschi biologici. Ci adattiamo a restrizioni alimentari — menzionalo al momento della prenotazione."
+    },
+    "booking": {
+      "q": "Come posso prenotare un tour?",
+      "a": "Usa il nostro sistema di prenotazione online qui sotto per verificare la disponibilità e prenotare il tuo posto. Prenotazioni di gruppo e esperienze personalizzate: contattaci per le opzioni."
+    },
+    "cancellation": {
+      "q": "Cosa succede se devo cancellare o riprogrammare?",
+      "a": "Le cancellazioni fino a 48 ore prima del tour ricevono un rimborso completo o riprogrammazione. Con meno di 48 ore di preavviso si applica una penale del 50%."
+    },
+    "private": {
+      "q": "Offrite tour privati o eventi di gruppo?",
+      "a": "Sì! Offriamo esperienze private in fattoria, matrimoni, ritiri aziendali e sessioni di yoga con alpaca. Contattaci per pacchetti personalizzati."
+    },
+    "parking": {
+      "q": "C'è parcheggio disponibile?",
+      "a": "Sì, parcheggio gratuito disponibile sul posto. I posti sono limitati — arriva 15 minuti prima per parcheggiare con calma."
+    }
+  },
+  "backHome": "Torna alla Home",
   "shop": {
-    "title": "Il Nostro Negozio",
-    "subtitle": "Scopri prodotti di alpaca fatti a mano, pezzi personalizzati e letame premium",
+    "title": "Collezione Wishfulfilling Weaving",
+    "subtitle": "Fatto a Ibiza, abbracciando il mondo",
+    "description": "Sciarpe esclusive tessute a mano su un telaio tradizionale in legno con lana di alpaca di alta qualità, lino, mohair e lana di seta.",
+    "categories": {
+      "woven": {
+        "title": "Collezione Tessuta",
+        "description": "Sciarpe e tessili esclusivi tessuti a mano"
+      },
+      "commission": {
+        "title": "Commissione Personalizzata",
+        "description": "Crea il tuo pezzo unico con colori e motivi personalizzati"
+      },
+      "alcaca": {
+        "title": "Alcaca – Letame di Alpaca",
+        "description": "Fertilizzante biologico premium dai nostri alpaca"
+      }
+    },
     "explore": "Esplora",
     "woven": {
       "title": "Collezione Tessuta",
@@ -154,6 +318,9 @@
     "storyTitle": "La Nostra Storia",
     "storyText": "Alpacas Ibiza è stata fondata sulla convinzione che il turismo possa essere significativo, artigianale e profondamente connesso al benessere degli animali. Abbiamo creato la prima fattoria di alpaca sull'isola per condividere la nostra passione per queste creature gentili e la loro fibra incredibile.",
     "valuesTitle": "I Nostri Valori",
+    "weavingTitle": "Wishfulfilling Weaving",
+    "weavingSubtitle": "Fatto a Ibiza, abbracciando il mondo",
+    "weavingDescription": "Wishfulfilling Weaving è la nostra linea esclusiva di tessitura. San tesse sciarpe esclusive su un telaio tradizionale in legno, utilizzando lana di alpaca di alta qualità, lino, mohair e seta. Ogni pezzo è fatto a mano con intenzione e amore a Ibiza.",
     "welfare": {
       "title": "Benessere Animale",
       "description": "I nostri alpaca vengono prima in ogni decisione"
@@ -201,29 +368,285 @@
     "cookies": "Informativa sui Cookie",
     "copyright": "Tutti i diritti riservati."
   },
-  "guestStories": {
-    "title": "Storie degli Ospiti",
-    "subtitle": "Scopri cosa dicono i visitatori della loro esperienza",
-    "translateButton": "Traduci",
-    "showOriginal": "Mostra originale",
-    "readMore": "Leggi altre recensioni su Facebook",
-    "reviews": {
-      "sue": "Ho visitato alla fine di agosto e mi sono divertita tantissimo! Ibiza ha molto da offrire oltre alla musica e consiglio vivamente una visita per vedere le bellissime alpache. Puoi dargli da mangiare e imparare tanto su questi animali incredibili ❤️. Sono stata accolta calorosamente e ho avuto un'esperienza preziosa. Andate a vederli - li amerete!",
-      "verena": "Abbiamo visitato le dolci e soffici alpache. Una coppia super simpatica ti guida attraversi i recinti delle alpache con ottime informazioni su questi animali. Hai l'opportunità di nutrire, accarezzare e persino dare un bacio alle alpache. Gli animali sono molto fiduciosi e si entusiasmano per la tua vicinanza e il cibo. È stata un'esperienza meravigliosa e posso solo raccomandarla a tutti coloro che sono a Ibiza. 🤗🥳",
-      "gemma": "Ho fatto una prenotazione di gruppo per 6 persone per venerdì 9 maggio. Bart mi ha contattato per farmi sapere che erano effettivamente chiusi quel giorno perché stavano tosando le alpache. Ha poi gentilmente offerto di accoglierci il giorno prima anche se la fattoria era chiusa. L'esperienza è stata fantastica. Bart era molto competente e amichevole e le alpache erano dolcissime. Tutte le alpache sono molto ben curate e adorano Bart, il che dimostra quanto lui le ami.",
-      "renate": "Molto divertente da fare con i nostri 2 ragazzi di 12 anni, ma in realtà divertente per tutte le età. Non sapevamo nulla delle alpache, è stato molto interessante! Ci è voluta esattamente un'ora.",
-      "sven": "Altamente raccomandato! Bart e San gestiscono un'operazione fantastica. L'esperienza Chill Out definitiva 🦙❤️🦙",
-      "paul": "Andato il 23 settembre, tour fantastico, Bart è molto competente e amichevole. Se avete una macchina è da non perdere 😀🦙"
-    }
-  },
-  "faq": {
-    "sectionTitle": "Domande Frequenti",
-    "sectionSubtitle": "Tutto ciò che devi sapere prima della tua visita"
-  },
   "homepage": {
     "experiences": {
       "title": "Scegli la Tua Esperienza",
-      "subtitle": "Esplora la nostra fattoria, acquista prodotti artigianali o commissiona qualcosa di unico"
+      "subtitle": "Esperienze curate per ogni occasione",
+      "corporate": {
+        "title": "Aziendale e Team Building",
+        "description": "Disconnettiti per riconnetterti. Ritiri di leadership e team building con il nostro dolce gregge.",
+        "cta": "Pianifica un Evento"
+      },
+      "romantic": {
+        "title": "Passeggiate Romantiche al Tramonto",
+        "description": "La magia dell'ora d'oro. Passeggiate private e intime per coppie (e proposte di matrimonio!).",
+        "cta": "Prenota Tour Privato"
+      },
+      "family": {
+        "title": "Giornate Famiglia in Fattoria",
+        "description": "Divertimento sicuro ed educativo per tutte le età. Avvicina i tuoi piccoli alla natura.",
+        "cta": "Visita Famiglia"
+      }
     }
+  },
+  "corporate": {
+    "title": "Ritiri Aziendali e Team Building",
+    "subtitle": "Disconnettiti per riconnetterti. Porta il tuo team nella tranquilla campagna di Ibiza per un'esperienza di legame unica con il nostro gregge di alpaca.",
+    "cta": "Informazioni per Team",
+    "whyTitle": "Perché gli Alpaca per il Team Building?",
+    "whyText": "Gli alpaca sono animali sensibili e calmanti che riflettono l'energia umana. Interagire con loro richiede pazienza, osservazione e comunicazione non verbale — competenze perfette per un lavoro di squadra efficace.",
+    "features": {
+      "stress": {
+        "title": "Riduzione dello Stress",
+        "description": "La presenza calmante degli alpaca riduce il cortisolo e favorisce la consapevolezza."
+      },
+      "communication": {
+        "title": "Comunicazione",
+        "description": "Impara a guidare senza forzare. Gli alpaca rispondono all'assertività calma."
+      },
+      "creativity": {
+        "title": "Creatività",
+        "description": "I workshop di tessitura stimolano la risoluzione creativa dei problemi e la concentrazione."
+      },
+      "nature": {
+        "title": "Connessione con la Natura",
+        "description": "Porta il tuo team fuori dall'ufficio nell'aria fresca del Mediterraneo."
+      }
+    },
+    "itinerary": {
+      "title": "Programma di Esempio",
+      "item1": {
+        "time": "10:00",
+        "title": "Benvenuto e Rinfreschi",
+        "desc": "Caffè, tè e pasticceria locale sulla terrazza."
+      },
+      "item2": {
+        "time": "10:30",
+        "title": "Incontro con il Gregge",
+        "desc": "Presentazione guidata degli alpaca. Scopri i loro nomi e personalità."
+      },
+      "item3": {
+        "time": "11:30",
+        "title": "Sfida di Squadra",
+        "desc": "Attività interattiva: Guidare un alpaca attraverso un semplice percorso che richiede lavoro di squadra."
+      },
+      "item4": {
+        "time": "13:00",
+        "title": "Pranzo in Fattoria",
+        "desc": "Picnic biologico con prodotti locali sotto i carrubi."
+      }
+    },
+    "planTitle": "Pronto a Organizzare il Tuo Evento?",
+    "planText": "Personalizziamo ogni pacchetto aziendale secondo le dimensioni e gli obiettivi del tuo team. Contattaci per un preventivo.",
+    "planCta": "Richiedi un Preventivo"
+  },
+  "romantic": {
+    "title": "Passeggiate Romantiche al Tramonto",
+    "subtitle": "L'ora d'oro con gli alpaca. Un'esperienza privata e intima per coppie nel cuore di Ibiza.",
+    "cta": "Prenota Tour al Tramonto",
+    "quote": "\"L'appuntamento più magico che abbiamo mai avuto.\"",
+    "description": "Fuggi dalla folla. Solo tu, il tuo partner e i nostri dolci alpaca che passeggiano tra gli aranceti mentre il sole tramonta dietro le colline.",
+    "champagne": {
+      "title": "Champagne",
+      "desc": "Opzione Cava aggiuntiva per brindare al tramonto."
+    },
+    "photos": {
+      "title": "Foto",
+      "desc": "La tua guida cattura momenti spontanei così puoi vivere l'attimo."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "desc": "Tour strettamente privati disponibili su richiesta."
+    },
+    "proposalTitle": "Perfetto per le Proposte",
+    "proposalText": "Stai pensando di fare la domanda? Possiamo aiutarti a orchestrare il momento perfetto con gli alpaca come testimoni.",
+    "proposalCta": "Contattaci per Organizzare"
+  },
+  "family": {
+    "title": "Giornate Famiglia in Fattoria",
+    "subtitle": "Presenta ai tuoi figli la gioia degli animali. Sicuro, educativo e divertente per tutte le età.",
+    "cta": "Prenota Visita Famiglia",
+    "educationTitle": "L'Educazione Incontra la Tenerezza",
+    "educationText": "La nostra fattoria non è solo uno zoo — è un'esperienza educativa. I bambini imparano:",
+    "points": {
+      "respect": "Il Rispetto: Come avvicinarsi agli animali con delicatezza.",
+      "biology": "La Biologia: Perché gli alpaca hanno un vello morbido e cuscinetti invece di zoccoli.",
+      "sustainability": "La Sostenibilità: Come usiamo il letame di alpaca (\"Oro Negro\") per l'agricoltura."
+    },
+    "safetyTitle": "La Sicurezza Prima di Tutto",
+    "safety": {
+      "gentle": {
+        "title": "Animali Docili",
+        "desc": "Il nostro gregge è socializzato e abituato ai bambini."
+      },
+      "stroller": {
+        "title": "Adatto ai Passeggini",
+        "desc": "I sentieri sono accessibili per passeggini robusti."
+      },
+      "hygiene": {
+        "title": "Igiene",
+        "desc": "Stazioni per il lavaggio delle mani disponibili."
+      },
+      "refreshments": {
+        "title": "Rinfreschi",
+        "desc": "Bevande e snack adatti ai bambini."
+      }
+    },
+    "faq": {
+      "age": {
+        "q": "Qual è l'età minima?",
+        "a": "Tutte le età sono benvenute! I bambini sotto i 3 anni entrano gratis. Consigliamo dai 4 anni in su per l'esperienza completa di passeggiata."
+      },
+      "safe": {
+        "q": "Gli alpaca sono sicuri?",
+        "a": "Sì, gli alpaca non mordono (hanno solo i denti inferiori!) e sono generalmente molto tranquilli. Insegniamo ai tuoi figli esattamente come interagire in sicurezza."
+      },
+      "duration": {
+        "q": "Quanto dura la visita?",
+        "a": "Le visite familiari durano tipicamente 1,5-2 ore, perfette per i tempi di attenzione più brevi."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "subtitle": "Come raccogliamo, utilizziamo e proteggiamo le tue informazioni",
+    "section1Title": "1. Informazioni che Raccogliamo",
+    "section1Intro": "Raccogliamo le informazioni che fornisci direttamente:",
+    "section1Items": [
+      "Dettagli di prenotazione tour (nome, email, telefono)",
+      "Informazioni sugli ordini (indirizzo di spedizione, dati di pagamento)",
+      "Richieste di commissione (dettagli del progetto, preferenze)",
+      "Iscrizione alla newsletter (indirizzo email)",
+      "Invii dal modulo di contatto"
+    ],
+    "section2Title": "2. Come Utilizziamo le Tue Informazioni",
+    "section2Items": [
+      "Gestire prenotazioni tour e ordini",
+      "Inviare email di conferma e aggiornamenti",
+      "Rispondere alle richieste",
+      "Migliorare il nostro sito web e servizi",
+      "Inviare newsletter (puoi cancellarti in qualsiasi momento)",
+      "Adempiere agli obblighi legali"
+    ],
+    "section3Title": "3. Protezione dei Dati",
+    "section3Intro": "Prendiamo seriamente la tua privacy. I tuoi dati sono crittografati e conservati in modo sicuro. Non condividiamo le tue informazioni tranne:",
+    "section3Items": [
+      "Processori di pagamento (per transazioni sicure)",
+      "Sistemi di prenotazione (FareHarbor, se necessario)",
+      "Requisiti legali (quando richiesto dalla legge)"
+    ],
+    "section4Title": "4. Cookie e Tracciamento",
+    "section4Text": "Utilizziamo i cookie per migliorare la tua esperienza. I cookie essenziali sono necessari per la funzionalità. Puoi controllare le preferenze dei cookie nel tuo browser o nel nostro banner dei cookie.",
+    "section5Title": "5. I Tuoi Diritti",
+    "section5Intro": "Hai il diritto di:",
+    "section5Items": [
+      "Accedere ai tuoi dati",
+      "Correggere informazioni inesatte",
+      "Richiedere la cancellazione (diritto all'oblio)",
+      "Rinunciare alle comunicazioni di marketing"
+    ],
+    "lastUpdated": "Ultimo aggiornamento: Febbraio 2024. Contattaci a hello@alpacasibiza.com per domande sulla privacy."
+  },
+  "terms": {
+    "title": "Termini di Servizio",
+    "subtitle": "Ti preghiamo di leggere questi termini prima di utilizzare il nostro sito web e i servizi di prenotazione",
+    "section1Title": "1. Prenotazioni e Tour",
+    "section1Intro": "Prenotando un tour, accetti di:",
+    "section1Items": [
+      "Seguire tutte le linee guida di sicurezza della fattoria e degli animali",
+      "Arrivare 15 minuti prima dell'orario previsto",
+      "Rispettare gli alpaca e la proprietà della fattoria",
+      "Portare un documento d'identità valido se richiesto",
+      "Seguire tutti i protocolli di salute/sicurezza in vigore"
+    ],
+    "section2Title": "2. Cancellazioni e Rimborsi",
+    "section2Items": [
+      "Cancellazione fino a 48 ore prima: Rimborso completo o riprogrammazione",
+      "Cancellazione con meno di 48 ore: Penale del 50%",
+      "Mancata presentazione: Pagamento completo perso",
+      "Chiusura per maltempo: Rimborso completo o riprogrammazione"
+    ],
+    "section3Title": "3. Ordini del Negozio",
+    "section3Intro": "Tutti i prodotti sono fatti a mano. Piccole variazioni e imperfezioni sono normali e fanno parte del processo artigianale.",
+    "section3Items": [
+      "Spedizione entro 5-7 giorni lavorativi",
+      "Gli ordini internazionali possono richiedere più tempo",
+      "Resi: 30 giorni per articoli non usati e non danneggiati",
+      "Gli articoli personalizzati/su commissione non sono restituibili"
+    ],
+    "section4Title": "4. Accordi di Commissione",
+    "section4Items": [
+      "Acconto del 50% richiesto per confermare il progetto",
+      "Saldo dovuto prima della spedizione finale",
+      "Le stime dei tempi sono approssimative",
+      "Cancellazione dopo l'inizio della produzione: rimborso solo del 50%"
+    ],
+    "section5Title": "5. Fotografia e Consenso",
+    "section5Text": "Visitando la nostra fattoria o acquistando i nostri prodotti, acconsenti ad essere fotografato. Queste immagini possono essere utilizzate sul nostro sito web e sui social media. Se preferisci non essere fotografato, informa la tua guida.",
+    "section6Title": "6. Limitazione di Responsabilità",
+    "section6Text": "Le visite in fattoria comportano interazione con gli animali. I visitatori assumono tutti i rischi. Non siamo responsabili per infortuni a meno che non siano causati da negligenza grave. I bambini devono essere sorvegliati in ogni momento.",
+    "section7Title": "7. Utilizzo del Sito Web",
+    "section7Items": [
+      "Non riprodurre o redistribuire i nostri contenuti senza permesso",
+      "Non tentare di hackerare o interferire con il sito web",
+      "Rispettare i diritti di proprietà intellettuale"
+    ],
+    "lastUpdated": "Ultimo aggiornamento: Febbraio 2024. Contatta hello@alpacasibiza.com per domande."
+  },
+  "cookies": {
+    "title": "Informativa sui Cookie",
+    "subtitle": "Informazioni sull'uso dei cookie sul nostro sito web",
+    "whatTitle": "Cosa Sono i Cookie?",
+    "whatText": "I cookie sono piccoli file di testo memorizzati nel tuo browser. Aiutano i siti web a ricordare le tue preferenze e a tracciare come usi il sito.",
+    "typesTitle": "Tipi di Cookie che Utilizziamo",
+    "essentialTitle": "Cookie Essenziali",
+    "essentialText": "Necessari per il funzionamento del sito. Includono:",
+    "essentialItems": [
+      "Cookie di sessione (per la tua prenotazione)",
+      "Cookie di sicurezza (per proteggere i tuoi dati)",
+      "Cookie di funzionalità del sito"
+    ],
+    "preferenceTitle": "Cookie di Preferenza",
+    "preferenceText": "Ricordano le tue scelte (lingua, tema, ecc.) per un'esperienza migliore.",
+    "analyticsTitle": "Cookie di Analisi",
+    "analyticsText": "Ci aiutano a capire come usi il nostro sito per poterlo migliorare. Utilizziamo:",
+    "analyticsItems": [
+      "Google Analytics (visualizzazioni pagina, fonti di traffico)",
+      "Tracciamento conversioni (prenotazioni, monitoraggio acquisti)"
+    ],
+    "marketingTitle": "Cookie di Marketing",
+    "marketingText": "Utilizzati per annunci di retargeting e campagne di remarketing. Puoi disattivarli in qualsiasi momento.",
+    "choicesTitle": "Le Tue Scelte sui Cookie",
+    "choicesItems": [
+      "Cookie essenziali: Non possono essere disattivati (necessari per il sito)",
+      "Analisi e Marketing: Disattivabili tramite il nostro banner dei cookie",
+      "Impostazioni del browser: La maggior parte dei browser consente il controllo dei cookie",
+      "Rinuncia: Usa l'impostazione \"Non tracciare\" del tuo browser"
+    ],
+    "thirdPartyTitle": "Servizi di Terze Parti",
+    "thirdPartyText": "Utilizziamo servizi di terze parti che possono impostare i propri cookie:",
+    "thirdPartyItems": [
+      "Processori di pagamento (per transazioni sicure)",
+      "Sistemi di prenotazione (FareHarbor)",
+      "Fornitori di analisi"
+    ],
+    "manageTitle": "Gestire i Cookie",
+    "manageText": "La maggior parte dei browser ti consente di:",
+    "manageItems": [
+      "Visualizzare i cookie memorizzati",
+      "Eliminare cookie specifici",
+      "Bloccare nuovi cookie",
+      "Impostare livelli di privacy"
+    ],
+    "manageNote": "Consulta la documentazione del tuo browser per istruzioni specifiche.",
+    "gdprTitle": "Conformità GDPR",
+    "gdprText": "Rispettiamo il GDPR e le normative ePrivacy. Noi:",
+    "gdprItems": [
+      "Impostiamo cookie non essenziali solo con il tuo consenso",
+      "Forniamo informazioni chiare sui cookie",
+      "Consentiamo una facile rinuncia",
+      "Rispettiamo le tue scelte sulla privacy"
+    ],
+    "lastUpdated": "Ultimo aggiornamento: Febbraio 2024. Contatta hello@alpacasibiza.com per domande sui cookie."
   }
 }

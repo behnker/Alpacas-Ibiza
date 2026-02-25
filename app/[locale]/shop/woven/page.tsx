@@ -1,37 +1,39 @@
 import Link from 'next/link'
 import type { Locale } from '@/i18n.config'
+import { t } from '@/lib/translations'
 
 export default function WovenPage({ params }: { params: { locale: Locale } }) {
   const locale = params.locale
+  const translate = t(locale)
 
   const products = [
     {
-      title: locale === 'en' ? 'Alpaca Wool Scarf' : locale === 'de' ? 'Alpakawolle-Schal' : locale === 'it' ? 'Sciarpa in Lana di Alpaca' : locale === 'es' ? 'Bufanda de Lana de Alpaca' : locale === 'nl' ? 'Alpacawol Sjaal' : 'Écharpe en Laine d\'Alpaca',
+      title: translate('wovenPage.scarf'),
       price: '€45',
       icon: '🧣',
     },
     {
-      title: locale === 'en' ? 'Woven Blanket' : locale === 'de' ? 'Gewebte Decke' : locale === 'it' ? 'Coperta Tessuta' : locale === 'es' ? 'Manta Tejida' : locale === 'nl' ? 'Geweven Deken' : 'Couverture Tissée',
+      title: translate('wovenPage.blanket'),
       price: '€180',
       icon: '🛏️',
     },
     {
-      title: locale === 'en' ? 'Natural Dye Throw' : locale === 'de' ? 'Naturfarbener Überwurf' : locale === 'it' ? 'Plaid con Tintura Naturale' : locale === 'es' ? 'Manta de Tinte Natural' : locale === 'nl' ? 'Natuurlijk Geverfd Plaid' : 'Plaid Teinture Naturelle',
+      title: translate('wovenPage.throw'),
       price: '€95',
       icon: '🎨',
     },
     {
-      title: locale === 'en' ? 'Artisan Cushion Cover' : locale === 'de' ? 'Handwerklicher Kissenbezug' : locale === 'it' ? 'Copricuscino Artigianale' : locale === 'es' ? 'Funda de Cojín Artesanal' : locale === 'nl' ? 'Handgemaakte Kussenhoestje' : 'Housse de Coussin Artisanale',
+      title: translate('wovenPage.cushion'),
       price: '€65',
       icon: '🏠',
     },
     {
-      title: locale === 'en' ? 'Premium Wall Hanging' : locale === 'de' ? 'Premium Wandbehang' : locale === 'it' ? 'Arazzo Murales Premium' : locale === 'es' ? 'Tapiz Mural Premium' : locale === 'nl' ? 'Premium Wandtapijt' : 'Tapisserie Murale Premium',
+      title: translate('wovenPage.wallHanging'),
       price: '€150',
       icon: '🎭',
     },
     {
-      title: locale === 'en' ? 'Eco-Friendly Poncho' : locale === 'de' ? 'Umweltfreundlicher Poncho' : locale === 'it' ? 'Poncho Ecologico' : locale === 'es' ? 'Poncho Ecológico' : locale === 'nl' ? 'Ecologische Poncho' : 'Poncho Écologique',
+      title: translate('wovenPage.poncho'),
       price: '€120',
       icon: '👚',
     },
@@ -42,20 +44,10 @@ export default function WovenPage({ params }: { params: { locale: Locale } }) {
       <section className="w-full py-20 px-4 bg-gradient-to-br from-primary/10 to-accent/10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            {locale === 'en' && 'Woven Collection'}
-            {locale === 'de' && 'Gewobene Kollektion'}
-            {locale === 'it' && 'Collezione Tessuta'}
-            {locale === 'es' && 'Colección Tejida'}
-            {locale === 'nl' && 'Geweven Collectie'}
-            {locale === 'fr' && 'Collection Tissée'}
+            {translate('wovenPage.title')}
           </h1>
           <p className="text-lg text-foreground/70">
-            {locale === 'en' && 'Handcrafted with love using traditional weaving techniques and natural alpaca wool'}
-            {locale === 'de' && 'Mit Liebe von Hand gefertigt mit traditionellen Webtechniken und natürlicher Alpakawolle'}
-            {locale === 'it' && 'Realizzato a mano con amore utilizzando tecniche di tessitura tradizionali e lana di alpaca naturale'}
-            {locale === 'es' && 'Hecho a mano con amor utilizando técnicas de tejido tradicionales y lana de alpaca natural'}
-            {locale === 'nl' && 'Met de hand gemaakt met liefde met behulp van traditionele weeftechnieken en natuurlijke alpacawol'}
-            {locale === 'fr' && 'Fait à la main avec amour en utilisant des techniques de tissage traditionnelles et de la laine d\'alpaca naturelle'}
+            {translate('wovenPage.subtitle')}
           </p>
         </div>
       </section>
@@ -72,12 +64,7 @@ export default function WovenPage({ params }: { params: { locale: Locale } }) {
                   <h3 className="text-lg font-semibold text-foreground mb-2">{product.title}</h3>
                   <p className="text-accent font-bold text-xl mb-4">{product.price}</p>
                   <button className="w-full px-4 py-2 bg-accent hover:bg-accent/90 text-accent-foreground rounded-lg font-medium transition-colors">
-                    {locale === 'en' && 'Add to Cart'}
-                    {locale === 'de' && 'In den Warenkorb'}
-                    {locale === 'it' && 'Aggiungi al Carrello'}
-                    {locale === 'es' && 'Añadir al Carrito'}
-                    {locale === 'nl' && 'Toevoegen aan Winkelwagen'}
-                    {locale === 'fr' && 'Ajouter au Panier'}
+                    {translate('wovenPage.addToCart')}
                   </button>
                 </div>
               </div>

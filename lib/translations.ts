@@ -27,6 +27,19 @@ export function getTranslation(locale: Locale, key: string, defaultValue = ''): 
   return defaultValue
 }
 
+export function getTranslationArray(locale: Locale, key: string): string[] {
+  const val = resolve(translations[locale], key.split('.'))
+  if (Array.isArray(val)) return val as string[]
+  // Fallback to English
+  const fallback = resolve(translations.en, key.split('.'))
+  if (Array.isArray(fallback)) return fallback as string[]
+  return []
+}
+
 export function t(locale: Locale) {
   return (key: string, defaultValue?: string) => getTranslation(locale, key, defaultValue ?? key)
+}
+
+export function ta(locale: Locale) {
+  return (key: string) => getTranslationArray(locale, key)
 }
