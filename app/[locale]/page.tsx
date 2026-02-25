@@ -110,7 +110,11 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       />
 
       {/* Choice Paths */}
-      <ChoicePaths paths={pathOptions} />
+      <ChoicePaths
+        paths={pathOptions}
+        title={translate('homepage.experiences.title')}
+        subtitle={translate('homepage.experiences.subtitle')}
+      />
 
       {/* Why Alpacas Ibiza */}
       <section className="w-full py-16 md:py-24 px-4 bg-background">

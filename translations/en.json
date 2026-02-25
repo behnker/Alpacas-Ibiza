@@ -180,10 +180,23 @@
     "subtitle": "See what visitors say about their experience",
     "testimonial": "An unforgettable experience. The alpacas were wonderful, the guides were knowledgeable and warm, and the whole farm exuded peace and authenticity.",
     "guest": "Guest",
-    "visited": "Visited recently"
+    "visited": "Visited recently",
+    "translateButton": "Translate",
+    "showOriginal": "Show original",
+    "readMore": "Read more reviews on Facebook",
+    "reviews": {
+      "sue": "I visited at the end of August and had a fantastic time! Ibiza has so much to offer in addition to the music and I would highly recommend a visit to see the beautiful Alpacas. You can feed them and learn so much about these amazing animals ❤️. I was warmly welcomed and had such a valuable experience. Go and see them - you'll love it and them!",
+      "verena": "We visited the sweet, fluffy alpacas. A super nice couple guides you through the alpaca enclosures with great information about these animals. You have the opportunity to feed, pet, and even give an alpaca kiss. The animals are very trusting and are thrilled by your closeness and food. It was a wonderful experience and I can only recommend it to everyone who is in Ibiza. 🤗🥳",
+      "gemma": "I made a group booking for 6 of us for Friday 9th May. Bart got in touch to let me know that they were actually closed that day because they were shearing the Alpacas. He then kindly offered to accommodate us the day before even though the farm was closed, it was really kind of him to do so. The experience itself was amazing. Bart was so knowledgeable and friendly and the Alpacas were so sweet. All the Alpacas are very well cared for and adore Bart which shows how much he loves them.",
+      "renate": "Really fun to do with our 2 boys aged 12, but actually fun for all ages. We actually knew nothing about Alpacas, it was very interesting! It took exactly one hour.",
+      "sven": "Highly recommended! Bart & San run a fantastic operation. The ultimate Chill Out experience 🦙❤️🦙",
+      "paul": "Went September 23, amazing tour, Bart is so knowledgeable and friendly. If you have a car it's a must 😀🦙"
+    }
   }
 },
 "faq": {
+  "sectionTitle": "Frequently Asked Questions",
+  "sectionSubtitle": "Everything you need to know before your visit",
   "duration": {
     "q": "How long is a typical tour?",
     "a": "Standard tours are 2–3 hours. Workshops and extended experiences can be customized. We recommend checking available time slots when booking."

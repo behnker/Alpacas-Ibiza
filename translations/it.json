@@ -38,19 +38,46 @@
   "features": {
     "sectionTitle": "Perché Scegliere Alpacas Ibiza",
     "sectionSubtitle": "Uniamo ospitalità, artigianalità e benessere animale in ogni esperienza",
-    "farm": { "title": "Fattoria Attiva", "description": "Una vera fattoria di alpaca e studio tessile nel cuore di Ibiza. Ogni pezzo racconta una storia dei nostri animali e della nostra terra." },
-    "artisan": { "title": "Processo Artigianale", "description": "Fibre lavorate a mano, tinture naturali, motivi tradizionali. Ogni passaggio onora l'artigianato e gli alpaca." },
-    "sustainable": { "title": "Sostenibile e Naturale", "description": "Pratiche biologiche, prodotti ecologici, imballaggi biodegradabili. Cura per gli animali e il pianeta." },
-    "appointment": { "title": "Solo su Appuntamento", "description": "Solo visite intime. Manteniamo la nostra fattoria calma e tranquilla per gli alpaca — e per voi." },
-    "quality": { "title": "Qualità Premium", "description": "Ogni prodotto è controllato a mano. Garantiamo la qualità e la longevità del nostro lavoro." },
-    "welfare": { "title": "Benessere Animale Prima di Tutto", "description": "I nostri alpaca sono membri preziosi della nostra famiglia. Il loro comfort e felicità guidano tutto ciò che facciamo." }
+    "farm": {
+      "title": "Fattoria Attiva",
+      "description": "Una vera fattoria di alpaca e studio tessile nel cuore di Ibiza. Ogni pezzo racconta una storia dei nostri animali e della nostra terra."
+    },
+    "artisan": {
+      "title": "Processo Artigianale",
+      "description": "Fibre lavorate a mano, tinture naturali, motivi tradizionali. Ogni passaggio onora l'artigianato e gli alpaca."
+    },
+    "sustainable": {
+      "title": "Sostenibile e Naturale",
+      "description": "Pratiche biologiche, prodotti ecologici, imballaggi biodegradabili. Cura per gli animali e il pianeta."
+    },
+    "appointment": {
+      "title": "Solo su Appuntamento",
+      "description": "Solo visite intime. Manteniamo la nostra fattoria calma e tranquilla per gli alpaca — e per voi."
+    },
+    "quality": {
+      "title": "Qualità Premium",
+      "description": "Ogni prodotto è controllato a mano. Garantiamo la qualità e la longevità del nostro lavoro."
+    },
+    "welfare": {
+      "title": "Benessere Animale Prima di Tutto",
+      "description": "I nostri alpaca sono membri preziosi della nostra famiglia. Il loro comfort e felicità guidano tutto ciò che facciamo."
+    }
   },
   "experiences": {
     "sectionTitle": "Esperienze Speciali",
     "sectionSubtitle": "Oltre i tour — crea ricordi personalizzati nella nostra fattoria",
-    "privateFarm": { "title": "Fattoria Privata", "description": "Visite solo su appuntamento. Esperienze intime e tranquille in una vera fattoria." },
-    "workshops": { "title": "Workshop", "description": "Impara la tessitura, la tintura naturale e le arti delle fibre direttamente dal nostro team artigianale." },
-    "events": { "title": "Eventi", "description": "Matrimoni, servizi fotografici, ritiri aziendali, yoga con alpaca — esperienze personalizzate." }
+    "privateFarm": {
+      "title": "Fattoria Privata",
+      "description": "Visite solo su appuntamento. Esperienze intime e tranquille in una vera fattoria."
+    },
+    "workshops": {
+      "title": "Workshop",
+      "description": "Impara la tessitura, la tintura naturale e le arti delle fibre direttamente dal nostro team artigianale."
+    },
+    "events": {
+      "title": "Eventi",
+      "description": "Matrimoni, servizi fotografici, ritiri aziendali, yoga con alpaca — esperienze personalizzate."
+    }
   },
   "cta": {
     "title": "Pronti a Vivere Alpacas Ibiza?",
@@ -77,9 +104,18 @@
     "title": "Il Nostro Negozio",
     "subtitle": "Scopri prodotti di alpaca fatti a mano, pezzi personalizzati e letame premium",
     "explore": "Esplora",
-    "woven": { "title": "Collezione Tessuta", "description": "Sciarpe, coperte e tessuti fatti a mano" },
-    "commission": { "title": "Commissione Personalizzata", "description": "Crea il tuo pezzo unico" },
-    "manure": { "title": "Letame di Alpaca", "description": "Fertilizzante biologico premium" }
+    "woven": {
+      "title": "Collezione Tessuta",
+      "description": "Sciarpe, coperte e tessuti fatti a mano"
+    },
+    "commission": {
+      "title": "Commissione Personalizzata",
+      "description": "Crea il tuo pezzo unico"
+    },
+    "manure": {
+      "title": "Letame di Alpaca",
+      "description": "Fertilizzante biologico premium"
+    }
   },
   "wovenPage": {
     "title": "Collezione Tessuta",
@@ -118,10 +154,22 @@
     "storyTitle": "La Nostra Storia",
     "storyText": "Alpacas Ibiza è stata fondata sulla convinzione che il turismo possa essere significativo, artigianale e profondamente connesso al benessere degli animali. Abbiamo creato la prima fattoria di alpaca sull'isola per condividere la nostra passione per queste creature gentili e la loro fibra incredibile.",
     "valuesTitle": "I Nostri Valori",
-    "welfare": { "title": "Benessere Animale", "description": "I nostri alpaca vengono prima in ogni decisione" },
-    "sustainability": { "title": "Sostenibilità", "description": "Pratiche biologiche e responsabilità ambientale" },
-    "quality": { "title": "Qualità Artigianale", "description": "Lavorato a mano, controllato a mano, curato a mano" },
-    "community": { "title": "Comunità", "description": "Condividere conoscenze e creare connessioni" }
+    "welfare": {
+      "title": "Benessere Animale",
+      "description": "I nostri alpaca vengono prima in ogni decisione"
+    },
+    "sustainability": {
+      "title": "Sostenibilità",
+      "description": "Pratiche biologiche e responsabilità ambientale"
+    },
+    "quality": {
+      "title": "Qualità Artigianale",
+      "description": "Lavorato a mano, controllato a mano, curato a mano"
+    },
+    "community": {
+      "title": "Comunità",
+      "description": "Condividere conoscenze e creare connessioni"
+    }
   },
   "contact": {
     "title": "Contattaci",
@@ -152,5 +200,30 @@
     "terms": "Termini di Servizio",
     "cookies": "Informativa sui Cookie",
     "copyright": "Tutti i diritti riservati."
+  },
+  "guestStories": {
+    "title": "Storie degli Ospiti",
+    "subtitle": "Scopri cosa dicono i visitatori della loro esperienza",
+    "translateButton": "Traduci",
+    "showOriginal": "Mostra originale",
+    "readMore": "Leggi altre recensioni su Facebook",
+    "reviews": {
+      "sue": "Ho visitato alla fine di agosto e mi sono divertita tantissimo! Ibiza ha molto da offrire oltre alla musica e consiglio vivamente una visita per vedere le bellissime alpache. Puoi dargli da mangiare e imparare tanto su questi animali incredibili ❤️. Sono stata accolta calorosamente e ho avuto un'esperienza preziosa. Andate a vederli - li amerete!",
+      "verena": "Abbiamo visitato le dolci e soffici alpache. Una coppia super simpatica ti guida attraversi i recinti delle alpache con ottime informazioni su questi animali. Hai l'opportunità di nutrire, accarezzare e persino dare un bacio alle alpache. Gli animali sono molto fiduciosi e si entusiasmano per la tua vicinanza e il cibo. È stata un'esperienza meravigliosa e posso solo raccomandarla a tutti coloro che sono a Ibiza. 🤗🥳",
+      "gemma": "Ho fatto una prenotazione di gruppo per 6 persone per venerdì 9 maggio. Bart mi ha contattato per farmi sapere che erano effettivamente chiusi quel giorno perché stavano tosando le alpache. Ha poi gentilmente offerto di accoglierci il giorno prima anche se la fattoria era chiusa. L'esperienza è stata fantastica. Bart era molto competente e amichevole e le alpache erano dolcissime. Tutte le alpache sono molto ben curate e adorano Bart, il che dimostra quanto lui le ami.",
+      "renate": "Molto divertente da fare con i nostri 2 ragazzi di 12 anni, ma in realtà divertente per tutte le età. Non sapevamo nulla delle alpache, è stato molto interessante! Ci è voluta esattamente un'ora.",
+      "sven": "Altamente raccomandato! Bart e San gestiscono un'operazione fantastica. L'esperienza Chill Out definitiva 🦙❤️🦙",
+      "paul": "Andato il 23 settembre, tour fantastico, Bart è molto competente e amichevole. Se avete una macchina è da non perdere 😀🦙"
+    }
+  },
+  "faq": {
+    "sectionTitle": "Domande Frequenti",
+    "sectionSubtitle": "Tutto ciò che devi sapere prima della tua visita"
+  },
+  "homepage": {
+    "experiences": {
+      "title": "Scegli la Tua Esperienza",
+      "subtitle": "Esplora la nostra fattoria, acquista prodotti artigianali o commissiona qualcosa di unico"
+    }
   }
 }

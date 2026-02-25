@@ -38,19 +38,46 @@
   "features": {
     "sectionTitle": "Por Qué Elegir Alpacas Ibiza",
     "sectionSubtitle": "Combinamos hospitalidad, artesanía y bienestar animal en cada experiencia",
-    "farm": { "title": "Granja Activa", "description": "Una granja de alpacas real y activa con estudio de tejido en el corazón de Ibiza. Cada pieza cuenta una historia de nuestros animales y nuestra tierra." },
-    "artisan": { "title": "Proceso Artesanal", "description": "Fibras procesadas a mano, tintes naturales, patrones tradicionales. Cada paso honra la artesanía y las alpacas." },
-    "sustainable": { "title": "Sostenible y Natural", "description": "Prácticas ecológicas, productos respetuosos con el medio ambiente, embalajes biodegradables. Cuidado de los animales y el planeta." },
-    "appointment": { "title": "Solo con Cita", "description": "Solo visitas íntimas. Mantenemos nuestra granja tranquila y pacífica para las alpacas — y para ti." },
-    "quality": { "title": "Calidad Premium", "description": "Cada producto se revisa a mano. Respaldamos la calidad y durabilidad de nuestro trabajo." },
-    "welfare": { "title": "Bienestar Animal Primero", "description": "Nuestras alpacas son miembros queridos de nuestra familia. Su comodidad y felicidad impulsan todo lo que hacemos." }
+    "farm": {
+      "title": "Granja Activa",
+      "description": "Una granja de alpacas real y activa con estudio de tejido en el corazón de Ibiza. Cada pieza cuenta una historia de nuestros animales y nuestra tierra."
+    },
+    "artisan": {
+      "title": "Proceso Artesanal",
+      "description": "Fibras procesadas a mano, tintes naturales, patrones tradicionales. Cada paso honra la artesanía y las alpacas."
+    },
+    "sustainable": {
+      "title": "Sostenible y Natural",
+      "description": "Prácticas ecológicas, productos respetuosos con el medio ambiente, embalajes biodegradables. Cuidado de los animales y el planeta."
+    },
+    "appointment": {
+      "title": "Solo con Cita",
+      "description": "Solo visitas íntimas. Mantenemos nuestra granja tranquila y pacífica para las alpacas — y para ti."
+    },
+    "quality": {
+      "title": "Calidad Premium",
+      "description": "Cada producto se revisa a mano. Respaldamos la calidad y durabilidad de nuestro trabajo."
+    },
+    "welfare": {
+      "title": "Bienestar Animal Primero",
+      "description": "Nuestras alpacas son miembros queridos de nuestra familia. Su comodidad y felicidad impulsan todo lo que hacemos."
+    }
   },
   "experiences": {
     "sectionTitle": "Experiencias Especiales",
     "sectionSubtitle": "Más allá de los tours — crea recuerdos personalizados en nuestra granja",
-    "privateFarm": { "title": "Granja Privada", "description": "Visitas solo con cita previa. Experiencias íntimas y tranquilas en una granja real." },
-    "workshops": { "title": "Talleres", "description": "Aprende tejido, tintado natural y artes de fibra directamente de nuestro equipo artesanal." },
-    "events": { "title": "Eventos", "description": "Bodas, sesiones de fotos, retiros corporativos, yoga con alpacas — experiencias personalizadas." }
+    "privateFarm": {
+      "title": "Granja Privada",
+      "description": "Visitas solo con cita previa. Experiencias íntimas y tranquilas en una granja real."
+    },
+    "workshops": {
+      "title": "Talleres",
+      "description": "Aprende tejido, tintado natural y artes de fibra directamente de nuestro equipo artesanal."
+    },
+    "events": {
+      "title": "Eventos",
+      "description": "Bodas, sesiones de fotos, retiros corporativos, yoga con alpacas — experiencias personalizadas."
+    }
   },
   "cta": {
     "title": "¿Listo para Vivir Alpacas Ibiza?",
@@ -77,9 +104,18 @@
     "title": "Nuestra Tienda",
     "subtitle": "Descubre productos de alpaca hechos a mano, piezas personalizadas y abono premium",
     "explore": "Explorar",
-    "woven": { "title": "Colección Tejida", "description": "Bufandas, mantas y textiles hechos a mano" },
-    "commission": { "title": "Encargo Personalizado", "description": "Crea tu propia pieza única" },
-    "manure": { "title": "Estiércol de Alpaca", "description": "Fertilizante orgánico premium" }
+    "woven": {
+      "title": "Colección Tejida",
+      "description": "Bufandas, mantas y textiles hechos a mano"
+    },
+    "commission": {
+      "title": "Encargo Personalizado",
+      "description": "Crea tu propia pieza única"
+    },
+    "manure": {
+      "title": "Estiércol de Alpaca",
+      "description": "Fertilizante orgánico premium"
+    }
   },
   "wovenPage": {
     "title": "Colección Tejida",
@@ -118,10 +154,22 @@
     "storyTitle": "Nuestra Historia",
     "storyText": "Alpacas Ibiza se fundó con la creencia de que el turismo puede ser significativo, artesanal y profundamente conectado con el bienestar animal. Creamos la primera granja de alpacas de la isla para compartir nuestra pasión por estas criaturas gentiles y su increíble fibra.",
     "valuesTitle": "Nuestros Valores",
-    "welfare": { "title": "Bienestar Animal", "description": "Nuestras alpacas son lo primero en cada decisión" },
-    "sustainability": { "title": "Sostenibilidad", "description": "Prácticas ecológicas y responsabilidad ambiental" },
-    "quality": { "title": "Calidad Artesanal", "description": "Procesado a mano, verificado a mano, cuidado a mano" },
-    "community": { "title": "Comunidad", "description": "Compartir conocimientos y crear conexiones" }
+    "welfare": {
+      "title": "Bienestar Animal",
+      "description": "Nuestras alpacas son lo primero en cada decisión"
+    },
+    "sustainability": {
+      "title": "Sostenibilidad",
+      "description": "Prácticas ecológicas y responsabilidad ambiental"
+    },
+    "quality": {
+      "title": "Calidad Artesanal",
+      "description": "Procesado a mano, verificado a mano, cuidado a mano"
+    },
+    "community": {
+      "title": "Comunidad",
+      "description": "Compartir conocimientos y crear conexiones"
+    }
   },
   "contact": {
     "title": "Ponte en Contacto",
@@ -152,5 +200,30 @@
     "terms": "Términos de Servicio",
     "cookies": "Política de Cookies",
     "copyright": "Todos los derechos reservados."
+  },
+  "guestStories": {
+    "title": "Historias de Visitantes",
+    "subtitle": "Descubre lo que dicen los visitantes sobre su experiencia",
+    "translateButton": "Traducir",
+    "showOriginal": "Mostrar original",
+    "readMore": "Leer más reseñas en Facebook",
+    "reviews": {
+      "sue": "Visité a finales de agosto y lo pasé genial. Ibiza tiene mucho que ofrecer además de la música y recomiendo mucho una visita para ver las hermosas alpacas. Puedes alimentarlas y aprender mucho sobre estos increíbles animales ❤️. Fui recibida calurosamente y tuve una experiencia muy valiosa. ¡Id a verlas, las amaréis!",
+      "verena": "Visitamos las dulces y esponjosas alpacas. Una pareja súper simpática te guía por los recintos con información genial sobre estos animales. Tienes la oportunidad de alimentar, acariciar e incluso dar un beso de alpaca. Los animales son muy confiados y se emocionan con tu cercanía y la comida. Fue una experiencia maravillosa y solo puedo recomendarla a todos los que estén en Ibiza. 🤗🥳",
+      "gemma": "Hice una reserva de grupo para 6 personas para el viernes 9 de mayo. Bart se puso en contacto para avisarme de que estaban cerrados ese día porque esquilaban las alpacas. Amablemente nos ofreció recibirnos el día anterior aunque la granja estaba cerrada. La experiencia fue increíble. Bart fue muy profesional y amable y las alpacas eran muy dulces. Todas están muy bien cuidadas y adoran a Bart, lo que demuestra cuánto las quiere.",
+      "renate": "Muy divertido para hacer con nuestros 2 chicos de 12 años, pero realmente divertido para todas las edades. No sabíamos nada sobre las alpacas, ¡fue muy interesante! Tardamos exactamente una hora.",
+      "sven": "¡Muy recomendable! Bart y San tienen una operación fantástica. La experiencia Chill Out definitiva 🦙❤️🦙",
+      "paul": "Fui el 23 de septiembre, tour increíble, Bart es muy profesional y amable. Si tienes coche es imprescindible 😀🦙"
+    }
+  },
+  "faq": {
+    "sectionTitle": "Preguntas Frecuentes",
+    "sectionSubtitle": "Todo lo que necesitas saber antes de tu visita"
+  },
+  "homepage": {
+    "experiences": {
+      "title": "Elige Tu Experiencia",
+      "subtitle": "Explora nuestra granja, compra productos artesanales o encarga algo único"
+    }
   }
 }

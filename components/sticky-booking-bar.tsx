@@ -1,10 +1,16 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useParams } from 'next/navigation'
 import { Button } from '@/components/ui/button'
+import type { Locale } from '@/i18n.config'
+import { t } from '@/lib/translations'
 
 export function StickyBookingBar() {
     const [isVisible, setIsVisible] = useState(false)
+    const params = useParams()
+    const locale = (params.locale as Locale) || 'en'
+    const tr = t(locale)
 
     useEffect(() => {
         const handleScroll = () => {
@@ -29,7 +35,7 @@ export function StickyBookingBar() {
                 className="w-full block"
             >
                 <Button className="w-full bg-background text-primary hover:bg-background/90 font-bold text-lg h-12 rounded-full shadow-lg">
-                    Book Your Visit
+                    {tr('nav.bookTour')}
                 </Button>
             </a>
         </div>

@@ -38,19 +38,46 @@
   "features": {
     "sectionTitle": "Pourquoi Choisir Alpacas Ibiza",
     "sectionSubtitle": "Nous allions hospitalité, artisanat et bien-être animal dans chaque expérience",
-    "farm": { "title": "Ferme Active", "description": "Une véritable ferme d'alpagas et atelier de tissage au coeur d'Ibiza. Chaque pièce raconte l'histoire de nos animaux et de notre terre." },
-    "artisan": { "title": "Processus Artisanal", "description": "Fibres travaillées à la main, teintures naturelles, motifs traditionnels. Chaque étape honore l'artisanat et les alpagas." },
-    "sustainable": { "title": "Durable et Naturel", "description": "Pratiques biologiques, produits écologiques, emballages biodégradables. Soin des animaux et de la planète." },
-    "appointment": { "title": "Sur Rendez-vous", "description": "Visites intimes uniquement. Nous gardons notre ferme calme et paisible pour les alpagas — et pour vous." },
-    "quality": { "title": "Qualité Premium", "description": "Chaque produit est vérifié à la main. Nous garantissons la qualité et la durabilité de notre travail." },
-    "welfare": { "title": "Bien-être Animal d'Abord", "description": "Nos alpagas sont des membres précieux de notre famille. Leur confort et leur bonheur guident tout ce que nous faisons." }
+    "farm": {
+      "title": "Ferme Active",
+      "description": "Une véritable ferme d'alpagas et atelier de tissage au coeur d'Ibiza. Chaque pièce raconte l'histoire de nos animaux et de notre terre."
+    },
+    "artisan": {
+      "title": "Processus Artisanal",
+      "description": "Fibres travaillées à la main, teintures naturelles, motifs traditionnels. Chaque étape honore l'artisanat et les alpagas."
+    },
+    "sustainable": {
+      "title": "Durable et Naturel",
+      "description": "Pratiques biologiques, produits écologiques, emballages biodégradables. Soin des animaux et de la planète."
+    },
+    "appointment": {
+      "title": "Sur Rendez-vous",
+      "description": "Visites intimes uniquement. Nous gardons notre ferme calme et paisible pour les alpagas — et pour vous."
+    },
+    "quality": {
+      "title": "Qualité Premium",
+      "description": "Chaque produit est vérifié à la main. Nous garantissons la qualité et la durabilité de notre travail."
+    },
+    "welfare": {
+      "title": "Bien-être Animal d'Abord",
+      "description": "Nos alpagas sont des membres précieux de notre famille. Leur confort et leur bonheur guident tout ce que nous faisons."
+    }
   },
   "experiences": {
     "sectionTitle": "Expériences Spéciales",
     "sectionSubtitle": "Au-delà des tours — créez des souvenirs personnalisés dans notre ferme",
-    "privateFarm": { "title": "Ferme Privée", "description": "Visites sur rendez-vous uniquement. Expériences intimes et paisibles dans une vraie ferme." },
-    "workshops": { "title": "Ateliers", "description": "Apprenez le tissage, la teinture naturelle et les arts de la fibre directement avec notre équipe artisanale." },
-    "events": { "title": "Événements", "description": "Mariages, séances photo, retraites d'entreprise, yoga avec alpagas — expériences sur mesure." }
+    "privateFarm": {
+      "title": "Ferme Privée",
+      "description": "Visites sur rendez-vous uniquement. Expériences intimes et paisibles dans une vraie ferme."
+    },
+    "workshops": {
+      "title": "Ateliers",
+      "description": "Apprenez le tissage, la teinture naturelle et les arts de la fibre directement avec notre équipe artisanale."
+    },
+    "events": {
+      "title": "Événements",
+      "description": "Mariages, séances photo, retraites d'entreprise, yoga avec alpagas — expériences sur mesure."
+    }
   },
   "cta": {
     "title": "Prêt à Découvrir Alpacas Ibiza?",
@@ -77,9 +104,18 @@
     "title": "Notre Boutique",
     "subtitle": "Découvrez les produits d'alpaga faits main, les pièces personnalisées et le fumier premium",
     "explore": "Explorer",
-    "woven": { "title": "Collection Tissée", "description": "Écharpes, couvertures et textiles faits main" },
-    "commission": { "title": "Commande Personnalisée", "description": "Créez votre propre pièce unique" },
-    "manure": { "title": "Fumier d'Alpaga", "description": "Engrais biologique premium" }
+    "woven": {
+      "title": "Collection Tissée",
+      "description": "Écharpes, couvertures et textiles faits main"
+    },
+    "commission": {
+      "title": "Commande Personnalisée",
+      "description": "Créez votre propre pièce unique"
+    },
+    "manure": {
+      "title": "Fumier d'Alpaga",
+      "description": "Engrais biologique premium"
+    }
   },
   "wovenPage": {
     "title": "Collection Tissée",
@@ -118,10 +154,22 @@
     "storyTitle": "Notre Histoire",
     "storyText": "Alpacas Ibiza a été fondée sur la conviction que le tourisme peut être significatif, artisanal et profondément lié au bien-être animal. Nous avons créé la première ferme d'alpagas de l'île pour partager notre passion pour ces créatures douces et leurs fibres incroyables.",
     "valuesTitle": "Nos Valeurs",
-    "welfare": { "title": "Bien-être Animal", "description": "Nos alpagas passent en premier dans chaque décision" },
-    "sustainability": { "title": "Durabilité", "description": "Pratiques biologiques et responsabilité environnementale" },
-    "quality": { "title": "Qualité Artisanale", "description": "Transformé, vérifié et soigné à la main" },
-    "community": { "title": "Communauté", "description": "Partager les connaissances et créer des connexions" }
+    "welfare": {
+      "title": "Bien-être Animal",
+      "description": "Nos alpagas passent en premier dans chaque décision"
+    },
+    "sustainability": {
+      "title": "Durabilité",
+      "description": "Pratiques biologiques et responsabilité environnementale"
+    },
+    "quality": {
+      "title": "Qualité Artisanale",
+      "description": "Transformé, vérifié et soigné à la main"
+    },
+    "community": {
+      "title": "Communauté",
+      "description": "Partager les connaissances et créer des connexions"
+    }
   },
   "contact": {
     "title": "Nous Contacter",
@@ -152,5 +200,30 @@
     "terms": "Conditions de Service",
     "cookies": "Politique de Cookies",
     "copyright": "Tous droits réservés."
+  },
+  "guestStories": {
+    "title": "Témoignages des Visiteurs",
+    "subtitle": "Découvrez ce que les visiteurs disent de leur expérience",
+    "translateButton": "Traduire",
+    "showOriginal": "Afficher l'original",
+    "readMore": "Lire plus d'avis sur Facebook",
+    "reviews": {
+      "sue": "J'ai visité fin août et j'ai passé un moment fantastique ! Ibiza a tellement à offrir en plus de la musique et je recommande vivement une visite pour voir les magnifiques alpagas. Vous pouvez les nourrir et apprendre tellement sur ces animaux incroyables ❤️. J'ai été chaleureusement accueillie et j'ai eu une expérience précieuse. Allez les voir - vous les adorerez !",
+      "verena": "Nous avons rendu visite aux doux et pelucheux alpagas. Un couple super sympathique vous guide à travers les enclos avec d'excellentes informations sur ces animaux. Vous avez l'opportunité de nourrir, caresser et même donner un bisou aux alpagas. Les animaux sont très confiants et ravis de votre proximité et de la nourriture. C'était une expérience merveilleuse et je ne peux que la recommander à tous ceux qui sont à Ibiza. 🤗🥳",
+      "gemma": "J'ai fait une réservation de groupe pour 6 personnes pour le vendredi 9 mai. Bart m'a contactée pour me prévenir qu'ils étaient fermés ce jour-là car ils tondaient les alpagas. Il a ensuite gentiment proposé de nous accueillir la veille même si la ferme était fermée. L'expérience elle-même était incroyable. Bart était très compétent et amical et les alpagas étaient si mignons. Tous les alpagas sont très bien soignés et adorent Bart, ce qui montre combien il les aime.",
+      "renate": "Très amusant à faire avec nos 2 garçons de 12 ans, mais en fait amusant pour tous les âges. Nous ne savions rien des alpagas, c'était très intéressant ! Cela a pris exactement une heure.",
+      "sven": "Fortement recommandé ! Bart et San gèrent une opération fantastique. L'expérience Chill Out ultime 🦙❤️🦙",
+      "paul": "Y suis allé le 23 septembre, tour incroyable, Bart est très compétent et amical. Si vous avez une voiture c'est un incontournable 😀🦙"
+    }
+  },
+  "faq": {
+    "sectionTitle": "Questions Fréquentes",
+    "sectionSubtitle": "Tout ce que vous devez savoir avant votre visite"
+  },
+  "homepage": {
+    "experiences": {
+      "title": "Choisissez Votre Expérience",
+      "subtitle": "Explorez notre ferme, achetez des produits artisanaux ou commandez quelque chose d'unique"
+    }
   }
 }

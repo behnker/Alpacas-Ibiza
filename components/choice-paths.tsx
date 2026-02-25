@@ -14,18 +14,20 @@ interface PathOption {
 
 interface ChoicePathsProps {
   paths: PathOption[]
+  title?: string
+  subtitle?: string
 }
 
-export function ChoicePaths({ paths }: ChoicePathsProps) {
+export function ChoicePaths({ paths, title, subtitle }: ChoicePathsProps) {
   return (
     <section className="w-full py-16 md:py-24 px-4 bg-secondary/20">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Choose Your Path
+            {title || 'Choose Your Path'}
           </h2>
           <p className="text-foreground/70 max-w-2xl mx-auto">
-            Explore our farm, shop artisanal products, or commission something unique
+            {subtitle || 'Explore our farm, shop artisanal products, or commission something unique'}
           </p>
         </div>
 

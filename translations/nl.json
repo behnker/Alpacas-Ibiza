@@ -38,19 +38,46 @@
   "features": {
     "sectionTitle": "Waarom Kiezen voor Alpacas Ibiza",
     "sectionSubtitle": "We combineren gastvrijheid, vakmanschap en dierenwelzijn in elke ervaring",
-    "farm": { "title": "Werkende Boerderij", "description": "Een echte, actieve alpacaboerderij en weefstudio in het hart van Ibiza. Elk stuk vertelt een verhaal van onze dieren en ons land." },
-    "artisan": { "title": "Ambachtelijk Proces", "description": "Met de hand verwerkte vezels, natuurlijke kleurstoffen, traditionele patronen. Elke stap eert het ambacht en de alpaca's." },
-    "sustainable": { "title": "Duurzaam en Natuurlijk", "description": "Biologische praktijken, milieuvriendelijke producten, biologisch afbreekbare verpakkingen. Zorg voor dieren en planeet." },
-    "appointment": { "title": "Alleen op Afspraak", "description": "Alleen intieme bezoeken. We houden onze boerderij rustig en vredig voor de alpaca's — en voor jou." },
-    "quality": { "title": "Premium Kwaliteit", "description": "Elk product wordt met de hand gecontroleerd. We staan achter de kwaliteit en duurzaamheid van ons werk." },
-    "welfare": { "title": "Dierenwelzijn Voorop", "description": "Onze alpaca's zijn gekoesterde leden van onze familie. Hun comfort en geluk sturen alles wat we doen." }
+    "farm": {
+      "title": "Werkende Boerderij",
+      "description": "Een echte, actieve alpacaboerderij en weefstudio in het hart van Ibiza. Elk stuk vertelt een verhaal van onze dieren en ons land."
+    },
+    "artisan": {
+      "title": "Ambachtelijk Proces",
+      "description": "Met de hand verwerkte vezels, natuurlijke kleurstoffen, traditionele patronen. Elke stap eert het ambacht en de alpaca's."
+    },
+    "sustainable": {
+      "title": "Duurzaam en Natuurlijk",
+      "description": "Biologische praktijken, milieuvriendelijke producten, biologisch afbreekbare verpakkingen. Zorg voor dieren en planeet."
+    },
+    "appointment": {
+      "title": "Alleen op Afspraak",
+      "description": "Alleen intieme bezoeken. We houden onze boerderij rustig en vredig voor de alpaca's — en voor jou."
+    },
+    "quality": {
+      "title": "Premium Kwaliteit",
+      "description": "Elk product wordt met de hand gecontroleerd. We staan achter de kwaliteit en duurzaamheid van ons werk."
+    },
+    "welfare": {
+      "title": "Dierenwelzijn Voorop",
+      "description": "Onze alpaca's zijn gekoesterde leden van onze familie. Hun comfort en geluk sturen alles wat we doen."
+    }
   },
   "experiences": {
     "sectionTitle": "Bijzondere Ervaringen",
     "sectionSubtitle": "Meer dan tours — maak persoonlijke herinneringen op onze boerderij",
-    "privateFarm": { "title": "Privéboerderij", "description": "Bezoeken alleen op afspraak. Intieme, rustige ervaringen op een echte werkende boerderij." },
-    "workshops": { "title": "Workshops", "description": "Leer weven, natuurlijk verven en vezelkunst rechtstreeks van ons ambachtsteam." },
-    "events": { "title": "Evenementen", "description": "Bruiloften, fotoshoots, bedrijfsretreats, alpaca yoga — op maat gemaakte ervaringen." }
+    "privateFarm": {
+      "title": "Privéboerderij",
+      "description": "Bezoeken alleen op afspraak. Intieme, rustige ervaringen op een echte werkende boerderij."
+    },
+    "workshops": {
+      "title": "Workshops",
+      "description": "Leer weven, natuurlijk verven en vezelkunst rechtstreeks van ons ambachtsteam."
+    },
+    "events": {
+      "title": "Evenementen",
+      "description": "Bruiloften, fotoshoots, bedrijfsretreats, alpaca yoga — op maat gemaakte ervaringen."
+    }
   },
   "cta": {
     "title": "Klaar om Alpacas Ibiza te Beleven?",
@@ -77,9 +104,18 @@
     "title": "Onze Winkel",
     "subtitle": "Ontdek handgemaakte alpacaproducten, op maat gemaakte stukken en premium mest",
     "explore": "Ontdekken",
-    "woven": { "title": "Geweven Collectie", "description": "Handgemaakte sjaals, dekens en textiel" },
-    "commission": { "title": "Op Maat Bestelling", "description": "Maak je eigen unieke stuk" },
-    "manure": { "title": "Alpacamest", "description": "Premium biologische meststof" }
+    "woven": {
+      "title": "Geweven Collectie",
+      "description": "Handgemaakte sjaals, dekens en textiel"
+    },
+    "commission": {
+      "title": "Op Maat Bestelling",
+      "description": "Maak je eigen unieke stuk"
+    },
+    "manure": {
+      "title": "Alpacamest",
+      "description": "Premium biologische meststof"
+    }
   },
   "wovenPage": {
     "title": "Geweven Collectie",
@@ -118,10 +154,22 @@
     "storyTitle": "Ons Verhaal",
     "storyText": "Alpacas Ibiza werd opgericht in het geloof dat toerisme betekenisvol, ambachtelijk en diep verbonden met dierenwelzijn kan zijn. We creëerden de eerste alpacaboerderij op het eiland om onze passie voor deze zachte wezens en hun ongelooflijke vezels te delen.",
     "valuesTitle": "Onze Waarden",
-    "welfare": { "title": "Dierenwelzijn", "description": "Onze alpaca's gaan in elke beslissing voor" },
-    "sustainability": { "title": "Duurzaamheid", "description": "Biologische praktijken en milieuverantwoordelijkheid" },
-    "quality": { "title": "Ambachtelijke Kwaliteit", "description": "Met de hand verwerkt, gecontroleerd en verzorgd" },
-    "community": { "title": "Gemeenschap", "description": "Kennis delen en verbindingen creëren" }
+    "welfare": {
+      "title": "Dierenwelzijn",
+      "description": "Onze alpaca's gaan in elke beslissing voor"
+    },
+    "sustainability": {
+      "title": "Duurzaamheid",
+      "description": "Biologische praktijken en milieuverantwoordelijkheid"
+    },
+    "quality": {
+      "title": "Ambachtelijke Kwaliteit",
+      "description": "Met de hand verwerkt, gecontroleerd en verzorgd"
+    },
+    "community": {
+      "title": "Gemeenschap",
+      "description": "Kennis delen en verbindingen creëren"
+    }
   },
   "contact": {
     "title": "Neem Contact Op",
@@ -152,5 +200,30 @@
     "terms": "Servicevoorwaarden",
     "cookies": "Cookiebeleid",
     "copyright": "Alle rechten voorbehouden."
+  },
+  "guestStories": {
+    "title": "Ervaringen van Gasten",
+    "subtitle": "Ontdek wat bezoekers zeggen over hun ervaring",
+    "translateButton": "Vertalen",
+    "showOriginal": "Origineel tonen",
+    "readMore": "Lees meer beoordelingen op Facebook",
+    "reviews": {
+      "sue": "Ik bezocht eind augustus en had een fantastische tijd! Ibiza heeft naast de muziek zoveel te bieden en ik zou een bezoek aan de prachtige alpaca's ten zeerste aanbevelen. Je kunt ze voeren en zoveel leren over deze geweldige dieren ❤️. Ik werd warm ontvangen en had een waardevolle ervaring. Ga ze bekijken - je zult van ze houden!",
+      "verena": "We bezochten de lieve, pluizige alpaca's. Een super aardig stel leidt je door de verblijven van de alpaca's met geweldige informatie over deze dieren. Je hebt de mogelijkheid om de dieren te voeren, aaien en zelfs een alpacakus te geven. De dieren zijn erg tam en zijn dolblij met je nabijheid en voer. Het was een geweldige ervaring en ik kan het iedereen aanbevelen die op Ibiza is. 🤗🥳",
+      "gemma": "Ik maakte een groepsboeking voor 6 personen voor vrijdag 9 mei. Bart nam contact op om te laten weten dat ze die dag gesloten waren omdat ze de alpaca's aan het scheren waren. Hij bood toen vriendelijk aan om ons de dag ervoor te ontvangen, ook al was de boerderij gesloten. De ervaring zelf was geweldig. Bart was heel kundig en vriendelijk en de alpaca's waren zo lief. Alle alpaca's worden heel goed verzorgd en zijn dol op Bart, wat laat zien hoeveel hij van ze houdt.",
+      "renate": "Heel leuk om te doen met onze 2 jongens van 12 jaar oud maar eigenlijk leuk voor alle leeftijden. Wij wisten eigenlijk niets van Alpaca's, was heel interessant! precies een uur bezig geweest.",
+      "sven": "Sterk aanbevolen! Bart & San runnen een fantastische operatie. De ultieme Chill Out ervaring 🦙❤️🦙",
+      "paul": "Geweest op 23 september, geweldige tour, Bart is ontzettend kundig en vriendelijk. Als je een auto hebt is het een must 😀🦙"
+    }
+  },
+  "faq": {
+    "sectionTitle": "Veelgestelde Vragen",
+    "sectionSubtitle": "Alles wat je moet weten voor je bezoek"
+  },
+  "homepage": {
+    "experiences": {
+      "title": "Kies Je Ervaring",
+      "subtitle": "Verken onze boerderij, koop ambachtelijke producten of bestel iets unieks"
+    }
   }
 }

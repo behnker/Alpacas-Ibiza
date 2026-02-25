@@ -10,9 +10,11 @@ interface FAQItem {
 
 interface FAQProps {
   items: FAQItem[]
+  title?: string
+  subtitle?: string
 }
 
-export function FAQ({ items }: FAQProps) {
+export function FAQ({ items, title, subtitle }: FAQProps) {
   const [open, setOpen] = useState<number | null>(null)
 
   return (
@@ -20,10 +22,10 @@ export function FAQ({ items }: FAQProps) {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Frequently Asked Questions
+            {title || 'Frequently Asked Questions'}
           </h2>
           <p className="text-foreground/70">
-            Everything you need to know before your visit
+            {subtitle || 'Everything you need to know before your visit'}
           </p>
         </div>
 
@@ -39,9 +41,8 @@ export function FAQ({ items }: FAQProps) {
               >
                 <span className="font-medium text-foreground">{item.question}</span>
                 <ChevronDown
-                  className={`h-5 w-5 text-accent transition-transform ${
-                    open === i ? 'rotate-180' : ''
-                  }`}
+                  className={`h-5 w-5 text-accent transition-transform ${open === i ? 'rotate-180' : ''
+                    }`}
                 />
               </button>
               {open === i && (

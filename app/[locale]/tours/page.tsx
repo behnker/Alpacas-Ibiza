@@ -4,6 +4,8 @@ import { Timeline } from '@/components/timeline'
 import { FAQ } from '@/components/faq'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
+import { ReviewCard } from '@/components/review-card'
+import type { Review } from '@/components/review-card'
 import Link from 'next/link'
 import { t } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
@@ -200,7 +202,11 @@ export default function ToursPage({ params }: { params: { locale: Locale } }) {
       </section>
 
       {/* FAQ */}
-      <FAQ items={faqItems} />
+      <FAQ
+        items={faqItems}
+        title={translate('faq.sectionTitle')}
+        subtitle={translate('faq.sectionSubtitle')}
+      />
 
       {/* Booking Section */}
       <section
@@ -242,37 +248,83 @@ export default function ToursPage({ params }: { params: { locale: Locale } }) {
         </div>
       </section>
 
-      {/* Social Proof / Reviews Placeholder */}
+      {/* Guest Reviews */}
       <section className="w-full py-16 md:py-24 px-4 bg-background">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              {translate('tours.guestStories.title')}
+              {translate('guestStories.title')}
             </h2>
             <p className="text-foreground/70">
-              {translate('tours.guestStories.subtitle')}
+              {translate('guestStories.subtitle')}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((i) => (
-              <Card key={i} className="p-6 border-border/50">
-                <div className="flex gap-2 mb-4">
-                  {[...Array(5)].map((_, j) => (
-                    <span key={j} className="text-lg">
-                      ⭐
-                    </span>
-                  ))}
-                </div>
-                <p className="text-foreground/70 mb-4 italic leading-relaxed">
-                  "{translate('tours.guestStories.testimonial')}"
-                </p>
-                <p className="text-sm font-semibold text-foreground">
-                  {translate('tours.guestStories.guest')} {i}
-                </p>
-                <p className="text-xs text-foreground/50">{translate('tours.guestStories.visited')}</p>
-              </Card>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {([
+              {
+                name: 'Sue Rose',
+                date: 'October 12, 2025',
+                language: 'en',
+                translationKey: 'sue',
+                text: 'I visited at the end of August and had a fantastic time! Ibiza has so much to offer in addition to the music and I would highly recommend a visit to see the beautiful Alpacas. You can feed them and learn so much about these amazing animals ❤️. I was warmly welcomed and had such a valuable experience. Go and see them - you\'ll love it and them!',
+              },
+              {
+                name: 'Verena R Kaiser',
+                date: 'August 16, 2025',
+                language: 'de',
+                translationKey: 'verena',
+                text: 'Wir waren zu Besuch bei den süßen, flauschigen Alpakas. Ein super nettes Pärchen führt dich durch die Gehege der Alpakas mit tollen Informationen über diese Tiere. Du hast die Möglichkeit die Tiere zu füttern, streicheln und auch ein AlpakaBussi zu geben. Die Tiere sind sehr zutraulich und freuen sich riesig über deine Nähe und Futter. Es war eine tolle Erfahrung und ich kann sie nur jedem empfehlen, der auf Ibiza ist. 🤗🥳',
+              },
+              {
+                name: 'Gemma Muldoon',
+                date: 'May 13, 2025',
+                language: 'en',
+                translationKey: 'gemma',
+                text: 'I made a group booking for 6 of us for Friday 9th May. Bart got in touch to let me know that they were actually closed that day because they were shearing the Alpacas. He then kindly offered to accommodate us the day before even though the farm was closed, it was really kind of him to do so. The experience itself was amazing. Bart was so knowledgeable and friendly and the Alpacas were so sweet. All the Alpacas are very well cared for and adore Bart which shows how much he loves them.',
+              },
+              {
+                name: 'Renate Hoofddorp',
+                date: 'February 19, 2025',
+                language: 'nl',
+                translationKey: 'renate',
+                text: 'Heel leuk om te doen met onze 2 jongens van 12 jaar oud maar eigenlijk leuk voor alle leeftijden. Wij wisten eigenlijk niets van Alpaca\'s, was heel interessant! precies een uur bezig geweest.',
+              },
+              {
+                name: 'Sven Van Hees',
+                date: 'May 9, 2024',
+                language: 'en',
+                translationKey: 'sven',
+                text: 'Highly recommended! Bart & San run a fantastic operation. The ultimate Chill Out experience 🦙❤️🦙',
+              },
+              {
+                name: 'Paul Walker',
+                date: 'April 8, 2024',
+                language: 'en',
+                translationKey: 'paul',
+                text: 'Went September 23, amazing tour, Bart is so knowledgeable and friendly. If you have a car it\'s a must 😀🦙',
+              },
+            ] satisfies Review[]).map((review, i) => (
+              <ReviewCard
+                key={i}
+                review={review}
+                translatedText={translate(`guestStories.reviews.${review.translationKey}`)}
+                translateButtonLabel={translate('guestStories.translateButton')}
+                showOriginalLabel={translate('guestStories.showOriginal')}
+                siteLocale={locale}
+              />
             ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <a
+              href="https://www.facebook.com/people/Es-Currals-Alpacas-Ibiza/100066379310193/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+            >
+              {translate('guestStories.readMore')} →
+            </a>
           </div>
         </div>
       </section>

@@ -38,19 +38,46 @@
   "features": {
     "sectionTitle": "Warum Alpacas Ibiza wählen",
     "sectionSubtitle": "Wir verbinden Gastfreundschaft, Handwerkskunst und Tierwohl in jedem Erlebnis",
-    "farm": { "title": "Arbeitende Farm", "description": "Eine echte, aktive Alpakafarm und Webstudio im Herzen Ibizas. Jedes Stück erzählt eine Geschichte unserer Tiere und unseres Landes." },
-    "artisan": { "title": "Handwerklicher Prozess", "description": "Handverarbeitete Fasern, natürliche Farbstoffe, traditionelle Muster. Jeder Schritt ehrt das Handwerk und die Alpakas." },
-    "sustainable": { "title": "Nachhaltig & Natürlich", "description": "Bio-Praktiken, umweltfreundliche Produkte, biologisch abbaubare Verpackungen. Fürsorge für Tiere und Planeten." },
-    "appointment": { "title": "Nur nach Vereinbarung", "description": "Nur intime Besuche. Wir halten unsere Farm ruhig und friedlich für die Alpakas — und für Sie." },
-    "quality": { "title": "Premium Qualität", "description": "Jedes Produkt wird von Hand geprüft. Wir stehen hinter der Qualität und Langlebigkeit unserer Arbeit." },
-    "welfare": { "title": "Tierwohl zuerst", "description": "Unsere Alpakas sind geschätzte Mitglieder unserer Familie. Ihr Wohlbefinden und Glück treiben alles an, was wir tun." }
+    "farm": {
+      "title": "Arbeitende Farm",
+      "description": "Eine echte, aktive Alpakafarm und Webstudio im Herzen Ibizas. Jedes Stück erzählt eine Geschichte unserer Tiere und unseres Landes."
+    },
+    "artisan": {
+      "title": "Handwerklicher Prozess",
+      "description": "Handverarbeitete Fasern, natürliche Farbstoffe, traditionelle Muster. Jeder Schritt ehrt das Handwerk und die Alpakas."
+    },
+    "sustainable": {
+      "title": "Nachhaltig & Natürlich",
+      "description": "Bio-Praktiken, umweltfreundliche Produkte, biologisch abbaubare Verpackungen. Fürsorge für Tiere und Planeten."
+    },
+    "appointment": {
+      "title": "Nur nach Vereinbarung",
+      "description": "Nur intime Besuche. Wir halten unsere Farm ruhig und friedlich für die Alpakas — und für Sie."
+    },
+    "quality": {
+      "title": "Premium Qualität",
+      "description": "Jedes Produkt wird von Hand geprüft. Wir stehen hinter der Qualität und Langlebigkeit unserer Arbeit."
+    },
+    "welfare": {
+      "title": "Tierwohl zuerst",
+      "description": "Unsere Alpakas sind geschätzte Mitglieder unserer Familie. Ihr Wohlbefinden und Glück treiben alles an, was wir tun."
+    }
   },
   "experiences": {
     "sectionTitle": "Besondere Erlebnisse",
     "sectionSubtitle": "Über Touren hinaus — schaffen Sie individuelle Erinnerungen auf unserer Farm",
-    "privateFarm": { "title": "Private Farm", "description": "Besuche nur nach Vereinbarung. Intime, friedliche Erlebnisse auf einer echten Farm." },
-    "workshops": { "title": "Workshops", "description": "Lernen Sie Weberei, natürliches Färben und Faserkunst direkt von unserem Handwerkerteam." },
-    "events": { "title": "Events", "description": "Hochzeiten, Fotoshootings, Firmenretreats, Alpaka-Yoga — maßgeschneiderte Erlebnisse." }
+    "privateFarm": {
+      "title": "Private Farm",
+      "description": "Besuche nur nach Vereinbarung. Intime, friedliche Erlebnisse auf einer echten Farm."
+    },
+    "workshops": {
+      "title": "Workshops",
+      "description": "Lernen Sie Weberei, natürliches Färben und Faserkunst direkt von unserem Handwerkerteam."
+    },
+    "events": {
+      "title": "Events",
+      "description": "Hochzeiten, Fotoshootings, Firmenretreats, Alpaka-Yoga — maßgeschneiderte Erlebnisse."
+    }
   },
   "cta": {
     "title": "Bereit, Alpacas Ibiza zu erleben?",
@@ -77,9 +104,18 @@
     "title": "Unser Shop",
     "subtitle": "Entdecken Sie handgefertigte Alpakaprodukte, Sonderanfertigungen und Premium-Dünger",
     "explore": "Erkunden",
-    "woven": { "title": "Gewobene Kollektion", "description": "Handgefertigte Schals, Decken und Textilien" },
-    "commission": { "title": "Sonderanfertigung", "description": "Erstellen Sie Ihr eigenes Unikat" },
-    "manure": { "title": "Alpaka-Dünger", "description": "Premium-Biodünger" }
+    "woven": {
+      "title": "Gewobene Kollektion",
+      "description": "Handgefertigte Schals, Decken und Textilien"
+    },
+    "commission": {
+      "title": "Sonderanfertigung",
+      "description": "Erstellen Sie Ihr eigenes Unikat"
+    },
+    "manure": {
+      "title": "Alpaka-Dünger",
+      "description": "Premium-Biodünger"
+    }
   },
   "wovenPage": {
     "title": "Gewobene Kollektion",
@@ -118,10 +154,22 @@
     "storyTitle": "Unsere Geschichte",
     "storyText": "Alpacas Ibiza wurde gegründet in dem Glauben, dass Tourismus bedeutungsvoll, handwerklich und tief mit Tierwohl verbunden sein kann. Wir haben die erste Alpakafarm der Insel gegründet, um unsere Leidenschaft für diese sanften Geschöpfe und ihre erstaunliche Faser zu teilen.",
     "valuesTitle": "Unsere Werte",
-    "welfare": { "title": "Tierwohl", "description": "Unsere Alpakas stehen in jeder Entscheidung an erster Stelle" },
-    "sustainability": { "title": "Nachhaltigkeit", "description": "Bio-Praktiken und Umweltverantwortung" },
-    "quality": { "title": "Handwerksqualität", "description": "Handverarbeitet, handgeprüft, handgepflegt" },
-    "community": { "title": "Gemeinschaft", "description": "Wissen teilen und Verbindungen schaffen" }
+    "welfare": {
+      "title": "Tierwohl",
+      "description": "Unsere Alpakas stehen in jeder Entscheidung an erster Stelle"
+    },
+    "sustainability": {
+      "title": "Nachhaltigkeit",
+      "description": "Bio-Praktiken und Umweltverantwortung"
+    },
+    "quality": {
+      "title": "Handwerksqualität",
+      "description": "Handverarbeitet, handgeprüft, handgepflegt"
+    },
+    "community": {
+      "title": "Gemeinschaft",
+      "description": "Wissen teilen und Verbindungen schaffen"
+    }
   },
   "contact": {
     "title": "Kontaktieren Sie uns",
@@ -152,5 +200,30 @@
     "terms": "Nutzungsbedingungen",
     "cookies": "Cookie-Richtlinie",
     "copyright": "Alle Rechte vorbehalten."
+  },
+  "guestStories": {
+    "title": "Gästegeschichten",
+    "subtitle": "Sehen Sie, was Besucher über ihre Erfahrung sagen",
+    "translateButton": "Übersetzen",
+    "showOriginal": "Original anzeigen",
+    "readMore": "Mehr Bewertungen auf Facebook lesen",
+    "reviews": {
+      "sue": "Ich war Ende August zu Besuch und hatte eine fantastische Zeit! Ibiza hat neben der Musik so viel zu bieten und ich würde einen Besuch bei den wunderschönen Alpakas sehr empfehlen. Man kann sie füttern und so viel über diese erstaunlichen Tiere lernen ❤️. Ich wurde herzlich empfangen und hatte eine wertvolle Erfahrung. Geht hin und seht sie euch an – ihr werdet sie lieben!",
+      "verena": "Wir waren zu Besuch bei den süßen, flauschigen Alpakas. Ein super nettes Pärchen führt dich durch die Gehege der Alpakas mit tollen Informationen über diese Tiere. Du hast die Möglichkeit die Tiere zu füttern, streicheln und auch ein AlpakaBussi zu geben. Die Tiere sind sehr zutraulich und freuen sich riesig über deine Nähe und Futter. Es war eine tolle Erfahrung und ich kann sie nur jedem empfehlen, der auf Ibiza ist. 🤗🥳",
+      "gemma": "Ich habe eine Gruppenbuchung für 6 Personen für Freitag, den 9. Mai gemacht. Bart meldete sich und teilte mir mit, dass sie an diesem Tag wegen der Alpaka-Schur geschlossen hatten. Dann bot er freundlicherweise an, uns am Tag zuvor aufzunehmen, obwohl die Farm geschlossen war. Das Erlebnis selbst war fantastisch. Bart war sehr kompetent und freundlich und die Alpakas waren so süß. Alle Alpakas werden sehr gut versorgt und lieben Bart, was zeigt, wie sehr er sie liebt.",
+      "renate": "Super leuk om te doen met onze 2 jongens van 12 jaar oud maar eigenlijk leuk voor alle leeftijden. Wij wisten eigenlijk niets van Alpaca's, was heel interessant! precies een uur bezig geweest.",
+      "sven": "Sehr empfehlenswert! Bart & San führen einen fantastischen Betrieb. Das ultimative Chill-Out-Erlebnis 🦙❤️🦙",
+      "paul": "War am 23. September dort, tolle Tour, Bart ist so kompetent und freundlich. Wenn Sie ein Auto haben, ist es ein Muss 😀🦙"
+    }
+  },
+  "faq": {
+    "sectionTitle": "Häufig gestellte Fragen",
+    "sectionSubtitle": "Alles, was Sie vor Ihrem Besuch wissen müssen"
+  },
+  "homepage": {
+    "experiences": {
+      "title": "Wählen Sie Ihr Erlebnis",
+      "subtitle": "Entdecken Sie unsere Farm, kaufen Sie handwerkliche Produkte oder bestellen Sie etwas Einzigartiges"
+    }
   }
 }
