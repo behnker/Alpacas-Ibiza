@@ -179,9 +179,15 @@
       "cardTitle": "Reserva Tu Visita",
       "cardSubtitle": "Haz clic en el botón de abajo para ir a la página de reservas y asegurar tu plaza.",
       "bookNow": "Reservar Ahora",
-      "poweredBy": "Reservas a través de FareHarbor",
+      "viewAndBook": "Ver fechas disponibles y reservar ahora",
+      "poweredBy": "Reserva segura a través de FareHarbor",
       "questions": "¿Preguntas?",
-      "questionsText": "Contáctanos en hello@alpacasibiza.com o por WhatsApp para asistencia personalizada."
+      "questionsText": "Contáctanos en hello@alpacasibiza.com o por WhatsApp para asistencia personalizada.",
+      "nextDates": "Próximas fechas disponibles",
+      "spotsLeft": "plazas disponibles",
+      "updatedNote": "Actualizado cada 2 horas · Haz clic en \"Reservar ahora\" para ver todos los horarios",
+      "loading": "Cargando disponibilidad...",
+      "apiNote": "La disponibilidad en tiempo real requiere configuración de API"
     },
     "questionsText": "Contáctanos en hello@alpacasibiza.com o por WhatsApp para asistencia personalizada.",
     "backHome": "Volver a Inicio"
@@ -195,6 +201,7 @@
     "translateButton": "Traducir",
     "showOriginal": "Mostrar original",
     "readMore": "Leer más reseñas en Facebook",
+    "facebookBadge": "Reseña de Facebook",
     "reviews": {
       "sue": "Visité a finales de agosto y lo pasé genial. Ibiza tiene mucho que ofrecer además de la música y recomiendo mucho una visita para ver las hermosas alpacas. Puedes alimentarlas y aprender mucho sobre estos increíbles animales ❤️. Fui recibida calurosamente y tuve una experiencia muy valiosa. ¡Id a verlas, las amaréis!",
       "verena": "Visitamos las dulces y esponjosas alpacas. Una pareja súper simpática te guía por los recintos con información genial sobre estos animales. Tienes la oportunidad de alimentar, acariciar e incluso dar un beso de alpaca. Los animales son muy confiados y se emocionan con tu cercanía y la comida. Fue una experiencia maravillosa y solo puedo recomendarla a todos los que estén en Ibiza. 🤗🥳",
@@ -321,6 +328,7 @@
     "weavingTitle": "Wishfulfilling Weaving",
     "weavingSubtitle": "Hecho en Ibiza, abrazando el mundo",
     "weavingDescription": "Wishfulfilling Weaving es nuestra línea exclusiva de tejido. San teje bufandas exclusivas en un telar de madera tradicional, utilizando lana de alpaca de alta calidad, lino, mohair y seda. Cada pieza está hecha a mano con intención y amor en Ibiza.",
+    "handcraftedBadge": "Hecho a mano en Ibiza",
     "welfare": {
       "title": "Bienestar Animal",
       "description": "Nuestras alpacas son lo primero en cada decisión"

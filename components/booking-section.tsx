@@ -1,7 +1,10 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { useParams } from 'next/navigation'
 import { ArrowRight, Calendar } from 'lucide-react'
+import type { Locale } from '@/i18n.config'
+import { t } from '@/lib/translations'
 
 interface AvailableDate {
     date: string
@@ -13,6 +16,9 @@ export function BookingSection() {
     const [availableDates, setAvailableDates] = useState<AvailableDate[]>([])
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState<string | null>(null)
+    const params = useParams()
+    const locale = (params.locale as Locale) || 'en'
+    const tr = t(locale)
 
     useEffect(() => {
         fetch('/api/availability')
@@ -36,8 +42,8 @@ export function BookingSection() {
         const date = new Date(dateStr)
         return {
             day: date.getDate(),
-            month: date.toLocaleDateString('en-US', { month: 'short' }).toUpperCase(),
-            weekday: date.toLocaleDateString('en-US', { weekday: 'short' })
+            month: date.toLocaleDateString(locale, { month: 'short' }).toUpperCase(),
+            weekday: date.toLocaleDateString(locale, { weekday: 'short' })
         }
     }
 
@@ -49,7 +55,7 @@ export function BookingSection() {
                     <div className="flex items-center justify-center gap-2 mb-6">
                         <Calendar className="h-5 w-5 text-primary" />
                         <h3 className="text-xl font-semibold text-foreground">
-                            Next Available Dates
+                            {tr('bookingSection.nextDates')}
                         </h3>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto mb-8">
@@ -69,7 +75,7 @@ export function BookingSection() {
                                     </div>
                                     {slot.capacity <= 5 && (
                                         <div className="mt-2 text-xs text-orange-600 font-medium">
-                                            {slot.capacity} spots left
+                                            {slot.capacity} {tr('bookingSection.spotsLeft')}
                                         </div>
                                     )}
                                 </div>
@@ -77,7 +83,7 @@ export function BookingSection() {
                         })}
                     </div>
                     <p className="text-xs text-center text-foreground/50 mb-6">
-                        Updated every 2 hours • Click "Book Now" to see all times
+                        {tr('bookingSection.updatedNote')}
                     </p>
                 </div>
             )}
@@ -85,7 +91,7 @@ export function BookingSection() {
             {/* Loading state */}
             {loading && (
                 <div className="text-center py-8 text-foreground/60">
-                    <div className="animate-pulse">Loading availability...</div>
+                    <div className="animate-pulse">{tr('bookingSection.loading')}</div>
                 </div>
             )}
 
@@ -95,16 +101,16 @@ export function BookingSection() {
                     href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes"
                     className="inline-flex items-center justify-center px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
                 >
-                    {availableDates.length > 0 ? 'Book Now' : 'View Available Dates & Book Now'}
+                    {availableDates.length > 0 ? tr('bookingSection.bookNow') : tr('bookingSection.viewAndBook')}
                     <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
                 <p className="mt-4 text-sm text-foreground/60">
-                    Secure booking powered by FareHarbor
+                    {tr('bookingSection.poweredBy')}
                 </p>
 
                 {error && (
                     <p className="mt-2 text-xs text-foreground/40">
-                        Real-time availability requires API setup
+                        {tr('bookingSection.apiNote')}
                     </p>
                 )}
             </div>

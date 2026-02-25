@@ -10,6 +10,7 @@ interface WeavingShowcaseProps {
     description: string
     cta: string
     href: string
+    badgeText?: string
 }
 
 export function WeavingShowcase({
@@ -18,6 +19,7 @@ export function WeavingShowcase({
     description,
     cta,
     href,
+    badgeText = 'Handcrafted in Ibiza',
 }: WeavingShowcaseProps) {
     return (
         <section className="w-full py-16 md:py-24 px-4 bg-background">
@@ -54,7 +56,7 @@ export function WeavingShowcase({
                                     🧶
                                 </div>
                                 <p className="relative z-10 text-sm font-medium text-foreground/50 tracking-widest uppercase">
-                                    Handcrafted in Ibiza
+                                    {badgeText}
                                 </p>
                             </div>
                         </div>

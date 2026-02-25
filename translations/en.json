@@ -179,9 +179,15 @@
       "cardTitle": "Reserve Your Visit",
       "cardSubtitle": "Click the button below to head to our booking page and secure your spot.",
       "bookNow": "Book Now",
-      "poweredBy": "Booking powered by FareHarbor",
+      "viewAndBook": "View Available Dates & Book Now",
+      "poweredBy": "Secure booking powered by FareHarbor",
       "questions": "Questions?",
-      "questionsText": "Contact us at hello@alpacasibiza.com or message via WhatsApp for personalized assistance."
+      "questionsText": "Contact us at hello@alpacasibiza.com or message via WhatsApp for personalized assistance.",
+      "nextDates": "Next Available Dates",
+      "spotsLeft": "spots left",
+      "updatedNote": "Updated every 2 hours · Click \"Book Now\" to see all times",
+      "loading": "Loading availability...",
+      "apiNote": "Real-time availability requires API setup"
     },
     "questionsText": "Contact us at hello@alpacasibiza.com or message via WhatsApp for personalized assistance.",
     "backHome": "Back to Home"
@@ -195,6 +201,7 @@
     "translateButton": "Translate",
     "showOriginal": "Show original",
     "readMore": "Read more reviews on Facebook",
+    "facebookBadge": "Facebook Review",
     "reviews": {
       "sue": "I visited at the end of August and had a fantastic time! Ibiza has so much to offer in addition to the music and I would highly recommend a visit to see the beautiful Alpacas. You can feed them and learn so much about these amazing animals ❤️. I was warmly welcomed and had such a valuable experience. Go and see them - you'll love it and them!",
       "verena": "We visited the sweet, fluffy alpacas. A super nice couple guides you through the alpaca enclosures with great information about these animals. You have the opportunity to feed, pet, and even give an alpaca kiss. The animals are very trusting and are thrilled by your closeness and food. It was a wonderful experience and I can only recommend it to everyone who is in Ibiza. 🤗🥳",
@@ -460,6 +467,7 @@
     "weavingTitle": "Wishfulfilling Weaving",
     "weavingSubtitle": "Made in Ibiza, embracing the world",
     "weavingDescription": "Wishfulfilling Weaving is our exclusive weaving line. San weaves exclusive scarves on a traditional wooden loom, using high-quality alpaca wool, linen, mohair and silk. Each piece is handcrafted with intention and love in Ibiza.",
+    "handcraftedBadge": "Handcrafted in Ibiza",
     "welfare": {
       "title": "Animal Welfare",
       "description": "Our alpacas come first in every decision"

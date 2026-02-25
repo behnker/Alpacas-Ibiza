@@ -179,9 +179,15 @@
       "cardTitle": "Réserver Votre Visite",
       "cardSubtitle": "Cliquez sur le bouton ci-dessous pour accéder à la page de réservation et sécuriser votre place.",
       "bookNow": "Réserver Maintenant",
-      "poweredBy": "Réservation via FareHarbor",
+      "viewAndBook": "Voir les dates disponibles et réserver maintenant",
+      "poweredBy": "Réservation sécurisée via FareHarbor",
       "questions": "Questions ?",
-      "questionsText": "Contactez-nous à hello@alpacasibiza.com ou par WhatsApp pour une assistance personnalisée."
+      "questionsText": "Contactez-nous à hello@alpacasibiza.com ou par WhatsApp pour une assistance personnalisée.",
+      "nextDates": "Prochaines dates disponibles",
+      "spotsLeft": "places restantes",
+      "updatedNote": "Mis à jour toutes les 2 heures · Cliquez sur \"Réserver maintenant\" pour voir tous les horaires",
+      "loading": "Chargement de la disponibilité...",
+      "apiNote": "La disponibilité en tempo réel nécessite une configuration API"
     },
     "questionsText": "Contactez-nous à hello@alpacasibiza.com ou par WhatsApp pour une assistance personnalisée.",
     "backHome": "Retour à l'Accueil"
@@ -195,6 +201,7 @@
     "translateButton": "Traduire",
     "showOriginal": "Afficher l'original",
     "readMore": "Lire plus d'avis sur Facebook",
+    "facebookBadge": "Avis Facebook",
     "reviews": {
       "sue": "J'ai visité fin août et j'ai passé un moment fantastique ! Ibiza a tellement à offrir en plus de la musique et je recommande vivement une visite pour voir les magnifiques alpagas. Vous pouvez les nourrir et apprendre tellement sur ces animaux incroyables ❤️. J'ai été chaleureusement accueillie et j'ai eu une expérience précieuse. Allez les voir - vous les adorerez !",
       "verena": "Nous avons rendu visite aux doux et pelucheux alpagas. Un couple super sympathique vous guide à travers les enclos avec d'excellentes informations sur ces animaux. Vous avez l'opportunité de nourrir, caresser et même donner un bisou aux alpagas. Les animaux sont très confiants et ravis de votre proximité et de la nourriture. C'était une expérience merveilleuse et je ne peux que la recommander à tous ceux qui sont à Ibiza. 🤗🥳",
@@ -321,6 +328,7 @@
     "weavingTitle": "Wishfulfilling Weaving",
     "weavingSubtitle": "Fabriqué à Ibiza, embrassant le monde",
     "weavingDescription": "Wishfulfilling Weaving est notre ligne de tissage exclusive. San tisse des écharpes exclusives sur un métier à tisser traditionnel en bois, utilisant de la laine d'alpaga de haute qualité, du lin, du mohair et de la soie. Chaque pièce est fabriquée à la main avec intention et amour à Ibiza.",
+    "handcraftedBadge": "Fait main à Ibiza",
     "welfare": {
       "title": "Bien-être Animal",
       "description": "Nos alpagas passent en premier dans chaque décision"

@@ -312,6 +312,7 @@ export default function ToursPage({ params }: { params: { locale: Locale } }) {
                 translateButtonLabel={translate('guestStories.translateButton')}
                 showOriginalLabel={translate('guestStories.showOriginal')}
                 siteLocale={locale}
+                facebookBadgeLabel={translate('guestStories.facebookBadge')}
               />
             ))}
           </div>

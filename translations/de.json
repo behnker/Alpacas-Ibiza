@@ -179,9 +179,15 @@
       "cardTitle": "Ihren Besuch reservieren",
       "cardSubtitle": "Klicken Sie auf die Schaltfläche unten, um zur Buchungsseite zu gelangen und Ihren Platz zu sichern.",
       "bookNow": "Jetzt buchen",
-      "poweredBy": "Buchung über FareHarbor",
+      "viewAndBook": "Verfügbare Termine anzeigen & jetzt buchen",
+      "poweredBy": "Sichere Buchung über FareHarbor",
       "questions": "Fragen?",
-      "questionsText": "Kontaktieren Sie uns unter hello@alpacasibiza.com oder per WhatsApp für persönliche Beratung."
+      "questionsText": "Kontaktieren Sie uns unter hello@alpacasibiza.com oder per WhatsApp für persönliche Beratung.",
+      "nextDates": "Nächste verfügbare Termine",
+      "spotsLeft": "Plätze frei",
+      "updatedNote": "Alle 2 Stunden aktualisiert · Klicken Sie auf \"Jetzt buchen\" für alle Zeiten",
+      "loading": "Verfügbarkeit wird geladen...",
+      "apiNote": "Echtzeit-Verfügbarkeit erfordert API-Einrichtung"
     },
     "questionsText": "Kontaktieren Sie uns unter hello@alpacasibiza.com oder per WhatsApp für persönliche Beratung.",
     "backHome": "Zurück zur Startseite"
@@ -195,6 +201,7 @@
     "translateButton": "Übersetzen",
     "showOriginal": "Original anzeigen",
     "readMore": "Mehr Bewertungen auf Facebook lesen",
+    "facebookBadge": "Facebook-Bewertung",
     "reviews": {
       "sue": "Ich war Ende August zu Besuch und hatte eine fantastische Zeit! Ibiza hat neben der Musik so viel zu bieten und ich würde einen Besuch bei den wunderschönen Alpakas sehr empfehlen. Man kann sie füttern und so viel über diese erstaunlichen Tiere lernen ❤️. Ich wurde herzlich empfangen und hatte eine wertvolle Erfahrung. Geht hin und seht sie euch an – ihr werdet sie lieben!",
       "verena": "Wir waren zu Besuch bei den süßen, flauschigen Alpakas. Ein super nettes Pärchen führt dich durch die Gehege der Alpakas mit tollen Informationen über diese Tiere. Du hast die Möglichkeit die Tiere zu füttern, streicheln und auch ein AlpakaBussi zu geben. Die Tiere sind sehr zutraulich und freuen sich riesig über deine Nähe und Futter. Es war eine tolle Erfahrung und ich kann sie nur jedem empfehlen, der auf Ibiza ist. 🤗🥳",

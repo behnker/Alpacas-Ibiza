@@ -179,9 +179,15 @@
       "cardTitle": "Prenota la Tua Visita",
       "cardSubtitle": "Clicca il pulsante qui sotto per andare alla pagina di prenotazione e assicurarti il tuo posto.",
       "bookNow": "Prenota Ora",
-      "poweredBy": "Prenotazione tramite FareHarbor",
+      "viewAndBook": "Visualizza le date disponibili e prenota ora",
+      "poweredBy": "Prenotazione sicura tramite FareHarbor",
       "questions": "Domande?",
-      "questionsText": "Contattaci a hello@alpacasibiza.com o su WhatsApp per assistenza personalizzata."
+      "questionsText": "Contattaci a hello@alpacasibiza.com o su WhatsApp per assistenza personalizzata.",
+      "nextDates": "Prossime date disponibili",
+      "spotsLeft": "posti disponibili",
+      "updatedNote": "Aggiornato ogni 2 ore · Clicca su \"Prenota ora\" per vedere tutti gli orari",
+      "loading": "Caricamento disponibilità...",
+      "apiNote": "La disponibilità in tempo reale richiede la configurazione dell'API"
     },
     "questionsText": "Contattaci a hello@alpacasibiza.com o su WhatsApp per assistenza personalizzata.",
     "backHome": "Torna alla Home"
@@ -195,6 +201,7 @@
     "translateButton": "Traduci",
     "showOriginal": "Mostra originale",
     "readMore": "Leggi altre recensioni su Facebook",
+    "facebookBadge": "Recensione di Facebook",
     "reviews": {
       "sue": "Ho visitato alla fine di agosto e mi sono divertita tantissimo! Ibiza ha molto da offrire oltre alla musica e consiglio vivamente una visita per vedere le bellissime alpache. Puoi dargli da mangiare e imparare tanto su questi animali incredibili ❤️. Sono stata accolta calorosamente e ho avuto un'esperienza preziosa. Andate a vederli - li amerete!",
       "verena": "Abbiamo visitato le dolci e soffici alpache. Una coppia super simpatica ti guida attraversi i recinti delle alpache con ottime informazioni su questi animali. Hai l'opportunità di nutrire, accarezzare e persino dare un bacio alle alpache. Gli animali sono molto fiduciosi e si entusiasmano per la tua vicinanza e il cibo. È stata un'esperienza meravigliosa e posso solo raccomandarla a tutti coloro che sono a Ibiza. 🤗🥳",
@@ -321,6 +328,7 @@
     "weavingTitle": "Wishfulfilling Weaving",
     "weavingSubtitle": "Fatto a Ibiza, abbracciando il mondo",
     "weavingDescription": "Wishfulfilling Weaving è la nostra linea esclusiva di tessitura. San tesse sciarpe esclusive su un telaio tradizionale in legno, utilizzando lana di alpaca di alta qualità, lino, mohair e seta. Ogni pezzo è fatto a mano con intenzione e amore a Ibiza.",
+    "handcraftedBadge": "Fatto a mano a Ibiza",
     "welfare": {
       "title": "Benessere Animale",
       "description": "I nostri alpaca vengono prima in ogni decisione"

@@ -159,6 +159,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
         description={translate('about.weavingDescription')}
         cta={translate('paths.browseCollection')}
         href={`/${locale}/shop/woven`}
+        badgeText={translate('about.handcraftedBadge')}
       />
 
       {/* ── 4. Why Alpacas Ibiza ── */}
@@ -203,6 +204,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
                 translateButtonLabel={translate('guestStories.translateButton')}
                 showOriginalLabel={translate('guestStories.showOriginal')}
                 siteLocale={locale}
+                facebookBadgeLabel={translate('guestStories.facebookBadge')}
               />
             ))}
           </div>

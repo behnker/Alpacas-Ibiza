@@ -179,9 +179,15 @@
       "cardTitle": "Reserveer Je Bezoek",
       "cardSubtitle": "Klik op de knop hieronder om naar de boekingspagina te gaan en je plek te verzekeren.",
       "bookNow": "Nu Boeken",
-      "poweredBy": "Boeking via FareHarbor",
+      "viewAndBook": "Bekijk beschikbare data & boek nu",
+      "poweredBy": "Veilig boeken via FareHarbor",
       "questions": "Vragen?",
-      "questionsText": "Neem contact op via hello@alpacasibiza.com of WhatsApp voor persoonlijke begeleiding."
+      "questionsText": "Neem contact op via hello@alpacasibiza.com of WhatsApp voor persoonlijke begeleiding.",
+      "nextDates": "Eerstvolgende beschikbare data",
+      "spotsLeft": "plekken vrij",
+      "updatedNote": "Elke 2 uur bijgewerkt · Klik op \"Nu boeken\" om alle tijden te zien",
+      "loading": "Beschikbaarheid laden...",
+      "apiNote": "Real-time beschikbaarheid vereist API-configuratie"
     },
     "questionsText": "Neem contact op via hello@alpacasibiza.com of WhatsApp voor persoonlijke begeleiding.",
     "backHome": "Terug naar Home"
@@ -195,6 +201,7 @@
     "translateButton": "Vertalen",
     "showOriginal": "Origineel tonen",
     "readMore": "Lees meer beoordelingen op Facebook",
+    "facebookBadge": "Facebook-beoordeling",
     "reviews": {
       "sue": "Ik bezocht eind augustus en had een fantastische tijd! Ibiza heeft naast de muziek zoveel te bieden en ik zou een bezoek aan de prachtige alpaca's ten zeerste aanbevelen. Je kunt ze voeren en zoveel leren over deze geweldige dieren ❤️. Ik werd warm ontvangen en had een waardevolle ervaring. Ga ze bekijken - je zult van ze houden!",
       "verena": "We bezochten de lieve, pluizige alpaca's. Een super aardig stel leidt je door de verblijven van de alpaca's met geweldige informatie over deze dieren. Je hebt de mogelijkheid om de dieren te voeren, aaien en zelfs een alpacakus te geven. De dieren zijn erg tam en zijn dolblij met je nabijheid en voer. Het was een geweldige ervaring en ik kan het iedereen aanbevelen die op Ibiza is. 🤗🥳",
@@ -321,6 +328,7 @@
     "weavingTitle": "Wishfulfilling Weaving",
     "weavingSubtitle": "Made in Ibiza, de wereld omarmend",
     "weavingDescription": "Wishfulfilling Weaving is onze exclusieve weeflijn. San weeft exclusieve sjaals op een traditioneel houten weefgetouw, met gebruik van hoogwaardige alpacawol, linnen, mohair en zijde. Elk stuk wordt met intentie en liefde met de hand gemaakt op Ibiza.",
+    "handcraftedBadge": "Handgemaakt op Ibiza",
     "welfare": {
       "title": "Dierenwelzijn",
       "description": "Onze alpaca's gaan in elke beslissing voor"
