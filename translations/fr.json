@@ -159,7 +159,7 @@
       },
       "location": {
         "title": "Emplacement",
-        "description": "Ibiza, Espagne",
+        "description": "San Carlos, Ibiza, Espagne",
         "details": "Ferme privée. Itinéraire et informations de stationnement fournis à la réservation."
       },
       "pricing": {
@@ -306,7 +306,10 @@
     "name": "Votre Nom",
     "email": "Email",
     "description": "Description du Projet",
-    "submit": "Envoyer la Demande"
+    "submit": "Envoyer la Demande",
+    "sending": "Envoi…",
+    "successMessage": "Merci ! Nous examinerons votre commande et vous contacterons bientôt. 🦙",
+    "errorMessage": "Une erreur s'est produite. Veuillez réessayer ou nous écrire directement."
   },
   "alcacaPage": {
     "title": "Fumier d'Alpaga Premium",
@@ -355,6 +358,9 @@
     "subject": "Sujet",
     "message": "Message",
     "send": "Envoyer le Message",
+    "sending": "Envoi…",
+    "successMessage": "Merci ! Nous vous répondrons bientôt. 🦙",
+    "errorMessage": "Une erreur s'est produite. Veuillez réessayer ou nous écrire directement.",
     "infoTitle": "Informations de Contact",
     "location": "Localisation",
     "phone": "Téléphone",

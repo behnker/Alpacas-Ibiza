@@ -159,7 +159,7 @@
       },
       "location": {
         "title": "Posizione",
-        "description": "Ibiza, Spagna",
+        "description": "San Carlos, Ibiza, Spagna",
         "details": "Fattoria privata. Indicazioni e informazioni sul parcheggio fornite alla prenotazione."
       },
       "pricing": {
@@ -306,7 +306,10 @@
     "name": "Il Tuo Nome",
     "email": "Email",
     "description": "Descrizione del Progetto",
-    "submit": "Invia Richiesta"
+    "submit": "Invia Richiesta",
+    "sending": "Invio…",
+    "successMessage": "Grazie! Esamineremo la tua commissione e ti contatteremo presto. 🦙",
+    "errorMessage": "Qualcosa è andato storto. Riprova o scrivici direttamente."
   },
   "alcacaPage": {
     "title": "Letame di Alpaca Premium",
@@ -355,6 +358,9 @@
     "subject": "Oggetto",
     "message": "Messaggio",
     "send": "Invia Messaggio",
+    "sending": "Invio…",
+    "successMessage": "Grazie! Ti risponderemo presto. 🦙",
+    "errorMessage": "Qualcosa è andato storto. Riprova o scrivici direttamente.",
     "infoTitle": "Informazioni di Contatto",
     "location": "Posizione",
     "phone": "Telefono",

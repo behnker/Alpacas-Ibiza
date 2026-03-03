@@ -1,9 +1,21 @@
 import { t } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
+import { ContactForm } from '@/components/contact-form'
 
 export default function ContactPage({ params }: { params: { locale: Locale } }) {
   const locale = params.locale
   const translate = t(locale)
+
+  const formLabels = {
+    name: translate('contact.name'),
+    email: translate('contact.email'),
+    subject: translate('contact.subject'),
+    message: translate('contact.message'),
+    send: translate('contact.send'),
+    sending: translate('contact.sending') || 'Sending…',
+    success: translate('contact.successMessage') || "Thank you! We'll be in touch soon.",
+    error: translate('contact.errorMessage') || 'Something went wrong. Please try again.',
+  }
 
   return (
     <main>
@@ -25,55 +37,7 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
             <h2 className="text-2xl font-bold text-foreground mb-6">
               {translate('contact.formTitle')}
             </h2>
-
-            <form className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
-                  {translate('contact.name')}
-                </label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-2 rounded-lg border border-input bg-background text-foreground"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
-                  {translate('contact.email')}
-                </label>
-                <input
-                  type="email"
-                  className="w-full px-4 py-2 rounded-lg border border-input bg-background text-foreground"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
-                  {translate('contact.subject')}
-                </label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-2 rounded-lg border border-input bg-background text-foreground"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
-                  {translate('contact.message')}
-                </label>
-                <textarea
-                  rows={5}
-                  className="w-full px-4 py-2 rounded-lg border border-input bg-background text-foreground"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full px-6 py-3 bg-accent hover:bg-accent/90 text-accent-foreground rounded-lg font-medium transition-colors"
-              >
-                {translate('contact.send')}
-              </button>
-            </form>
+            <ContactForm labels={formLabels} />
           </div>
 
           {/* Contact Info */}
@@ -100,7 +64,11 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
                     <h3 className="font-semibold text-foreground">
                       {translate('contact.phone')}
                     </h3>
-                    <p className="text-foreground/70">+32 475 58 65 44</p>
+                    <p className="text-foreground/70">
+                      <a href="tel:+32475586544" className="hover:text-primary transition-colors">
+                        +32 475 58 65 44
+                      </a>
+                    </p>
                   </div>
                 </div>
 
@@ -110,7 +78,11 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
                     <h3 className="font-semibold text-foreground">
                       {translate('contact.emailLabel')}
                     </h3>
-                    <p className="text-foreground/70">info@alpacasibiza.com</p>
+                    <p className="text-foreground/70">
+                      <a href="mailto:info@alpacasibiza.com" className="hover:text-primary transition-colors">
+                        info@alpacasibiza.com
+                      </a>
+                    </p>
                   </div>
                 </div>
 
@@ -133,3 +105,4 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
     </main>
   )
 }
+

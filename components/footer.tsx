@@ -75,7 +75,7 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-foreground mb-4">{tr('footer.contact')}</h3>
             <ul className="space-y-2 text-sm text-foreground/70">
-              <li>Rural North, Ibiza</li>
+              <li>San Carlos, Ibiza</li>
               <li>
                 <a href="tel:+32475586544" className="hover:text-foreground">
                   +32 475 58 65 44

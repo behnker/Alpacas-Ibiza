@@ -1,10 +1,21 @@
 import Link from 'next/link'
 import type { Locale } from '@/i18n.config'
 import { t } from '@/lib/translations'
+import { CommissionForm } from '@/components/commission-form'
 
 export default function CommissionPage({ params }: { params: { locale: Locale } }) {
   const locale = params.locale
   const translate = t(locale)
+
+  const formLabels = {
+    name: translate('commissionPage.name'),
+    email: translate('commissionPage.email'),
+    description: translate('commissionPage.description'),
+    submit: translate('commissionPage.submit'),
+    sending: translate('commissionPage.sending') || 'Sending…',
+    success: translate('commissionPage.successMessage') || "Thank you! We'll review your commission and be in touch soon.",
+    error: translate('commissionPage.errorMessage') || 'Something went wrong. Please try again.',
+  }
 
   return (
     <>
@@ -25,51 +36,11 @@ export default function CommissionPage({ params }: { params: { locale: Locale } 
             <h2 className="text-2xl font-bold text-foreground mb-6">
               {translate('commissionPage.formTitle')}
             </h2>
-
-            <form className="space-y-6">
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
-                  {translate('commissionPage.name')}
-                </label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-2 rounded-lg border border-input bg-background text-foreground placeholder:text-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder=""
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
-                  {translate('commissionPage.email')}
-                </label>
-                <input
-                  type="email"
-                  className="w-full px-4 py-2 rounded-lg border border-input bg-background text-foreground placeholder:text-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder=""
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
-                  {translate('commissionPage.description')}
-                </label>
-                <textarea
-                  rows={6}
-                  className="w-full px-4 py-2 rounded-lg border border-input bg-background text-foreground placeholder:text-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder=""
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full px-6 py-3 bg-accent hover:bg-accent/90 text-accent-foreground rounded-lg font-medium transition-colors"
-              >
-                {translate('commissionPage.submit')}
-              </button>
-            </form>
+            <CommissionForm labels={formLabels} />
           </div>
         </div>
       </section>
     </>
   )
 }
+

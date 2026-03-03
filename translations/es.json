@@ -159,7 +159,7 @@
       },
       "location": {
         "title": "Ubicación",
-        "description": "Ibiza, España",
+        "description": "San Carlos, Ibiza, España",
         "details": "Granja privada. Indicaciones y aparcamiento se proporcionan al reservar."
       },
       "pricing": {
@@ -306,7 +306,10 @@
     "name": "Tu Nombre",
     "email": "Correo Electrónico",
     "description": "Descripción del Proyecto",
-    "submit": "Enviar Solicitud"
+    "submit": "Enviar Solicitud",
+    "sending": "Enviando…",
+    "successMessage": "¡Gracias! Revisaremos tu encargo y nos pondremos en contacto pronto. 🦙",
+    "errorMessage": "Algo salió mal. Por favor inténtalo de nuevo o escríbenos directamente."
   },
   "alcacaPage": {
     "title": "Estiércol de Alpaca Premium",
@@ -355,6 +358,9 @@
     "subject": "Asunto",
     "message": "Mensaje",
     "send": "Enviar Mensaje",
+    "sending": "Enviando…",
+    "successMessage": "¡Gracias! Nos pondremos en contacto pronto. 🦙",
+    "errorMessage": "Algo salió mal. Por favor inténtalo de nuevo o escríbenos directamente.",
     "infoTitle": "Información de Contacto",
     "location": "Ubicación",
     "phone": "Teléfono",

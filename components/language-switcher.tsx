@@ -1,6 +1,6 @@
 'use client'
 
-import { useParams, usePathname, useRouter } from 'next/navigation'
+import { useParams, usePathname } from 'next/navigation'
 import { i18nConfig, type Locale } from '@/i18n.config'
 import {
   Select,
@@ -11,7 +11,6 @@ import {
 } from '@/components/ui/select'
 
 export function LanguageSwitcher() {
-  const router = useRouter()
   const pathname = usePathname()
   const params = useParams()
   const currentLocale = (params.locale || i18nConfig.defaultLocale) as Locale
@@ -23,9 +22,9 @@ export function LanguageSwitcher() {
     if (i18nConfig.locales.includes(segments[0] as Locale)) {
       segments.shift() // Remove old locale
     }
-    // Build new path with new locale
+    // Build new path with new locale — hard navigate to re-render server components
     const newPath = `/${newLocale}${segments.length > 0 ? '/' + segments.join('/') : ''}`
-    router.push(newPath)
+    window.location.href = newPath
   }
 
   return (

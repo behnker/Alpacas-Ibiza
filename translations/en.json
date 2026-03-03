@@ -159,7 +159,7 @@
       },
       "location": {
         "title": "Location",
-        "description": "Ibiza, Spain",
+        "description": "San Carlos, Ibiza, Spain",
         "details": "Private farm. Directions and parking info provided upon booking."
       },
       "pricing": {
@@ -306,7 +306,10 @@
     "name": "Your Name",
     "email": "Email",
     "description": "Project Description",
-    "submit": "Submit Commission Request"
+    "submit": "Submit Commission Request",
+    "sending": "Sending…",
+    "successMessage": "Thank you! We'll review your commission and be in touch soon. 🦙",
+    "errorMessage": "Something went wrong. Please try again or email us directly."
   },
   "alcacaPage": {
     "title": "Premium Alpaca Manure",
@@ -494,6 +497,9 @@
     "subject": "Subject",
     "message": "Message",
     "send": "Send Message",
+    "sending": "Sending…",
+    "successMessage": "Thank you! We'll be in touch soon. 🦙",
+    "errorMessage": "Something went wrong. Please try again or email us directly.",
     "infoTitle": "Contact Information",
     "location": "Location",
     "phone": "Phone",

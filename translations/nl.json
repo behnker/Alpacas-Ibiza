@@ -159,7 +159,7 @@
       },
       "location": {
         "title": "Locatie",
-        "description": "Ibiza, Spanje",
+        "description": "San Carlos, Ibiza, Spanje",
         "details": "Privéboerderij. Routebeschrijving en parkeerinformatie worden bij de boeking verstrekt."
       },
       "pricing": {
@@ -306,7 +306,10 @@
     "name": "Je Naam",
     "email": "E-mailadres",
     "description": "Projectbeschrijving",
-    "submit": "Aanvraag Indienen"
+    "submit": "Aanvraag Indienen",
+    "sending": "Verzenden…",
+    "successMessage": "Bedankt! We bekijken je aanvraag en nemen snel contact op. 🦙",
+    "errorMessage": "Er ging iets mis. Probeer het opnieuw of e-mail ons rechtstreeks."
   },
   "alcacaPage": {
     "title": "Premium Alpacamest",
@@ -355,6 +358,9 @@
     "subject": "Onderwerp",
     "message": "Bericht",
     "send": "Bericht Verzenden",
+    "sending": "Verzenden…",
+    "successMessage": "Bedankt! We nemen snel contact met je op. 🦙",
+    "errorMessage": "Er ging iets mis. Probeer het opnieuw of e-mail ons rechtstreeks.",
     "infoTitle": "Contactinformatie",
     "location": "Locatie",
     "phone": "Telefoon",

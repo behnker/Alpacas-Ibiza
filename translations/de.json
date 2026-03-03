@@ -159,7 +159,7 @@
       },
       "location": {
         "title": "Standort",
-        "description": "Ibiza, Spanien",
+        "description": "San Carlos, Ibiza, Spanien",
         "details": "Private Farm. Wegbeschreibung und Parkinformationen werden bei der Buchung mitgeteilt."
       },
       "pricing": {
@@ -306,7 +306,10 @@
     "name": "Ihr Name",
     "email": "E-Mail",
     "description": "Projektbeschreibung",
-    "submit": "Anfrage einreichen"
+    "submit": "Anfrage einreichen",
+    "sending": "Senden…",
+    "successMessage": "Vielen Dank! Wir werden Ihren Auftrag prüfen und uns bald melden. 🦙",
+    "errorMessage": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
   },
   "alcacaPage": {
     "title": "Premium Alpaka-Dünger",
@@ -354,6 +357,9 @@
     "subject": "Betreff",
     "message": "Nachricht",
     "send": "Nachricht senden",
+    "sending": "Senden…",
+    "successMessage": "Vielen Dank! Wir melden uns bald. 🦙",
+    "errorMessage": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
     "infoTitle": "Kontaktinformationen",
     "location": "Standort",
     "phone": "Telefon",

@@ -9,6 +9,7 @@ import type { Review } from '@/components/review-card'
 import Link from 'next/link'
 import { t } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
+import { touristTripSchema, faqPageSchema, toJsonLd } from '@/lib/structured-data'
 
 export default function ToursPage({ params }: { params: { locale: Locale } }) {
   const locale = params.locale
@@ -110,6 +111,15 @@ export default function ToursPage({ params }: { params: { locale: Locale } }) {
 
   return (
     <>
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: toJsonLd(touristTripSchema()) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: toJsonLd(faqPageSchema(faqItems)) }}
+      />
       <Hero
         title={translate('tours.heroTitle')}
         subtitle={translate('tours.heroSubtitle')}

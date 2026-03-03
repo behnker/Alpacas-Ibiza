@@ -1,0 +1,106 @@
+▲ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.6s
+  Skipping validation of types
+  Collecting page data using 19 workers ...
+  Generating static pages using 19 workers (0/97) ...
+  Generating static pages using 19 workers (24/97) 
+  Generating static pages using 19 workers (48/97) 
+  Generating static pages using 19 workers (72/97) 
+✓ Generating static pages using 19 workers (97/97) in 635.5ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├ ● /[locale]
+│ ├ /en
+│ ├ /de
+│ ├ /it
+│ └ [+3 more paths]
+├ ● /[locale]/about
+│ ├ /en/about
+│ ├ /de/about
+│ ├ /it/about
+│ └ [+3 more paths]
+├ ● /[locale]/contact
+│ ├ /en/contact
+│ ├ /de/contact
+│ ├ /it/contact
+│ └ [+3 more paths]
+├ ● /[locale]/cookies
+│ ├ /en/cookies
+│ ├ /de/cookies
+│ ├ /it/cookies
+│ └ [+3 more paths]
+├ ● /[locale]/experiences/corporate-team-building
+│ ├ /en/experiences/corporate-team-building
+│ ├ /de/experiences/corporate-team-building
+│ ├ /it/experiences/corporate-team-building
+│ └ [+3 more paths]
+├ ● /[locale]/experiences/family-farm-days
+│ ├ /en/experiences/family-farm-days
+│ ├ /de/experiences/family-farm-days
+│ ├ /it/experiences/family-farm-days
+│ └ [+3 more paths]
+├ ● /[locale]/experiences/romantic-sunset
+│ ├ /en/experiences/romantic-sunset
+│ ├ /de/experiences/romantic-sunset
+│ ├ /it/experiences/romantic-sunset
+│ └ [+3 more paths]
+├ ● /[locale]/privacy
+│ ├ /en/privacy
+│ ├ /de/privacy
+│ ├ /it/privacy
+│ └ [+3 more paths]
+├ ● /[locale]/shop
+│ ├ /en/shop
+│ ├ /de/shop
+│ ├ /it/shop
+│ └ [+3 more paths]
+├ ● /[locale]/shop/alcaca
+│ ├ /en/shop/alcaca
+│ ├ /de/shop/alcaca
+│ ├ /it/shop/alcaca
+│ └ [+3 more paths]
+├ ● /[locale]/shop/commission
+│ ├ /en/shop/commission
+│ ├ /de/shop/commission
+│ ├ /it/shop/commission
+│ └ [+3 more paths]
+├ ● /[locale]/shop/woven
+│ ├ /en/shop/woven
+│ ├ /de/shop/woven
+│ ├ /it/shop/woven
+│ └ [+3 more paths]
+├ ● /[locale]/terms
+│ ├ /en/terms
+│ ├ /de/terms
+│ ├ /it/terms
+│ └ [+3 more paths]
+├ ● /[locale]/tours
+│ ├ /en/tours
+│ ├ /de/tours
+│ ├ /it/tours
+│ └ [+3 more paths]
+├ ○ /about
+├ ƒ /api/availability
+├ ƒ /api/commission
+├ ƒ /api/contact
+├ ○ /contact
+├ ○ /robots.txt
+├ ○ /shop
+├ ○ /shop/alcaca
+├ ○ /shop/commission
+├ ○ /shop/woven
+└ ○ /sitemap.xml
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
