@@ -1,8 +1,8 @@
 import { t } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
 
-export default function AboutPage({ params }: { params: { locale: Locale } }) {
-  const locale = params.locale
+export default async function AboutPage({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params
   const translate = t(locale)
 
   return (

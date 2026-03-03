@@ -11,8 +11,8 @@ import { t } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
 import { touristTripSchema, faqPageSchema, toJsonLd } from '@/lib/structured-data'
 
-export default function ToursPage({ params }: { params: { locale: Locale } }) {
-  const locale = params.locale
+export default async function ToursPage({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params
   const translate = t(locale)
 
   const tourTypes = [

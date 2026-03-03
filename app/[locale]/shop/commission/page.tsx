@@ -3,8 +3,8 @@ import type { Locale } from '@/i18n.config'
 import { t } from '@/lib/translations'
 import { CommissionForm } from '@/components/commission-form'
 
-export default function CommissionPage({ params }: { params: { locale: Locale } }) {
-  const locale = params.locale
+export default async function CommissionPage({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params
   const translate = t(locale)
 
   const formLabels = {

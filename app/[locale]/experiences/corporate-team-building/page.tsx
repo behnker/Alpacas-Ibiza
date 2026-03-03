@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { t } from '@/lib/translations'
 
-export default function CorporatePage({ params }: { params: { locale: string } }) {
-    const locale = params.locale
+export default async function CorporatePage({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params
     const translate = t(locale as any)
 
     return (

@@ -2,8 +2,8 @@ import { t } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
 import { ContactForm } from '@/components/contact-form'
 
-export default function ContactPage({ params }: { params: { locale: Locale } }) {
-  const locale = params.locale
+export default async function ContactPage({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params
   const translate = t(locale)
 
   const formLabels = {

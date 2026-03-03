@@ -2,8 +2,8 @@ import Link from 'next/link'
 import type { Locale } from '@/i18n.config'
 import { t } from '@/lib/translations'
 
-export default function ShopPage({ params }: { params: { locale: Locale } }) {
-  const locale = params.locale
+export default async function ShopPage({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params
   const translate = t(locale)
 
   const shopCategories = [

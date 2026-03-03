@@ -2,8 +2,8 @@ import { Hero } from '@/components/hero'
 import { FAQ } from '@/components/faq'
 import { t } from '@/lib/translations'
 
-export default function FamilyPage({ params }: { params: { locale: string } }) {
-    const locale = params.locale
+export default async function FamilyPage({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params
     const translate = t(locale as any)
 
     return (

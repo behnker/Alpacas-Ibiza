@@ -2,8 +2,8 @@ import { Hero } from '@/components/hero'
 import { t, ta } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
 
-export default function CookiesPage({ params }: { params: { locale: Locale } }) {
-    const locale = params.locale
+export default async function CookiesPage({ params }: { params: Promise<{ locale: Locale }> }) {
+    const { locale } = await params
     const translate = t(locale)
     const translateArray = ta(locale)
 

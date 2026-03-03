@@ -9,8 +9,8 @@ import { t } from '@/lib/translations'
 import type { Locale } from '@/i18n.config'
 import Link from 'next/link'
 
-export default function Home({ params }: { params: { locale: Locale } }) {
-  const locale = params.locale
+export default async function Home({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params
   const translate = t(locale)
 
   /* ─── Choice Path Cards ─── */
