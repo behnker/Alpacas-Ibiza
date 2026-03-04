@@ -662,5 +662,23 @@
       "Respektieren Ihre Datenschutzentscheidungen"
     ],
     "lastUpdated": "Zuletzt aktualisiert: Februar 2024. Kontaktieren Sie hello@alpacasibiza.com für Cookie-Fragen."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "subtitle": "Diese Seite scheint wie eines unserer Alpakas davongelaufen zu sein. Lassen Sie uns Ihnen helfen zu finden, was Sie suchen.",
+    "suggestionsTitle": "Probieren Sie stattdessen eine davon",
+    "ctaText": "Oder buchen Sie gleich Ihr Alpaka-Erlebnis",
+    "suggestions": {
+      "home": "Startseite",
+      "homeDesc": "Zurück zur Hauptseite",
+      "tours": "Touren & Besuche",
+      "toursDesc": "Buchen Sie Ihre Alpaka-Farm-Erfahrung",
+      "shop": "Shop",
+      "shopDesc": "Handgewebte Schals, Textilien & mehr",
+      "about": "Über uns",
+      "aboutDesc": "Unsere Geschichte, die Farm & die Alpakas",
+      "contact": "Kontakt",
+      "contactDesc": "Nehmen Sie Kontakt mit uns auf"
+    }
   }
 }

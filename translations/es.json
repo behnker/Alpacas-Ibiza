@@ -662,5 +662,23 @@
       "Respetamos tus opciones de privacidad"
     ],
     "lastUpdated": "Última actualización: Febrero 2024. Contacta hello@alpacasibiza.com para preguntas sobre cookies."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "subtitle": "Esta página parece haberse escapado como una de nuestras alpacas. Te ayudamos a encontrar lo que buscas.",
+    "suggestionsTitle": "Prueba una de estas opciones",
+    "ctaText": "O reserva tu experiencia con alpacas ahora mismo",
+    "suggestions": {
+      "home": "Inicio",
+      "homeDesc": "Volver a la página principal",
+      "tours": "Tours y Visitas",
+      "toursDesc": "Reserva tu experiencia en la granja de alpacas",
+      "shop": "Tienda",
+      "shopDesc": "Bufandas tejidas a mano, textiles y más",
+      "about": "Nosotros",
+      "aboutDesc": "Nuestra historia, la granja y las alpacas",
+      "contact": "Contacto",
+      "contactDesc": "Ponte en contacto con nosotros"
+    }
   }
 }

@@ -662,5 +662,23 @@
       "Rispettiamo le tue scelte sulla privacy"
     ],
     "lastUpdated": "Ultimo aggiornamento: Febbraio 2024. Contatta hello@alpacasibiza.com per domande sui cookie."
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "subtitle": "Questa pagina sembra essere scappata come uno dei nostri alpaca. Ti aiutiamo a trovare quello che cerchi.",
+    "suggestionsTitle": "Prova una di queste alternative",
+    "ctaText": "Oppure prenota subito la tua esperienza con gli alpaca",
+    "suggestions": {
+      "home": "Home",
+      "homeDesc": "Torna alla pagina principale",
+      "tours": "Tour e Visite",
+      "toursDesc": "Prenota la tua esperienza nella fattoria di alpaca",
+      "shop": "Negozio",
+      "shopDesc": "Sciarpe tessute a mano, tessili e altro",
+      "about": "Chi Siamo",
+      "aboutDesc": "La nostra storia, la fattoria e gli alpaca",
+      "contact": "Contatti",
+      "contactDesc": "Mettiti in contatto con noi"
+    }
   }
 }

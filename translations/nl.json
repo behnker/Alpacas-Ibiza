@@ -662,5 +662,23 @@
       "Respecteren je privacykeuzes"
     ],
     "lastUpdated": "Laatst bijgewerkt: Februari 2024. Neem contact op via hello@alpacasibiza.com voor cookievragen."
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "subtitle": "Deze pagina lijkt te zijn weggelopen als een van onze alpaca's. Laten we je helpen vinden wat je zoekt.",
+    "suggestionsTitle": "Probeer een van deze opties",
+    "ctaText": "Of boek meteen je alpaca-ervaring",
+    "suggestions": {
+      "home": "Home",
+      "homeDesc": "Terug naar de hoofdpagina",
+      "tours": "Tours en Bezoeken",
+      "toursDesc": "Boek je alpaca-boerderijervaring",
+      "shop": "Winkel",
+      "shopDesc": "Handgeweven sjaals, textiel & meer",
+      "about": "Over Ons",
+      "aboutDesc": "Ons verhaal, de boerderij & de alpaca's",
+      "contact": "Contact",
+      "contactDesc": "Neem contact met ons op"
+    }
   }
 }

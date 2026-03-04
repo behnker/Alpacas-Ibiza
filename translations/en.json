@@ -662,5 +662,23 @@
       "Respect your privacy choices"
     ],
     "lastUpdated": "Last updated: February 2024. Contact hello@alpacasibiza.com for cookie questions."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "subtitle": "This page seems to have wandered off like one of our alpacas. Let's help you find what you're looking for.",
+    "suggestionsTitle": "Try one of these instead",
+    "ctaText": "Or book your alpaca experience right away",
+    "suggestions": {
+      "home": "Home",
+      "homeDesc": "Back to the main page",
+      "tours": "Tours & Visits",
+      "toursDesc": "Book your alpaca farm experience",
+      "shop": "Shop",
+      "shopDesc": "Handwoven scarves, textiles & more",
+      "about": "About Us",
+      "aboutDesc": "Our story, the farm & the alpacas",
+      "contact": "Contact",
+      "contactDesc": "Get in touch with us"
+    }
   }
 }

@@ -662,5 +662,23 @@
       "Respectons vos choix de confidentialité"
     ],
     "lastUpdated": "Dernière mise à jour : Février 2024. Contactez hello@alpacasibiza.com pour toute question sur les cookies."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "subtitle": "Cette page semble s'être échappée comme l'un de nos alpagas. Laissez-nous vous aider à trouver ce que vous cherchez.",
+    "suggestionsTitle": "Essayez plutôt l'une de ces pages",
+    "ctaText": "Ou réservez votre expérience alpaga dès maintenant",
+    "suggestions": {
+      "home": "Accueil",
+      "homeDesc": "Retour à la page principale",
+      "tours": "Visites et Tours",
+      "toursDesc": "Réservez votre expérience à la ferme d'alpagas",
+      "shop": "Boutique",
+      "shopDesc": "Écharpes tissées à la main, textiles et plus",
+      "about": "À Propos",
+      "aboutDesc": "Notre histoire, la ferme et les alpagas",
+      "contact": "Contact",
+      "contactDesc": "Contactez-nous"
+    }
   }
 }
