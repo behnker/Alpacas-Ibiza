@@ -4,7 +4,6 @@ import type { Metadata, Viewport } from 'next'
 import { Geist, Playfair_Display } from 'next/font/google'
 
 import './globals.css'
-import packageJson from '../package.json'
 
 const _geistSans = Geist({ subsets: ['latin'] })
 const _playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-display' })
@@ -75,7 +74,7 @@ export default function RootLayout({
           />
         </noscript>
         <div className="fixed top-1 left-1 z-[9999] text-[10px] text-foreground/40 select-none pointer-events-none">
-          v{packageJson.version}
+          v{process.env.NEXT_PUBLIC_GIT_HASH}
         </div>
         {children}
         <Script
