@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation'
 import { ArrowRight, Calendar } from 'lucide-react'
 import type { Locale } from '@/i18n.config'
 import { t } from '@/lib/translations'
+import { FAREHARBOR_BOOKING_URL } from '@/lib/config'
 
 interface AvailableDate {
     date: string
@@ -98,7 +99,7 @@ export function BookingSection() {
             {/* Main Booking CTA */}
             <div className="text-center">
                 <a
-                    href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes"
+                    href={FAREHARBOR_BOOKING_URL}
                     className="inline-flex items-center justify-center px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
                 >
                     {availableDates.length > 0 ? tr('bookingSection.bookNow') : tr('bookingSection.viewAndBook')}

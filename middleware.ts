@@ -30,6 +30,14 @@ function getLocaleFromRequest(request: NextRequest): string {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
+  const referer = request.headers.get('referer')
+
+  // Track if request came from old domain (for migration analytics)
+  // This header will be visible in GA4 referrer reports automatically
+  if (referer) {
+    // GA4 will capture the full referer URL in acquisition reports
+    // no additional code needed here
+  }
 
   // Skip middleware for non-page requests
   if (

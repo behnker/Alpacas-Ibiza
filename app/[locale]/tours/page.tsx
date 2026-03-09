@@ -8,6 +8,7 @@ import { ReviewCard } from '@/components/review-card'
 import type { Review } from '@/components/review-card'
 import Link from 'next/link'
 import { t } from '@/lib/translations'
+import { FAREHARBOR_BOOKING_URL } from '@/lib/config'
 import type { Locale } from '@/i18n.config'
 import { touristTripSchema, faqPageSchema, toJsonLd } from '@/lib/structured-data'
 
@@ -125,7 +126,7 @@ export default async function ToursPage({ params }: { params: Promise<{ locale: 
         subtitle={translate('tours.heroSubtitle')}
         cta={{
           label: translate('tours.heroCta'),
-          href: 'https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes',
+          href: FAREHARBOR_BOOKING_URL,
         }}
       />
 
@@ -240,7 +241,7 @@ export default async function ToursPage({ params }: { params: Promise<{ locale: 
               {translate('tours.bookingSection.cardSubtitle')}
             </p>
             <a
-              href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes"
+              href={FAREHARBOR_BOOKING_URL}
               className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 py-2"
             >
               {translate('tours.bookingSection.bookNow')}

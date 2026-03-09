@@ -89,7 +89,8 @@
     "title": "Stay Connected",
     "subtitle": "Get updates on new products, workshops, and farm stories",
     "placeholder": "Enter your email",
-    "subscribe": "Subscribe"
+    "subscribe": "Subscribe",
+    "success": "Thanks for subscribing!"
   },
   "tours": {
     "title": "Book Your Alpaca Experience",

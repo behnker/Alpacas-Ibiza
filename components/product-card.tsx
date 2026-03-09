@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { ShoppingCart, Heart } from 'lucide-react'
+import { getFareHarborCategoryUrl } from '@/lib/config'
 
 export interface Product {
   id: string
@@ -27,10 +28,20 @@ export function ProductCard({
   onAddToCart,
   onWishlist,
 }: ProductCardProps) {
+  // determine booking link: use specific item (if product contains one) or category URL
+  const bookingHref =
+    // @ts-ignore - ignore missing property if not provided
+    product.fareHarborItemId
+      ? getFareHarborCategoryUrl(product.category)?.replace(
+          /items=[^&]+/,
+          `items=${encodeURIComponent(product.fareHarborItemId)}`
+        )
+      : getFareHarborCategoryUrl(product.category) || `/shop/${product.category}/${product.id}`
+
   return (
     <Card className="overflow-hidden hover:shadow-lg transition-shadow border-border/50 group">
       {/* Image */}
-      <Link href={`/shop/${product.category}/${product.id}`}>
+      <Link href={bookingHref}>
         <div className="relative aspect-square bg-secondary/20 overflow-hidden">
           <img
             src={product.image || "/placeholder.svg"}

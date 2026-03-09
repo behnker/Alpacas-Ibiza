@@ -89,7 +89,8 @@
     "title": "Bleiben Sie verbunden",
     "subtitle": "Erhalten Sie Updates zu neuen Produkten, Workshops und Farmgeschichten",
     "placeholder": "E-Mail-Adresse eingeben",
-    "subscribe": "Abonnieren"
+    "subscribe": "Abonnieren",
+    "success": "Danke für Ihre Anmeldung!"
   },
   "tours": {
     "title": "Buchen Sie Ihr Alpaka-Erlebnis",

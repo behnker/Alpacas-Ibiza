@@ -6,8 +6,10 @@ import { ExperienceCards } from '@/components/experience-cards'
 import { ReviewCard } from '@/components/review-card'
 import type { Review } from '@/components/review-card'
 import { t } from '@/lib/translations'
+import { FAREHARBOR_BOOKING_URL } from '@/lib/config'
 import type { Locale } from '@/i18n.config'
 import Link from 'next/link'
+import { NewsletterForm } from '@/components/newsletter-form'
 
 export default async function Home({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
@@ -137,7 +139,7 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
         subtitle={translate('hero.subtitle')}
         cta={{
           label: translate('hero.ctaPrimary'),
-          href: 'https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes',
+          href: FAREHARBOR_BOOKING_URL,
         }}
         secondary={{
           label: translate('hero.ctaSecondary'),
@@ -263,19 +265,9 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
               {translate('newsletter.subtitle')}
             </p>
           </div>
-          <form className="flex gap-2">
-            <input
-              type="email"
-              placeholder={translate('newsletter.placeholder')}
-              className="flex-1 px-4 py-2 rounded-lg border border-input bg-background text-foreground placeholder:text-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary"
-            />
-            <button
-              type="submit"
-              className="px-6 py-2 bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg font-medium transition-colors"
-            >
-              {translate('newsletter.subscribe')}
-            </button>
-          </form>
+          {/* client component handles state and API call */}
+          {/* eslint-disable-next-line react/jsx-no-undef */}
+          <NewsletterForm locale={locale} />
         </div>
       </section>
     </main>

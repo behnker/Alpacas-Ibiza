@@ -89,7 +89,8 @@
     "title": "Resta Connesso",
     "subtitle": "Ricevi aggiornamenti su nuovi prodotti, workshop e storie dalla fattoria",
     "placeholder": "Inserisci la tua email",
-    "subscribe": "Iscriviti"
+    "subscribe": "Iscriviti",
+    "success": "Grazie per esserti iscritto!"
   },
   "tours": {
     "title": "Prenota la Tua Esperienza con gli Alpaca",

@@ -33,11 +33,8 @@ export const ANALYTICS_EVENTS = {
   email_inquiry: 'email_inquiry',
   whatsapp_click: 'whatsapp_click',
 
-  // Engagement
-  faq_expand: 'faq_expand',
-  image_view: 'image_view',
-  video_play: 'video_play',
-  social_click: 'social_click',
+  // Migration & Referrer
+  site_migration: 'site_migration',
 }
 
 interface EventProperties {

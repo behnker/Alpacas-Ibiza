@@ -89,7 +89,8 @@
     "title": "Restez Connecté",
     "subtitle": "Recevez des nouvelles sur les nouveaux produits, ateliers et histoires de la ferme",
     "placeholder": "Entrez votre email",
-    "subscribe": "S'abonner"
+    "subscribe": "S'abonner",
+    "success": "Merci pour votre inscription !"
   },
   "tours": {
     "title": "Réservez Votre Expérience Alpaga",

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Card } from '@/components/ui/card'
 
 export interface Review {
@@ -56,8 +56,13 @@ export function ReviewCard({
     // The review's original language differs from the site's current language
     const needsTranslation = review.language !== siteLocale
 
-    // Auto-show translated text when viewing in a different language
-    const [showTranslation, setShowTranslation] = useState(needsTranslation)
+    // Always show the original review text by default
+    const [showTranslation, setShowTranslation] = useState(false)
+
+    // Reset translation state if the user changes the site language
+    useEffect(() => {
+        setShowTranslation(false)
+    }, [siteLocale])
 
     const displayText = showTranslation ? translatedText : review.text
 

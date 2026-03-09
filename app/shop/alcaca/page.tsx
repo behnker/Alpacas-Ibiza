@@ -4,6 +4,7 @@ import { Footer } from '@/components/footer'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import { getFareHarborCategoryUrl } from '@/lib/config'
 
 export default function AlcacaPage() {
   const packages = [
@@ -188,7 +189,7 @@ export default function AlcacaPage() {
                       : 'bg-primary hover:bg-primary/90 text-primary-foreground'
                   }`}
                 >
-                  <Link href="#order-form">Order Now</Link>
+                  <Link href={getFareHarborCategoryUrl('alcaca') || '#order-form'}>Order Now</Link>
                 </Button>
               </Card>
             ))}

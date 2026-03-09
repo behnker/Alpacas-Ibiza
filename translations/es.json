@@ -89,7 +89,8 @@
     "title": "Mantente Conectado",
     "subtitle": "Recibe actualizaciones sobre nuevos productos, talleres e historias de la granja",
     "placeholder": "Introduce tu email",
-    "subscribe": "Suscribirse"
+    "subscribe": "Suscribirse",
+    "success": "¡Gracias por suscribirte!"
   },
   "tours": {
     "title": "Reserva Tu Experiencia con Alpacas",

@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server'
-import { Resend } from 'resend'
+import { sendEmail } from '@/lib/mailer'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
 const TO_EMAIL = process.env.CONTACT_EMAIL ?? 'info@alpacasibiza.com'
 
 export async function POST(request: Request) {
@@ -13,8 +12,7 @@ export async function POST(request: Request) {
             return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
         }
 
-        const { error } = await resend.emails.send({
-            from: 'Alpacas Ibiza Website <noreply@alpacasibiza.com>',
+        await sendEmail({
             to: TO_EMAIL,
             replyTo: email,
             subject: `[Commission Inquiry] New request from ${name}`,
@@ -34,10 +32,7 @@ export async function POST(request: Request) {
       `,
         })
 
-        if (error) {
-            console.error('[commission] Resend error:', error)
-            return NextResponse.json({ error: 'Failed to send email' }, { status: 500 })
-        }
+        // success if we get here
 
         return NextResponse.json({ success: true })
     } catch (err) {

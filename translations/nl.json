@@ -89,7 +89,8 @@
     "title": "Blijf Verbonden",
     "subtitle": "Ontvang updates over nieuwe producten, workshops en boerderijverhalen",
     "placeholder": "Vul je e-mailadres in",
-    "subscribe": "Abonneren"
+    "subscribe": "Abonneren",
+    "success": "Bedankt voor je inschrijving!"
   },
   "tours": {
     "title": "Boek Je Alpaca-Ervaring",

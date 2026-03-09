@@ -110,7 +110,7 @@ Choose email service:
 - [ ] Create API routes for form submissions
   - [ ] `/api/commission` (commission inquiries)
   - [ ] `/api/contact` (contact form)
-  - [ ] `/api/newsletter` (newsletter signup)
+  - [x] `/api/newsletter` (newsletter signup)
   - [ ] `/api/alcaca-order` (product orders)
 
 **Mailgun**

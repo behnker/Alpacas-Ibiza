@@ -4,7 +4,6 @@ import type { Metadata, Viewport } from 'next'
 import { Geist, Playfair_Display } from 'next/font/google'
 
 import './globals.css'
-import Providers from '@/components/providers'
 
 const _geistSans = Geist({ subsets: ['latin'] })
 const _playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-display' })
@@ -54,16 +53,6 @@ export default function RootLayout({
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-NJRGZPGS');`}
         </Script>
-        {/* Google Analytics */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-Y946QDVVQV"></Script>
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-Y946QDVVQV');
-          `}
-        </Script>
       </head>
       <body className="font-sans antialiased">
         {/* Google Tag Manager (noscript) */}
@@ -75,9 +64,7 @@ export default function RootLayout({
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
-        <Providers>
-          {children}
-        </Providers>
+        {children}
         <Script
           src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes&shortname=alpacasibiza"
           strategy="lazyOnload"

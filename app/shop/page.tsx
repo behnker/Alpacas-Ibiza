@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import { Footer } from '@/components/footer'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
+import { getFareHarborCategoryUrl } from '@/lib/config'
 
 export default function ShopPage() {
   const shopCategories = [
@@ -14,7 +15,8 @@ export default function ShopPage() {
       description: 'Handcrafted scarves, blankets, cushions, and artisanal pieces. Each created with love, natural dyes, and traditional weaving patterns.',
       icon: '🧣',
       items: '50+ items',
-      href: '/shop/woven',
+      // link directly to FareHarbor item if configured, otherwise fallback to internal page
+      href: getFareHarborCategoryUrl('woven') || '/shop/woven',
       color: 'bg-primary/10 hover:bg-primary/15',
       textColor: 'text-primary',
     },
@@ -24,7 +26,7 @@ export default function ShopPage() {
       description: 'Design your own. Choose colors, dimensions, patterns, and materials. Perfect for gifts, interiors, or special projects.',
       icon: '✨',
       items: 'Made to order',
-      href: '/shop/commission',
+      href: getFareHarborCategoryUrl('commission') || '/shop/commission',
       color: 'bg-accent/10 hover:bg-accent/15',
       textColor: 'text-accent',
     },
@@ -34,7 +36,7 @@ export default function ShopPage() {
       description: 'Premium "Oro Negro"—pure, nutrient-rich alpaca manure for organic gardening and sustainable farming. Sample to bulk.',
       icon: '🌿',
       items: 'Multiple sizes',
-      href: '/shop/alcaca',
+      href: getFareHarborCategoryUrl('alcaca') || '/shop/alcaca',
       color: 'bg-green-500/10 hover:bg-green-500/15',
       textColor: 'text-green-600',
     },

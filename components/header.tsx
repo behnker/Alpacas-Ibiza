@@ -9,6 +9,7 @@ import { LanguageSwitcher } from '@/components/language-switcher'
 import { useParams } from 'next/navigation'
 import type { Locale } from '@/i18n.config'
 import { t } from '@/lib/translations'
+import { FAREHARBOR_BOOKING_URL } from '@/lib/config'
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -49,7 +50,7 @@ export function Header() {
             asChild
             className="bg-accent hover:bg-accent/90 text-accent-foreground"
           >
-            <a href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes">{tr('nav.bookTour')}</a>
+            <a href={FAREHARBOR_BOOKING_URL}>{tr('nav.bookTour')}</a>
           </Button>
         </div>
 
@@ -79,7 +80,7 @@ export function Header() {
                 asChild
                 className="w-full bg-accent hover:bg-accent/90 text-accent-foreground mt-4"
               >
-                <a href="https://fareharbor.com/embeds/book/alpacasibiza/?full-items=yes" onClick={() => setIsOpen(false)}>
+                <a href={FAREHARBOR_BOOKING_URL} onClick={() => setIsOpen(false)}>
                   {tr('nav.bookTour')}
                 </a>
               </Button>
