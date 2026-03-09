@@ -70,6 +70,9 @@ export default function RootLayout({
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
+        <div className="fixed top-1 left-1 z-[9999] text-[10px] text-foreground/40 select-none pointer-events-none">
+          v1.0.0
+        </div>
         {children}
         <Script
           src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes&shortname=alpacasibiza"
