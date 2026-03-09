@@ -4,6 +4,7 @@ import type { Metadata, Viewport } from 'next'
 import { Geist, Playfair_Display } from 'next/font/google'
 
 import './globals.css'
+import Providers from '@/components/providers'
 
 const _geistSans = Geist({ subsets: ['latin'] })
 const _playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-display' })
@@ -64,7 +65,9 @@ export default function RootLayout({
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
-        {children}
+        <Providers>
+          {children}
+        </Providers>
         <Script
           src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes&shortname=alpacasibiza"
           strategy="lazyOnload"
