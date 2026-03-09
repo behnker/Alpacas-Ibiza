@@ -1,18 +1,5 @@
-import { execSync } from 'child_process'
-
-const gitHash = (() => {
-  try {
-    return execSync('git rev-parse --short HEAD').toString().trim()
-  } catch {
-    return 'dev'
-  }
-})()
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  env: {
-    NEXT_PUBLIC_GIT_HASH: gitHash,
-  },
   typescript: {
     ignoreBuildErrors: true,
   },
