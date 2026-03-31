@@ -5,6 +5,12 @@ __v0_jsx-dev-runtime.ts
 instrumentation-client.js
 instrumentation-client.ts
 
+# Tunnel / log artifacts
+*.log
+tunnel_out.txt
+url.txt
+untun-script.mjs
+
 # Common ignores
 node_modules/
 .next/
